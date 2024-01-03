@@ -2,17 +2,19 @@ import { navItems } from '../../data/headerData';
 
 export const Header = () => {
   return (
-    <>
-      <h2>Andreas Myklebust Art</h2>
+    <div className='header-content'>
+      <h2>
+        <a href='/'>Andreas Myklebust Art</a>
+      </h2>
       <nav>
-        <ul>
+        <ul className='header-nav-links'>
           {navItems.map((item, index) => (
             <li key={index}>
-              <a href={item.path}>{item.name} </a>
+              <a href={item.path} className='header-link'>{item.name}  </a>
             </li>
           ))}
         </ul>
       </nav>
-    </>
+    </div>
   );
 };

@@ -5,7 +5,37 @@ ul {
 }
 
 header {
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 10px 0;
+  padding: 15px 0;
+  min-width: 100%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav-links {
+  display: flex;
+  justify-content: space-between;
+  min-width: 350px;
+}
+
+.header-link {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+main,
+.main-content,
+.header-content {
+  min-width: 80%;
 }

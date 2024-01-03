@@ -1,0 +1,9 @@
+.blog-entry {
+  text-align: center;
+}
+
+.blog-entry img {
+  height: 300px;
+  width: 700px;
+  object-fit: cover;
+}
