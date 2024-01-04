@@ -13,6 +13,13 @@ a {
   color: inherit;
 }
 
+a,
+p,
+h1,
+h2 {
+  color: antiquewhite;
+}
+
 #root {
   display: flex;
   flex-direction: column;
@@ -24,4 +31,5 @@ a {
 body {
   min-height: 100vh;
   min-width: 100%;
+  background-color: rgb(25, 27, 29);
 }

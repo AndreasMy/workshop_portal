@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Header } from '../common/Header';
+import { Header } from '../components/common/Header';
 
 export const Layout = ({ children }) => {
   return (
