@@ -1,0 +1,10 @@
+.cat-select-item img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.gallery-image img {
+    height: 300px;
+    object-fit: cover;
+}

@@ -7,6 +7,8 @@ import { Workshops } from './views/Workshops';
 import { About } from './views/About';
 import { Tutorials } from './views/Tutorials';
 import { BlogPage } from './views/Blog';
+import { ImageGallery } from './components/Gallery/ImageGallery';
+import { galleryData } from './data/galleryData';
 
 function App() {
   return (
@@ -14,7 +16,26 @@ function App() {
       <Layout>
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/gallery' element={<Gallery />}>
+            <Route
+              path='drawings'
+              element={
+                <ImageGallery
+                  images={galleryData.drawings}
+                  imgListClassName='gallery-image'
+                />
+              }
+            />
+            <Route
+              path='paintings'
+              element={
+                <ImageGallery
+                  images={galleryData.paintings}
+                  imgListClassName='gallery-image'
+                />
+              }
+            />
+          </Route>
           <Route path='/workshops' element={<Workshops />} />
           <Route path='/tutorials' element={<Tutorials />} />
           <Route path='/blog' element={<BlogPage />} />
