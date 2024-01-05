@@ -1,0 +1,52 @@
+.poster-container {
+  margin: 25px 0;
+}
+
+.poster-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+  background-color: #13060c;
+}
+
+.poster-header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.poster-entry img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.poster-img-header {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.poster-entry,
+.poster-img-header {
+  width: 750px;
+}
+
+.poster-line {
+  height: 1px;
+  width: 75%;
+  margin: 12px 0;
+  background-color: rgb(228, 134, 71);
+}
+
+.poster-info-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 80%;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}

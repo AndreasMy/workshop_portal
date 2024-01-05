@@ -1,0 +1,17 @@
+header,
+nav,
+ul {
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main,
+.main-content,
+.header-content {
+  min-width: 80%;
+}
