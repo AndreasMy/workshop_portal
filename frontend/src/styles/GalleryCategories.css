@@ -1,6 +1,6 @@
 .cat-select-container {
   display: flex;
-  margin: 12px;
+  margin: 12px 0 25px 0;
 }
 
 .cat-select-title {

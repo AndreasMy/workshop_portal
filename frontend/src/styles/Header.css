@@ -1,14 +1,18 @@
 header {
+  position: fixed;
   justify-content: center;
   align-items: center;
-  padding: 15px 0;
+  padding: 20px 0;
   min-width: 100%;
+  background-color: rgb(35, 34, 36);
+  border-bottom: 2px solid rgb(27, 26, 27);
 }
 
 .header-title {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
   font-size: 2rem;
+  margin: 0;
 }
 
 .header-content {
@@ -20,6 +24,7 @@ header {
 .header-nav-links {
   display: flex;
   justify-content: space-between;
+
   min-width: 450px;
 }
 

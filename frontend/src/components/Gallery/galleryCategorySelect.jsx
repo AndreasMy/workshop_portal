@@ -13,13 +13,7 @@ export const GalleryCategories = ({
         {data.map((item, index) => (
           <li key={index}>
             <Link to={item.path} className={linkClassName}>
-
               <h2 className='cat-select-title'>{item.title}</h2>
-{/*               <img
-                src={item.image.image}
-                alt={item.image.alt}
-                className={item.imageClassName}
-              /> */}
             </Link>
           </li>
         ))}
