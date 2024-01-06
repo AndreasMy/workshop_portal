@@ -7,17 +7,17 @@ export const entryData = [
     href: 'https://www.kursagenten.no/enkeltkurs/2403-Tegnekurs-1-Grunnleggende-m-Andreas-Myklebust-146963',
     images: [
       {
-        image: 'workshop_portal/images/drawings/draw0.jpg',
+        image: '/workshop_portal/images/drawings/draw0.jpg',
         alt: 'descriptive text',
         className: 'workshop-image',
       },
       {
-        image: 'workshop_portal/images/drawings/draw2.jpg',
+        image: '/workshop_portal/images/drawings/draw2.jpg',
         alt: 'descriptive text',
         className: 'workshop-image',
       },
       {
-        image: 'workshop_portal/images/drawings/draw3.jpg',
+        image: '/workshop_portal/images/drawings/draw3.jpg',
         alt: 'descriptive text',
         className: 'workshop-image',
       },
@@ -31,12 +31,12 @@ export const entryData = [
     href: 'https://www.kursagenten.no/enkeltkurs/2404-Tegnekurs-2-Ansiktets-anatomi-med-Andreas-Myk-209811',
     images: [
       {
-        image: 'workshop_portal/images/drawings/draw2.jpg',
+        image: '/workshop_portal/images/drawings/draw2.jpg',
         alt: 'descriptive text',
         className: 'workshop-image',
       },
       {
-        image: 'workshop_portal/images/drawings/draw4.jpg',
+        image: '/workshop_portal/images/drawings/draw4.jpg',
         alt: 'descriptive text',
         className: 'workshop-image',
       },
