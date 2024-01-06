@@ -1,5 +1,5 @@
 import './styles/App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Layout } from './layouts/Layout';
 import { HomePage } from './views/Homepage';
 import { Gallery } from './views/Gallery';
@@ -12,7 +12,7 @@ import { galleryData } from './data/galleryData';
 
 function App() {
   return (
-    <Router>
+    <Router >
       <Layout>
         <Routes>
           <Route path='/' element={<HomePage />} />
