@@ -1,10 +1,9 @@
-.cat-select-item img{
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
+.cat-select-container {
+  display: flex;
+  margin: 12px;
 }
 
-.gallery-image img {
-    height: 300px;
-    object-fit: cover;
+.cat-select-title {
+  margin: 0 12px;
+  color: antiquewhite;
 }

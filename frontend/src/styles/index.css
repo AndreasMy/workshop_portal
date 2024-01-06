@@ -1,6 +1,5 @@
 header,
-nav,
-ul {
+nav {
   display: flex;
 }
 
@@ -10,8 +9,13 @@ ul {
   align-items: center;
 }
 
-main,
+main {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+}
+
 .main-content,
 .header-content {
-  min-width: 80%;
+  width: 80%;
 }

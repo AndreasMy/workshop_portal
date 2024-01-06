@@ -9,7 +9,6 @@ import '../styles/Gallery.css';
 export const Gallery = () => {
   return (
     <>
-      <h2>Select a category</h2>
       <GalleryCategories
         ulClassName={'cat-select-container'}
         linkClassName={'cat-select-item'}

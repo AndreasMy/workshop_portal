@@ -2,15 +2,15 @@ import { galleryData } from './galleryData';
 
 export const galleryCategories = [
   {
-    name: 'drawings',
-    path: '/gallery/drawings',
-    image: galleryData.drawings[2],
+    title: 'Paintings',
+    path: '/gallery/paintings',
+    image: galleryData.paintings[7],
     imageClassName: 'category-image',
   },
   {
-    name: 'paintings',
-    path: '/gallery/paintings',
-    image: galleryData.paintings[7],
+    title: 'Drawings',
+    path: '/gallery/drawings',
+    image: galleryData.drawings[2],
     imageClassName: 'category-image',
   },
 ];
