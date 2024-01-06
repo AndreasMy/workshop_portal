@@ -12,7 +12,8 @@ import { galleryData } from './data/galleryData';
 
 function App() {
   return (
-    <Router >
+    // eslint-disable-next-line no-undef
+    <Router basename={import.meta.env.PUBLIC_URL}>
       <Layout>
         <Routes>
           <Route path='/' element={<HomePage />} />
