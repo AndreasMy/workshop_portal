@@ -1,12 +1,12 @@
 export const galleryData = {
   drawings: [
     {
-      image: '/workshop_portal/images/drawings/draw0.jpg',
+      image: '/images/drawings/draw0.jpg',
       alt: 'descriptive text',
       className: 'gallery-image',
     },
     {
-      image: '/workshop_portal/images/drawings/draw1.jpg',
+      image: '/images/drawings/draw1.jpg',
       alt: 'descriptive text',
       className: 'gallery-image',
     },
