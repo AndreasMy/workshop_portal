@@ -8,7 +8,7 @@ export const galleryCategories = [
     imageClassName: 'category-image',
   },
   {
-    title: 'Sketches',
+    title: 'Drawings',
     path: '/gallery/drawings',
     image: galleryData.drawings[2],
     imageClassName: 'category-image',

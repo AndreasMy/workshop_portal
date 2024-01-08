@@ -1,14 +1,26 @@
+/* 
+Expermimental feature: grid-template-rows: masonry
+Cred :George Griffiths
+https://griffadev.medium.com/
+*/
 
 .gallery-container img {
-  width: 320px;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 340px;
   height: auto;
   border: 4px solid black;
 }
 
+.gallery-image {
+  flex-grow: 1;
+  min-width: 180px;
+  max-width: 320px;
+}
 
 .gallery-container {
   min-width: 100%;
-  --masonry-gap: 1rem;
+  --masonry-gap: 1.3rem;
   --masonry-brick-width: 290px;
   column-gap: var(--masonry-gap);
   column-fill: initial;
@@ -37,3 +49,12 @@
     margin-bottom: initial;
   }
 }
+
+/* @media (max-width: 1200px) {
+
+  .gallery-container img {
+      width: 260px;
+      height: auto;
+      border: 4px solid black;
+    }
+} */

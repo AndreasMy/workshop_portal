@@ -24,8 +24,7 @@ export const BlogEntries = () => {
               <p>Sted : {entry.location}</p>
               <p>|</p>
               <p>Dato: {entry.date}</p>
-              <p>|</p>
-              <p>Henvendelser: amykle85@gmail.com</p>
+
             </div>
           </div>
         </a>

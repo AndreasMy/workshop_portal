@@ -11,7 +11,7 @@ header {
 .header-title {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: clamp(1.4rem, 2.3vw, 2rem);
   margin: 0;
 }
 
@@ -23,12 +23,32 @@ header {
 
 .header-nav-links {
   display: flex;
+  flex: 1;
   justify-content: space-between;
+   width: 100%;
+}
 
-  min-width: 450px;
+.header-link-li {
+  padding: 0 1rem;
+}
+
+.header-link-li:last-child {
+  padding: 0 0 0 1rem;
 }
 
 .header-link {
-  font-size: 1.04rem;
+  font-size: clamp(0.6rem, 2vw, 1rem);
   font-weight: 600;
+}
+
+@media screen and (min-width: 369px) and (max-width: 424px) {
+  .header-nav-links {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .header-nav-links {
+    display: none;
+  }
 }

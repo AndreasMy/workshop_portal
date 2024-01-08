@@ -1,0 +1,10 @@
+
+
+@media (max-width: 1600px) {
+    .main-content,
+    .header-content {
+      min-width: 95%;
+    }
+
+  }
+  
