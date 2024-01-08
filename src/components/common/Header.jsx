@@ -1,9 +1,12 @@
+/* eslint-disable react/prop-types */
 import '../../styles/Header.css';
 import { Link } from 'react-router-dom';
 import { navItems } from '../../data/headerData';
 import { Nav } from './Nav';
+import { Button } from './Button';
 
-export const Header = () => {
+
+export const Header = ({ toggleMenu }) => {
   return (
     <div className='header-content'>
       <h2>
@@ -17,6 +20,9 @@ export const Header = () => {
         itemClassName={'header-link'}
         liClassName={'header-link-li'}
       />
+      <Button className='burger-button' onClick={toggleMenu}>
+        <img src="./public/assets/burger-menu.svg" alt="Menu" className='burger-svg'/>
+      </Button>
     </div>
   );
 };
