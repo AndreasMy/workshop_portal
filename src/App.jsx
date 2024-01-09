@@ -1,5 +1,5 @@
 import './styles/App.css';
-import './styles/MediaQueries.css'
+import './styles/LayoutMQueries.css'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Layout } from './layouts/Layout';
 import { HomePage } from './views/Homepage';

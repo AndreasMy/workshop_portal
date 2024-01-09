@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 1024px) and (min-width: 319px) {
+    .main-content,
+    .header-content {
+      margin: 0 3vw;
+    }
+  }
+  
+
+  @media screen and (max-width: 1440px) and (min-width: 1025px) {
+    .main-content,
+    .header-content {
+      max-width: 950px;
+    }
+  }
+
+  @media screen and (max-width: 2560px) and (min-width: 1441px) {
+    .main-content,
+    .header-content {
+      max-width: 1224px;
+    }
+  }

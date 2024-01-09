@@ -21,7 +21,7 @@ export const Header = ({ toggleMenu }) => {
         liClassName={'header-link-li'}
       />
       <Button className='burger-button' onClick={toggleMenu}>
-        <img src="./public/assets/burger-menu.svg" alt="Menu" className='burger-svg'/>
+        <img src="/workshop_portal/assets/burger-menu.svg" alt="Menu" className='burger-svg'/>
       </Button>
     </div>
   );

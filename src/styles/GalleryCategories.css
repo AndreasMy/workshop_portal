@@ -16,7 +16,7 @@
 }
 
 .cat-select-title {
-  font-size: 2.6rem;
+
   position: absolute;
   margin-bottom: 25px;
   color: antiquewhite;
@@ -78,6 +78,11 @@
   font-weight: 400;
 }
 
+.cat-select-title-shrink {
+  font-size: clamp(1.1rem, 3vw, 2rem);
+}
+
 .cat-select-title {
   font-style: italic;
+  
 }
