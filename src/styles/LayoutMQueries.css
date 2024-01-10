@@ -1,8 +1,8 @@
 
-@media screen and (max-width: 1024px) and (min-width: 319px) {
+@media screen and (max-width: 1024px) and (min-width: 20px) {
     .main-content,
     .header-content {
-      margin: 0 3vw;
+      max-width: 80%;
     }
   }
   

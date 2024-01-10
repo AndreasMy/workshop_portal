@@ -12,7 +12,7 @@ export const GalleryCategories = ({
   imageClassName = '',
 }) => {
   return (
-    <nav>
+    <nav className='cat-select-nav'>
       <ul className={ulClassName}>
         {data.map((item, index) => (
           <li key={index} className={liClassName}>

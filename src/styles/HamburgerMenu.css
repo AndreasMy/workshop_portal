@@ -1,7 +1,7 @@
 .overlay {
+
   display: none;
   position: fixed;
-
   top: 0;
   left: 0;
   width: 100%;
@@ -35,7 +35,7 @@
 }
 
 .burger-nav-links {
-  margin: 12px 50px 0 0 ;
+  margin: 12px 50px 0 0;
 }
 
 .burger-link {

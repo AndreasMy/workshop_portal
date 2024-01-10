@@ -13,12 +13,20 @@ main {
   height: 100%;
   margin-top: 76px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   min-width: 100%;
+}
+
+header {
+  z-index: 100;
+}
+
+.overlay {
+  z-index: 200;
 }
 
 .main-content,
 .header-content {
   width: 100%;
 }
-
