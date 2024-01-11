@@ -4,6 +4,9 @@
     .header-content {
       max-width: 80%;
     }
+    .carousel-container {
+      height: 360px;
+    }
   }
   
 
@@ -17,6 +20,6 @@
   @media screen and (max-width: 2560px) and (min-width: 1441px) {
     .main-content,
     .header-content {
-      max-width: 1224px;
+      max-width: 1324px;
     }
   }

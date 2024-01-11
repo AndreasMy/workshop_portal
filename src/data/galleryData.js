@@ -1,4 +1,12 @@
 export const galleryData = {
+  digital: [
+    {
+      image:
+        '/workshop_portal/images/digital/locrian-disaster-finalish-medium.jpg',
+      alt: 'descriptive text',
+      className: 'gallery-image',
+    },
+  ],
   drawings: [
     {
       image: '/workshop_portal/images/drawings/draw0.jpg',
@@ -28,27 +36,32 @@ export const galleryData = {
   ],
   paintings: [
     {
-      image: '/workshop_portal/images/paintings/landscape/fflorence-paintings-3.jpg',
+      image:
+        '/workshop_portal/images/paintings/landscape/fflorence-paintings-3.jpg',
       alt: 'descriptive text',
       className: 'gallery-image',
     },
     {
-      image: '/workshop_portal/images/paintings/landscape/Florence+paintings-2.jpg',
+      image:
+        '/workshop_portal/images/paintings/landscape/Florence+paintings-2.jpg',
       alt: 'descriptive text',
       className: 'gallery-image',
     },
     {
-      image: '/workshop_portal/images/paintings/landscape/florence-paintings-1.jpg',
+      image:
+        '/workshop_portal/images/paintings/landscape/florence-paintings-1.jpg',
       alt: 'descriptive text',
       className: 'gallery-image',
     },
     {
-      image: '/workshop_portal/images/paintings/landscape/gardina-della-orticoltura-1.jpg',
+      image:
+        '/workshop_portal/images/paintings/landscape/gardina-della-orticoltura-1.jpg',
       alt: 'descriptive text',
       className: 'gallery-image',
     },
     {
-      image: '/workshop_portal/images/paintings/landscape/Landscape+february-4.jpg',
+      image:
+        '/workshop_portal/images/paintings/landscape/Landscape+february-4.jpg',
       alt: 'descriptive text',
       className: 'gallery-image',
     },
@@ -58,7 +71,8 @@ export const galleryData = {
       className: 'gallery-image',
     },
     {
-      image: '/workshop_portal/images/paintings/landscape/landscape-february-5.jpg',
+      image:
+        '/workshop_portal/images/paintings/landscape/landscape-february-5.jpg',
       alt: 'descriptive text',
       className: 'gallery-image',
     },
@@ -103,7 +117,8 @@ export const galleryData = {
       className: 'gallery-image',
     },
     {
-      image: '/workshop_portal/images/paintings/studio/stilllife-okt-2k18-1-web.jpg',
+      image:
+        '/workshop_portal/images/paintings/studio/stilllife-okt-2k18-1-web.jpg',
       alt: 'descriptive text',
       className: 'gallery-image',
     },

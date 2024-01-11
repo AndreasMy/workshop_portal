@@ -10,25 +10,28 @@ export const ImageCarousel = () => {
       setCurrentImageIndex(
         (prevIndex) => (prevIndex + 1) % carouselData.length
       );
-    }, 18000);
+    }, 14000);
 
     return () => clearTimeout(timer);
   }, [currentImageIndex]);
 
   return (
-    <div className='carousel-container'>
-      <div className='carousel-overlay'>
-        {carouselData.map((item, index) => (
-          <img
-            key={index}
-            src={item.image.image}
-            alt={item.alt}
-            className={`carousel-gallery-image ${
-              index === currentImageIndex ? 'active' : ''
-            }`}
-          />
-        ))}
+    <div className='carousel-wrapper'>
+      <div className='carousel-container'>
+        <div className='carousel-overlay'>
+          {carouselData.map((item, index) => (
+            <img
+              key={index}
+              src={item.image.image}
+              alt={item.alt}
+              className={`carousel-gallery-image ${
+                index === currentImageIndex ? 'active' : ''
+              }`}
+            />
+          ))}
+        </div>
       </div>
+      <h1 className='carousel-title'>Browse galleries</h1>
     </div>
   );
 };

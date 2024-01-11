@@ -1,8 +1,15 @@
+.carousel-wrapper {
+  height: 560px;
+  width: 100%;
+  background-color: rgb(19, 19, 20);
+}
+
 .carousel-container {
   position: relative;
   overflow: hidden;
-  height: 360px;
+  height: 80%;
   width: 100%;
+
 }
 
 .carousel-gallery-image {
@@ -17,13 +24,58 @@
   object-position: 35% 35%;
   opacity: 0;
   visibility: hidden;
-  transform: scale(1);
+
+  transform: scale(1.15);
   transition: opacity 3s ease-in-out, visibility 3s ease-in-out,
-    transform 18s ease-in, transform 18s ease-in; /* Adjust the duration as needed */
+    transform 14s ease-in;
 }
 
 .carousel-gallery-image.active {
   visibility: visible;
   opacity: 1;
-  transform: scale(1.15); /* This triggers the zoom-out effect */
+  transform: scale(1); /* This triggers the zoom-out effect */
+}
+
+.carousel-title {
+    margin: 15px;
+}
+
+/* 
+.carousel-container::before,
+.carousel-container::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 32px;
+  z-index: 10;
+  background: linear-gradient(to top, rgb(26, 26, 27), rgba(0, 0, 0, 0));
+}
+
+.carousel-container::after {
+  top: 0;
+  background: linear-gradient(to bottom, rgb(26, 26, 27), rgba(0, 0, 0, 0));
+}
+
+.carousel-container::before {
+  bottom: 0;
+}
+ */
+
+@media screen and (max-width: 1023px) and (min-width: 20px) {
+    .carousel-wrapper  {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+    .carousel-wrapper  {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+    .carousel-wrapper  {
+    height: 570px;
+  }
 }

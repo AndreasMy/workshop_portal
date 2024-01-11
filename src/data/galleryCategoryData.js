@@ -13,4 +13,10 @@ export const galleryCategories = [
     image: galleryData.drawings[2],
     imageClassName: 'category-image',
   },
+  {
+    title: 'Illustration',
+    path: '/gallery/digital',
+    image: galleryData.digital[0],
+    imageClassName: 'category-image',
+  },
 ];
