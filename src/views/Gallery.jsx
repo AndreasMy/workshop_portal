@@ -2,7 +2,7 @@
 // import { ImageGallery } from '../components/Gallery/ImageGallery';
 // import { galleryData } from '../data/galleryData';
 import { Outlet, useLocation } from 'react-router-dom';
-import { GalleryCategories } from '../components/Gallery/galleryCategorySelect';
+import { GalleryCategories } from '../components/GalleryComponents/galleryCategorySelect';
 import { galleryCategories } from '../data/galleryCategoryData';
 import '../styles/Gallery.css';
 import { useEffect, useState } from 'react';

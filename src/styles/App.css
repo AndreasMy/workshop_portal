@@ -23,13 +23,9 @@ h2 {
 #root {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   min-height: 100vh;
   min-width: 100%;
 }
 
-body {
-  min-height: 100vh;
-  min-width: 100%;
-  background-color: rgb(35, 34, 36);
-}

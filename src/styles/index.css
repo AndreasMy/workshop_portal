@@ -1,6 +1,22 @@
 header,
-nav {
+footer,
+nav,
+body {
   display: flex;
+  background-color: rgb(26, 26, 27);
+}
+
+body {
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+footer {
+  height: 250px;
+  min-width: 100%;
+  margin-top: 40px;
 }
 
 .main-content {

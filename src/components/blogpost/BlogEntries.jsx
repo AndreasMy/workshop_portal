@@ -1,5 +1,5 @@
 import '../../styles/BlogEntries.css';
-import { ImageContainer } from '../common/ImageContainer';
+import { ImageContainer } from '../Common/ImageContainer';
 import { entryData } from '../../data/blogData';
 
 export const BlogEntries = () => {
@@ -24,7 +24,6 @@ export const BlogEntries = () => {
               <p>Sted : {entry.location}</p>
               <p>|</p>
               <p>Dato: {entry.date}</p>
-
             </div>
           </div>
         </a>

@@ -10,8 +10,9 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #13060c;
+  background-color: rgb(10, 1, 1);
   width: 100%;
+  
 }
 
 .poster-header {
@@ -44,7 +45,7 @@
   height: 1px;
   width: 75%;
   margin: 12px 0;
-  background-color: rgb(228, 134, 71);
+  background-color: rgb(245, 118, 33);
 }
 
 .poster-info-container {
@@ -59,7 +60,7 @@
   .poster-container {
     min-width: 350px;
     max-width: 650px;
-    margin: 1.4%  25%;
+    margin: 1.4% 25%;
   }
 }
 

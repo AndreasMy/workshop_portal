@@ -8,7 +8,7 @@ import { Workshops } from './views/Workshops';
 import { About } from './views/About';
 import { Tutorials } from './views/Tutorials';
 import { BlogPage } from './views/Blog';
-import { ImageGallery } from './components/Gallery/ImageGallery';
+import { ImageGallery } from './components/GalleryComponents/ImageGallery';
 import { galleryData } from './data/galleryData';
 
 function App() {
