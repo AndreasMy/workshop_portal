@@ -37,6 +37,15 @@ function App() {
                 />
               }
             />
+            <Route
+              path='digital'
+              element={
+                <ImageGallery
+                  images={galleryData.digital}
+                  imgListClassName='gallery-image'
+                />
+              }
+            />
           </Route>
           <Route path='/workshops' element={<Workshops />} />
           <Route path='/tutorials' element={<Tutorials />} />

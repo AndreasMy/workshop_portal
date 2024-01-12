@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: 'Portfolio', path: '/gallery' },
+  { name: 'Gallery', path: '/gallery' },
   { name: 'Workshops', path: '/workshops' },
   { name: 'About', path: '/about' },
   { name: 'Tutorials', path: '/tutorials' },
