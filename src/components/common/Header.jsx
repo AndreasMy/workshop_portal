@@ -8,11 +8,15 @@ import { Button } from "./Button";
 export const Header = ({ toggleMenu }) => {
   return (
     <div className="header-content">
-      <h2>
+      <div className="title-container">
+
+      <h2 className="header_title">
         <Link to="/" className="header-title">
-          Andreas Myklebust Art
+          Andreas Myklebust 
         </Link>
       </h2>
+      <h2 className="header-title-accent"> :artist</h2>
+      </div>
       <Nav
         data={navItems}
         ulClassName={"header-nav-links"}

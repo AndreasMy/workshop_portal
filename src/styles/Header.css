@@ -2,14 +2,28 @@ header {
   position: fixed;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  height: 8vh;
   min-width: 100%;
 }
 
-.header-title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.title-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-title,
+.header-title-accent {
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: clamp(1.1rem, 2.3vw, 2rem);
+}
+
+.header-title-accent {
+  margin-left: 8px;
+  color: rgb(255, 85, 0);
+}
+
+.header-title {
   margin: 0;
 }
 
@@ -36,7 +50,7 @@ header {
 
 .header-link {
   font-size: clamp(0.6rem, 2vw, 1rem);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .burger-button {
@@ -50,7 +64,6 @@ header {
   width: 40px;
   color: #faebd7;
 }
-
 
 @media screen and (min-width: 320px) and (max-width: 424px) {
   .header-nav-links {

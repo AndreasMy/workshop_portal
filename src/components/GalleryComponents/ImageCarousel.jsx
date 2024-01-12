@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
-import { carouselData } from '../../data/carouselData';
-import '../../styles/ImageCarousel.css';
+import { useEffect, useState } from "react";
+import { carouselData } from "../../data/carouselData";
+import "../../styles/ImageCarousel.css";
 
 export const ImageCarousel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -16,22 +16,24 @@ export const ImageCarousel = () => {
   }, [currentImageIndex]);
 
   return (
-    <div className='carousel-wrapper'>
-      <div className='carousel-container'>
-        <div className='carousel-overlay'>
+    <div className="carousel-wrapper">
+      <div className="carousel-container">
+        <div className="carousel-overlay">
           {carouselData.map((item, index) => (
             <img
               key={index}
               src={item.image.image}
               alt={item.alt}
               className={`carousel-gallery-image ${
-                index === currentImageIndex ? 'active' : ''
+                index === currentImageIndex ? "active" : ""
               }`}
             />
           ))}
         </div>
       </div>
-      <h1 className='carousel-title'>Browse galleries</h1>
+      <div className="carousel-nav-container">
+        <h2 className="carousel-title">Browse galleries</h2>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,3 @@
-import './styles/App.css';
-import './styles/LayoutMQueries.css'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Layout } from './layouts/Layout';
 import { HomePage } from './views/Homepage';
@@ -10,6 +8,9 @@ import { Tutorials } from './views/Tutorials';
 import { BlogPage } from './views/Blog';
 import { ImageGallery } from './components/GalleryComponents/ImageGallery';
 import { galleryData } from './data/galleryData';
+
+import './styles/App.css';
+import './styles/LayoutMQueries.css'
 
 function App() {
   return (

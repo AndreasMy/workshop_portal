@@ -1,9 +1,12 @@
-import { BlogEntries } from '../components/blogpost/BlogEntries';
+import { BlogEntries } from "../components/blogpost/BlogEntries";
 
 export const Workshops = () => {
   return (
     <>
-      <BlogEntries />
+      <BlogEntries
+        wrapperClassName="poster-container"
+        blogContainerClassName="poster-entry"
+      />
     </>
   );
 };
