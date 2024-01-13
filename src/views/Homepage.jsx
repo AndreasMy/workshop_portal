@@ -1,7 +1,4 @@
-// import { BlogEntries } from '../components/blogpost/BlogEntries';
 import "../styles/SplashImage.css";
-//import { homepageData } from '../data/homepageData';
-//import { ImageContainer } from '../components/Common/ImageContainer';
 import { ImageCarousel } from "../components/GalleryComponents/ImageCarousel";
 import { PageSection } from "../components/Common/PageSection";
 import { BlogEntries } from "../components/blogpost/BlogEntries";
@@ -12,12 +9,13 @@ export const HomePage = () => {
       <ImageCarousel />
       <PageSection
         headerText={"Upcoming Workshops"}
-        wrapperClassName="homepage-workshop-wrapper"
-        containerClassName="homepage-workshop-container"
+        wrapperClassName="content-wrapper"
+        containerClassName="content-container"
       >
         <BlogEntries
           wrapperClassName="poster-container"
           blogContainerClassName="poster-entry"
+          showTextContent={false}
         />
       </PageSection>
     </>

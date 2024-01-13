@@ -11,19 +11,22 @@ header {
   flex-direction: row;
 }
 
+
+
 .header-title,
 .header-title-accent {
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: clamp(1.1rem, 2.3vw, 2rem);
 }
 
 .header-title-accent {
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 8px;
   color: rgb(255, 85, 0);
 }
 
 .header-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
 }
 

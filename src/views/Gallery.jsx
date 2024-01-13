@@ -52,7 +52,7 @@ export const Gallery = () => {
         }
         data={galleryCategories}
         />
-         <div className='gallery_container'>
+         <div className='workshop-content-wrapper'>
       <Outlet />
         </div>
     </>
