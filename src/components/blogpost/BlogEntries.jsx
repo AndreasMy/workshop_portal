@@ -7,24 +7,27 @@ export const BlogEntries = ({
   wrapperClassName = "",
   blogContainerClassName = "",
   isSingleImage,
-  imgIndex,
   showTextContent,
 }) => {
+
+
   return (
     <>
       {entryData.map((entry, index) => (
-        <div className={wrapperClassName}>
-          <a
-            key={index}
-            href={entry.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <div className={wrapperClassName} key={index}>
+          <a href={entry.href} target="_blank" rel="noopener noreferrer">
             <div className={blogContainerClassName}>
-              <ImageContainer
-                images={entry.images}
-                containerClassName={"poster-img-header"}
-              />
+              {isSingleImage ? (
+                <ImageContainer
+                  images={entry.defaultImage}
+                  containerClassName={"poster-img-header"}
+                />
+              ) : (
+                <ImageContainer
+                  images={entry.images}
+                  containerClassName={"poster-img-header"}
+                />
+              )}
               <h2 className="poster-header">{entry.title}</h2>
               <div className="poster-line"></div>
               <div className="poster-info-container">

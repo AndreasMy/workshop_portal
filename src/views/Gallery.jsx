@@ -6,6 +6,7 @@ import { GalleryCategories } from '../components/GalleryComponents/galleryCatego
 import { galleryCategories } from '../data/galleryCategoryData';
 import { useEffect, useState } from 'react';
 import '../styles/Gallery.css';
+import { PageSection } from '../components/Common/PageSection';
 
 export const Gallery = () => {
   const location = useLocation();
@@ -17,8 +18,6 @@ export const Gallery = () => {
 
   return (
     <>
-   
-
       <GalleryCategories
         ulClassName={
           categorySelected 
@@ -52,9 +51,13 @@ export const Gallery = () => {
         }
         data={galleryCategories}
         />
-         <div className='workshop-content-wrapper'>
+   <PageSection
+           headerText={""}
+           wrapperClassName="content-wrapper"
+           containerClassName="content-container">
       <Outlet />
-        </div>
+   </PageSection>
+       
     </>
   );
 };

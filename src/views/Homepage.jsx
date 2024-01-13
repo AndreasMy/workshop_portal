@@ -10,12 +10,13 @@ export const HomePage = () => {
       <PageSection
         headerText={"Upcoming Workshops"}
         wrapperClassName="content-wrapper"
-        containerClassName="content-container"
+        containerClassName="workshop-content-container"
       >
         <BlogEntries
           wrapperClassName="poster-container"
           blogContainerClassName="poster-entry"
           showTextContent={false}
+          isSingleImage={true}
         />
       </PageSection>
     </>

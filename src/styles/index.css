@@ -27,7 +27,7 @@ footer {
 
 main {
   height: 100%;
-  margin-top: 8vh;
+  margin-top: 9vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,6 +55,7 @@ header {
   width: 100%;
 }
 
-.content-container {
-  padding: 0 8%;
+.content-container,
+.header-content {
+  padding: 0 12%;
 }
