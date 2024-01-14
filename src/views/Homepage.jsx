@@ -7,7 +7,7 @@ export const HomePage = () => {
   return (
     <>
       <ImageCarousel />
-      <PageSection
+    {/*   <PageSection
         headerText={"Upcoming Workshops"}
         wrapperClassName="content-wrapper"
         containerClassName="workshop-content-container"
@@ -18,7 +18,7 @@ export const HomePage = () => {
           showTextContent={false}
           isSingleImage={true}
         />
-      </PageSection>
+      </PageSection> */}
     </>
   );
 };

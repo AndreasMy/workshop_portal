@@ -9,9 +9,8 @@ header {
 .title-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
-
-
 
 .header-title,
 .header-title-accent {
@@ -21,12 +20,13 @@ header {
 
 .header-title-accent {
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
   margin-left: 8px;
   color: rgb(255, 85, 0);
 }
 
 .header-title {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
 }
 

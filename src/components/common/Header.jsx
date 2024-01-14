@@ -3,7 +3,7 @@ import "../../styles/Header.css";
 import { Link } from "react-router-dom";
 import { navItems } from "../../data/headerData";
 import { Nav } from "./Nav";
-import { Button } from "./Button";
+import { Button } from "./ButtonComponent";
 
 export const Header = ({ toggleMenu }) => {
   return (
@@ -15,7 +15,7 @@ export const Header = ({ toggleMenu }) => {
           Andreas Myklebust 
         </Link>
       </h2>
-      <h2 className="header-title-accent"> : Artist</h2>
+      <h2 className="header-title-accent"> :artist</h2>
       </div>
       <Nav
         data={navItems}

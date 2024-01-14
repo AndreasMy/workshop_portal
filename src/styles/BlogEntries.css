@@ -1,6 +1,6 @@
-.poster-entry, 
+.poster-entry,
 .blog-text-wrapper {
-  background-color: rgb(19, 2, 8);
+  background-color: rgb(20, 20, 22);
 }
 
 .poster-entry {
@@ -9,19 +9,18 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-
   width: 100%;
 }
 
 .poster-header {
-  font-size: clamp(1rem, 2.3vw, 2rem);
+  font-size: clamp(1rem, 2.3vw, 2.2rem);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 300;
-  margin-top: 5px;
+  margin: 3% 0 1.8% 0;
 }
 
 .poster-entry img {
-  max-height: 18rem;
+  max-height: 12rem;
   width: 100%;
   object-fit: cover;
 }
@@ -41,9 +40,9 @@
 
 .poster-line {
   height: 1px;
-  width: 69%;
+  width: 85%;
   margin: 1.3% 0;
-  background-color: rgb(245, 118, 33);
+  background-color: rgb(255, 85, 0)
 }
 
 .poster-info-container {
@@ -60,15 +59,28 @@
   padding: 0 8%;
 }
 
-.blog-text {
-  margin: 2% 0;
+.blog-text,
+.blog-text-headerTxt {
+  margin: 2% 12% 0 0;
 }
 
 .blog-text-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 2% 16%;
+  padding: 0 8% 12% 8%;
+}
+
+.blog-text-headerTxt {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.blog-text-paraHeader {
+  margin-top: 28px;
+  color: antiquewhite;
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 .workshop-content-container {
@@ -77,6 +89,48 @@
   align-items: center;
   width: 100%;
   padding: 0 12%;
+}
+
+.workshop-cta {
+  width: 100%;
+  padding: 20px;
+  margin: 12% 0;
+  border-radius: 5px;
+  border: none;
+  color: antiquewhite;
+  font-size: 1.2rem;
+  background-color: rgb(255, 85, 0);
+  cursor: pointer;
+}
+
+.blog-section {
+  width: 65%;
+}
+
+.workshop-info-wrapper {
+  padding: 2% 0;
+  width: 35%;
+}
+
+.workshop-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.details-li-elem {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.details-header {
+  color: antiquewhite;
+}
+
+.details-text {
+  font-size: 0.9rem;
 }
 
 @media screen and (min-width: 369px) and (max-width: 425px) {
@@ -107,8 +161,8 @@
 @media screen and (min-width: 769px) and (max-width: 1399px) {
   .poster-container {
     width: 100%;
-   
-   margin: 0 0 5% 0; /* margin: 1.4% 8%; */
+
+    margin: 0 0 5% 0; /* margin: 1.4% 8%; */
   }
 }
 @media screen and (min-width: 1400px) {

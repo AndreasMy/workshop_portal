@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import { Nav } from '../Common/Nav';
+import { Nav } from '../common/Nav';
 import { navItems } from '../../data/headerData';
 import '../../styles/HamburgerMenu.css';
-import { Button } from '../Common/Button';
+import { Button } from '../common/ButtonComponent';
 
 export const HamburgerMenu = ({ isOpen, toggleMenu }) => {
   return (
