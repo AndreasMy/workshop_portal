@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-import { useState } from 'react';
-import { HamburgerMenu } from '../components/HamburgerMenu/HamburgerMenu';
-import { Header } from '../components/Common/Header';
+import { useState } from "react";
+import { HamburgerMenu } from "../components/HamburgerMenu/HamburgerMenu";
+import { Header } from "../components/common/Header";
 
 export const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ export const Layout = ({ children }) => {
         <Header toggleMenu={() => setMenuOpen(!menuOpen)} />
       </header>
       <main>
-        <div className='main-content'>
+        <div className="main-content">
           {children}
           <HamburgerMenu
             isOpen={menuOpen}
@@ -19,7 +19,9 @@ export const Layout = ({ children }) => {
           />
         </div>
       </main>
-      <footer></footer>
+      <footer>
+        <p>amykle85@gmail.com</p>
+      </footer>
     </>
   );
 };

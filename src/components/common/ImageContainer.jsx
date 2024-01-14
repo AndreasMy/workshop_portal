@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
-export const ImageContainer = ({ images, containerClassName }) => {
+export const ImageContainer = ({ images, containerClassName, hasOverlay }) => {
   return (
     <>
       <div className={containerClassName}>
+        {hasOverlay ? <div className="poster-img-overlay"></div> : null}
         {images.map((img, index) => (
           <img
             key={index}

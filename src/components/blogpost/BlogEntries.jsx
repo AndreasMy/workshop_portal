@@ -26,10 +26,29 @@ export const BlogEntries = ({
                 <ImageContainer
                   images={entry.images}
                   containerClassName={"poster-img-header"}
+                  hasOverlay={true}
                 />
               )}
-              <h2 className="poster-header">{entry.title}</h2>
-              <div className="poster-line"></div>
+              <div
+                className={
+                  showTextContent
+                    ? "header-container-over-image"
+                    : "header-container-under-image"
+                }
+              >
+                <h2
+                  className={
+                    showTextContent ? "poster-header-overlay" : "poster-header"
+                  }
+                >
+                  {entry.title}
+                </h2>
+                <div
+                  className={
+                    showTextContent ? "poster-line-overlay" : "poster-line"
+                  }
+                ></div>
+              </div>{" "}
               {showTextContent ? null : (
                 <div className="poster-info-container">
                   <p>Sted : {entry.location}</p>

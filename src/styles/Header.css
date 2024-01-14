@@ -28,6 +28,11 @@ header {
 .header-title {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
+  transition: background-color, ease-in-out 0.5s;
+}
+
+.header-title:hover {
+  color: rgb(237, 184, 164);
 }
 
 .header-content {
@@ -54,6 +59,14 @@ header {
 .header-link {
   font-size: clamp(0.6rem, 2vw, 1rem);
   font-weight: 400;
+}
+
+.header-link:hover {
+  color: rgb(255, 85, 0);
+}
+
+.header-link:active {
+  color: rgb(255, 85, 0);
 }
 
 .burger-button {
