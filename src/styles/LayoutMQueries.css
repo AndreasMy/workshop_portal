@@ -1,7 +1,35 @@
-/* @media screen and (min-width: 20px) and (max-width: 1024px) {
+@media screen and (min-width: 20px) and (max-width: 1024px) {
+  .header-container-over-image,
+  .content-container {
+    padding: 0 5%;
+  }
 
-  .header-content{
-    margin: 0 2%;
+  .header-content,
+  .gallery-content-container {
+    padding: 0 5%;
+  }
+
+  .blog-text,
+  .blog-text-headerTxt {
+    padding: 0;
+    margin: 0;
+  }
+
+  .workshop-info-wrapper {
+    min-width: 100%;
+  }
+
+  .blog-text-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-section {
+    width: 100%;
+  }
+
+  .header-content {
+    padding: 0 5%;
   }
   .carousel-container {
     height: 360px;
@@ -9,16 +37,49 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .header-container-over-image,
+  .content-container {
+    padding: 0 5%;
+  }
 
-  .header-content{
-    margin: 0 8%;
+  .header-content,
+  .gallery-content-container {
+    padding: 0 5%;
   }
 }
 
-@media screen and (min-width: 1441px) and (max-width: 2560px) {
+@media screen and (min-width: 1441px) and (max-width: 1700px) {
+  .header-container-over-image,
+  .content-container {
+    padding: 0 5%;
+  }
 
-  .header-content{
-    margin: 0 8%;
+  .header-content,
+  .gallery-content-container {
+    padding: 0 5%;
   }
 }
- */
+
+@media screen and (min-width: 1701px) and (max-width: 3840px) {
+  .header-container-over-image,
+  .content-container {
+    padding: 0 24%;
+  }
+
+  .header-content,
+  .gallery-content-container {
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (min-device-width: 1800px) and (max-device-width: 1800px) {
+  .header-container-over-image,
+  .content-container {
+    padding: 0 12%;
+  }
+
+  .header-content,
+  .gallery-content-container {
+    padding: 0 5%;
+  }
+}

@@ -54,7 +54,7 @@ export const Gallery = () => {
    <PageSection
            headerText={""}
            wrapperClassName="content-wrapper"
-           containerClassName="content-container">
+           containerClassName="gallery-content-container">
       <Outlet />
    </PageSection>
        
