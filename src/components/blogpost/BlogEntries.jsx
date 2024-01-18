@@ -15,7 +15,7 @@ export const BlogEntries = ({
     <>
       {entryData.map((entry, index) => (
         <div className={wrapperClassName} key={index}>
-          <a href={entry.href} target="_blank" rel="noopener noreferrer">
+          <a href={entry.href} target="_blank" rel="noopener noreferrer" className="a-wrapper">
             <div className={blogContainerClassName}>
               {isSingleImage ? (
                 <ImageContainer

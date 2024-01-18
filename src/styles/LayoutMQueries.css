@@ -1,26 +1,30 @@
-@media screen and (min-width: 20px) and (max-width: 1024px) {
+@media screen and (min-width: 20px) and (max-width: 768px) {
   .header-container-over-image,
   .content-container {
-    padding: 0 5%;
+    padding: 0 ;
   }
 
   .header-content,
   .gallery-content-container {
-    padding: 0 5%;
+    padding: 0 ;
   }
 
   .blog-text,
   .blog-text-headerTxt {
-    padding: 0;
-    margin: 0;
+    padding: 12px 0;
+    margin: 12px 0;
   }
 
   .workshop-info-wrapper {
     min-width: 100%;
   }
 
+  .workshop-cta {
+    margin: 22px 0 0 0;
+  }
+
   .blog-text-wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -36,7 +40,7 @@
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 769px) and (max-width: 1440px) {
   .header-container-over-image,
   .content-container {
     padding: 0 5%;
@@ -66,6 +70,11 @@
     padding: 0 24%;
   }
 
+  .poster-img-overlay {
+    width: 100%; /* Adjusted to 100% to prevent overflow */
+    /* Other existing styles... */
+  }
+
   .header-content,
   .gallery-content-container {
     padding: 0 5%;
@@ -75,7 +84,7 @@
 @media only screen and (min-device-width: 1800px) and (max-device-width: 1800px) {
   .header-container-over-image,
   .content-container {
-    padding: 0 12%;
+    padding: 0 16%;
   }
 
   .header-content,

@@ -35,7 +35,7 @@ export const entryData = [
       },
       {
         name: "Dato: ",
-        value: "09.03.2024 - 19.03.2024",
+        value: "09.03.2024 - 10.03.2024",
       },
       {
         name: "Lengde: ",
