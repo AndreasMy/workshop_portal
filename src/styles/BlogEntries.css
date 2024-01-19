@@ -3,6 +3,12 @@
   background-color: rgb(20, 20, 22);
 }
 
+.poster-container {
+  min-width: 100%;
+  margin: 0 0 2% 0;
+  /* margin: 1.4% 8%; */
+}
+
 .a-wrapper {
   width: 100%;
 }
@@ -28,7 +34,7 @@
 }
 
 .poster-header-overlay {
-  font-size: clamp(1.7rem, 3.5vw, 3rem);
+  font-size: clamp(1.1rem, 3.5vw, 3rem);
   margin: 3% 2% 1.8% 2%;
 }
 
@@ -56,12 +62,12 @@
 }
 
 .header-container-over-image {
+  position: absolute;
   padding: 0 12%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  position: absolute;
   height: 11rem;
   width: 100%;
 }
@@ -174,42 +180,8 @@
   font-size: 0.9rem;
 }
 
-@media screen and (min-width: 0px) and (max-width: 425px) {
-  .poster-container {
-    min-width: 100%;
-    margin: 0 0 2% 0;
-    /* margin: 1.4% 8%; */
-  }
-}
 
-@media screen and (min-width: 424px) and (max-width: 768px) {
-  .poster-container {
-    min-width: 100%;
-    margin: 0 0 2% 0;
-    /* margin: 1.4% 8%; */
-  }
 
-  .poster-entry img {
-    width: 100%;
-    object-fit: cover;
-  }
 
-  .workshop-image {
-    width: 100%;
-  }
-}
 
-@media screen and (min-width: 769px) and (max-width: 1399px) {
-  .poster-container {
-    width: 100%;
 
-    margin: 0 0 2% 0; /* margin: 1.4% 8%; */
-  }
-}
-@media screen and (min-width: 1400px) {
-  .poster-container {
-    min-width: 100%;
-    margin: 0 0 2% 0;
-    /* margin: 1.4% 8%; */
-  }
-}

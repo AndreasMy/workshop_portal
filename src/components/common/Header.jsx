@@ -12,10 +12,10 @@ export const Header = ({ toggleMenu }) => {
 
       <h2 className="header_title">
         <Link to="/" className="header-title">
-          Andreas Myklebust 
+          Andreas Myklebust Art
         </Link>
       </h2>
-      <h2 className="header-title-accent"> :artist</h2>
+{/*       <h2 className="header-title-accent"> :artist</h2> */}
       </div>
       <Nav
         data={navItems}

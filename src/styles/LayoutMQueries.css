@@ -1,12 +1,27 @@
 @media screen and (min-width: 20px) and (max-width: 768px) {
   .header-container-over-image,
   .content-container {
-    padding: 0 ;
+    padding: 0 5%;
+  }
+
+  .poster-container {
+    margin: 7% 0;
+  }
+
+  .poster-img-overlay {
+    background: linear-gradient(to top, rgb(26, 26, 27) 8%, transparent);
   }
 
   .header-content,
   .gallery-content-container {
-    padding: 0 ;
+    padding: 0;
+  }
+
+  .details-li-elem,
+  .blog-text,
+  .blog-text-headerTxt,
+  .blog-text-paraHeader {
+    display: none;
   }
 
   .blog-text,
@@ -68,11 +83,6 @@
   .header-container-over-image,
   .content-container {
     padding: 0 24%;
-  }
-
-  .poster-img-overlay {
-    width: 100%; /* Adjusted to 100% to prevent overflow */
-    /* Other existing styles... */
   }
 
   .header-content,
