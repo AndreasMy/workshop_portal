@@ -41,6 +41,13 @@ export const BlogEntries = ({
                     showTextContent ? "poster-header-overlay" : "poster-header"
                   }
                 >
+                  {entry.descriptiveTitle}
+                </h2>
+                <h2
+                  className={
+                    showTextContent ? "poster-header-overlay" : "poster-header"
+                  }
+                >
                   {entry.title}
                 </h2>
                 <div

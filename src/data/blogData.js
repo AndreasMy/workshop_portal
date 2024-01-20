@@ -1,5 +1,6 @@
 export const entryData = [
   {
+    descriptiveTitle: "Helgekurs:",
     title: "Grunnleggende tegning & observasjon",
     location: "Oslo Malerklubb",
     date: "9/3 - 10/3",
@@ -82,6 +83,7 @@ export const entryData = [
     },
   },
   {
+    descriptiveTitle: "Helgekurs:",
     title: "Ansiktets anatomi & strukturelle oppbygning",
     location: "Oslo Malerklubb",
     date: "27/4 - 28/4",
