@@ -5,7 +5,7 @@ import { navItems } from "../../data/headerData";
 import { Nav } from "./Nav";
 import { Button } from "./ButtonComponent";
 
-export const Header = ({ toggleMenu }) => {
+export const NavBar = ({ toggleMenu }) => {
   return (
     <div className="header-content">
       <div className="title-container">

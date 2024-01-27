@@ -1,5 +1,5 @@
 import "../../styles/BlogEntries.css";
-import { ImageContainer } from "./ImageContainer";
+import { ImageBannerContainer } from "./ImageBannerContainer";
 import { entryData } from "../../data/blogData";
 import { BlogTextContent } from "./TextSection";
 import { InfoPanel } from "./InfoPanel";
@@ -18,34 +18,34 @@ export const BlogEntries = ({
           <a href={entry.href} target="_blank" rel="noopener noreferrer" className="a-wrapper">
             <div className={blogContainerClassName}>
               {isSingleImage ? (
-                <ImageContainer
+                <ImageBannerContainer
                   images={entry.defaultImage}
-                  containerClassName={"poster-img-header"}
+                  containerClassName={"poster-img-banner"}
                 />
               ) : (
-                <ImageContainer
+                <ImageBannerContainer
                   images={entry.images}
-                  containerClassName={"poster-img-header"}
+                  containerClassName={"poster-img-banner"}
                   hasOverlay={true}
                 />
               )}
               <div
                 className={
                   showTextContent
-                    ? "header-container-over-image"
-                    : "header-container-under-image"
+                    ? "banner-container-over-image"
+                    : "banner-container-under-image"
                 }
               >
                 <h2
                   className={
-                    showTextContent ? "poster-header-overlay" : "poster-header"
+                    showTextContent ? "poster-title-overlay" : "poster-title"
                   }
                 >
                   {entry.descriptiveTitle}
                 </h2>
                 <h2
                   className={
-                    showTextContent ? "poster-header-overlay" : "poster-header"
+                    showTextContent ? "poster-title-overlay" : "poster-title"
                   }
                 >
                   {entry.title}

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export const ImageContainer = ({ images, containerClassName, hasOverlay }) => {
+export const ImageBannerContainer = ({ images, containerClassName, hasOverlay }) => {
   return (
     <div className={containerClassName}>
       {hasOverlay ? <div className="poster-img-overlay"></div> : null}

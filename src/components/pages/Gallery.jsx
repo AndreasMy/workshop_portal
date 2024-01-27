@@ -1,4 +1,4 @@
-//import { ImageContainer } from '../components/common/ImageContainer';
+//import { ImageBannerContainer } from '../components/common/ImageBannerContainer';
 // import { ImageGallery } from '../components/Gallery/ImageGallery';
 // import { galleryData } from '../data/galleryData';
 import '../../styles/Gallery.css';

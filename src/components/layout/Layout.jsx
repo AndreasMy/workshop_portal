@@ -1,14 +1,14 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import { HamburgerMenu } from "../UI/HamburgerMenu";
-import { Header } from "../UI/Header";
+import { NavBar } from "../UI/NavBar";
 
 export const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
       <header>
-        <Header toggleMenu={() => setMenuOpen(!menuOpen)} />
+        <NavBar toggleMenu={() => setMenuOpen(!menuOpen)} />
       </header>
       <main>
         <div className="main-content">
