@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import { HamburgerMenu } from "../components/HamburgerMenu/HamburgerMenu";
-import { Header } from "../components/common/Header";
+import { HamburgerMenu } from "../UI/HamburgerMenu";
+import { Header } from "../UI/Header";
 
 export const Layout = ({ children }) => {
   const [menuOpen, setMenuOpen] = useState(false);

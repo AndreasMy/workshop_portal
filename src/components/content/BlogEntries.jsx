@@ -1,9 +1,9 @@
 import "../../styles/BlogEntries.css";
-import { ImageContainer } from "../Common/ImageContainer";
+import { ImageContainer } from "./ImageContainer";
 import { entryData } from "../../data/blogData";
 import { BlogTextContent } from "./BlogTextContent";
 import { BlogInfo } from "./BlogInfo";
-import { Button } from "../common/ButtonComponent";
+import { Button } from "../UI/ButtonComponent";
 
 export const BlogEntries = ({
   wrapperClassName = "",

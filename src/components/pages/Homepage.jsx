@@ -1,7 +1,7 @@
-import "../styles/SplashImage.css";
-import { ImageCarousel } from "../components/GalleryComponents/ImageCarousel";
-import { PageSection } from "../components/Common/PageSection";
-import { BlogEntries } from "../components/blogpost/BlogEntries";
+import "../../styles/SplashImage.css";
+import { ImageCarousel } from "../content/ImageCarousel";
+import { PageSection } from "../content/PageSection";
+import { BlogEntries } from "../content/BlogEntries";
 
 export const HomePage = () => {
   return (

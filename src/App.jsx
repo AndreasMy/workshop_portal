@@ -1,12 +1,12 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import { Layout } from './layouts/Layout';
-import { HomePage } from './views/Homepage';
-import { Gallery } from './views/Gallery';
-import { Workshops } from './views/Workshops';
-import { About } from './views/About';
-import { Tutorials } from './views/Tutorials';
-import { BlogPage } from './views/Blog';
-import { ImageGallery } from './components/GalleryComponents/ImageGallery';
+import { Layout } from './components/layout/Layout';
+import {HomePage} from './components/pages/HomePage';
+import { Gallery } from './components/pages/Gallery';
+import { Workshops } from './components/pages/Workshops';
+import { About } from './components/pages/About';
+import { Tutorials } from './components/pages/Tutorials';
+import { BlogPage } from './components/pages/Blog';
+import { ImageGallery } from './components/content/ImageGallery';
 import { galleryData } from './data/galleryData';
 
 import './styles/App.css';

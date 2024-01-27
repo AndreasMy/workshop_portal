@@ -1,5 +1,5 @@
-import { PageSection } from "../components/Common/PageSection";
-import { BlogEntries } from "../components/blogpost/BlogEntries";
+import { PageSection } from "../content/PageSection";
+import { BlogEntries } from "../content/BlogEntries";
 
 export const Workshops = () => {
   return (

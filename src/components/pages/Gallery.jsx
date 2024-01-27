@@ -2,11 +2,11 @@
 // import { ImageGallery } from '../components/Gallery/ImageGallery';
 // import { galleryData } from '../data/galleryData';
 import { Outlet, useLocation } from 'react-router-dom';
-import { GalleryCategories } from '../components/GalleryComponents/galleryCategorySelect';
-import { galleryCategories } from '../data/galleryCategoryData';
+import { GalleryCategories } from '../content/GalleryCategorySelect';
+import { galleryCategories } from '../../data/galleryCategoryData';
 import { useEffect, useState } from 'react';
-import '../styles/Gallery.css';
-import { PageSection } from '../components/Common/PageSection';
+import '../../styles/Gallery.css';
+import { PageSection } from '../content/PageSection';
 
 export const Gallery = () => {
   const location = useLocation();
