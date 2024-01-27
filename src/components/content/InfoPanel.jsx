@@ -1,4 +1,4 @@
-export const BlogInfo = ({ entry }) => {
+export const InfoPanel = ({ entry }) => {
   return (
     <ul className="workshop-info-container">
       {entry.info.map((detail, index) => (

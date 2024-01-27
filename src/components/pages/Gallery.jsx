@@ -1,12 +1,13 @@
 //import { ImageContainer } from '../components/common/ImageContainer';
 // import { ImageGallery } from '../components/Gallery/ImageGallery';
 // import { galleryData } from '../data/galleryData';
+import '../../styles/Gallery.css';
 import { Outlet, useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+
 import { GalleryCategories } from '../content/GalleryCategorySelect';
 import { galleryCategories } from '../../data/galleryCategoryData';
-import { useEffect, useState } from 'react';
-import '../../styles/Gallery.css';
-import { PageSection } from '../content/PageSection';
+import { ContentWrapper } from '../content/ContentWrapper';
 
 export const Gallery = () => {
   const location = useLocation();
@@ -51,12 +52,12 @@ export const Gallery = () => {
         }
         data={galleryCategories}
         />
-   <PageSection
+   <ContentWrapper
            headerText={""}
            wrapperClassName="content-wrapper"
            containerClassName="gallery-content-container">
       <Outlet />
-   </PageSection>
+   </ContentWrapper>
        
     </>
   );

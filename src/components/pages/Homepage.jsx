@@ -1,13 +1,13 @@
 import "../../styles/SplashImage.css";
 import { ImageCarousel } from "../content/ImageCarousel";
-import { PageSection } from "../content/PageSection";
+import { ContentWrapper } from "../content/ContentWrapper";
 import { BlogEntries } from "../content/BlogEntries";
 
 export const HomePage = () => {
   return (
     <>
       <ImageCarousel />
-    {/*   <PageSection
+    {/*   <ContentWrapper
         headerText={"Upcoming Workshops"}
         wrapperClassName="content-wrapper"
         containerClassName="workshop-content-container"
@@ -18,7 +18,7 @@ export const HomePage = () => {
           showTextContent={false}
           isSingleImage={true}
         />
-      </PageSection> */}
+      </ContentWrapper> */}
     </>
   );
 };

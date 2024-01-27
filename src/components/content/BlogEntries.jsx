@@ -1,8 +1,8 @@
 import "../../styles/BlogEntries.css";
 import { ImageContainer } from "./ImageContainer";
 import { entryData } from "../../data/blogData";
-import { BlogTextContent } from "./BlogTextContent";
-import { BlogInfo } from "./BlogInfo";
+import { BlogTextContent } from "./TextSection";
+import { InfoPanel } from "./InfoPanel";
 import { Button } from "../UI/ButtonComponent";
 
 export const BlogEntries = ({
@@ -69,7 +69,7 @@ export const BlogEntries = ({
             <div className="blog-text-wrapper">
               <BlogTextContent entry={entry} index={index} />
               <aside className="workshop-info-wrapper">
-                <BlogInfo entry={entry} />
+                <InfoPanel entry={entry} />
                 <Button className="workshop-cta" url={entry.href}>
                   Påmelding via Kursagenten
                 </Button>

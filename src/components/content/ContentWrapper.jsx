@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import '../../styles/PageSection.css';
 
-export const PageSection = ({
+export const ContentWrapper = ({
   children,
   headerText,
   wrapperClassName = '',

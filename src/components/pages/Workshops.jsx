@@ -1,9 +1,9 @@
-import { PageSection } from "../content/PageSection";
+import { ContentWrapper } from "../content/ContentWrapper";
 import { BlogEntries } from "../content/BlogEntries";
 
 export const Workshops = () => {
   return (
-    <PageSection
+    <ContentWrapper
       headerText={""}
       wrapperClassName="content-wrapper"
       containerClassName="content-container"
@@ -13,6 +13,6 @@ export const Workshops = () => {
         blogContainerClassName="poster-entry"
         showTextContent={true}
       />
-    </PageSection>
+    </ContentWrapper>
   );
 };
