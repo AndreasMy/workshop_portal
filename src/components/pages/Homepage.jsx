@@ -1,6 +1,6 @@
 import "../../styles/SplashImage.css";
 import { ImageCarousel } from "../content/ImageCarousel";
-import { ContentWrapper } from "../content/ContentWrapper";
+import { ContentWrapper } from "../layout/ContentWrapper";
 import { BlogEntries } from "../content/BlogEntries";
 
 export const HomePage = () => {

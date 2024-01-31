@@ -1,7 +1,7 @@
 import "../../styles/BlogEntries.css";
 import { ImageBannerContainer } from "./ImageBannerContainer";
 import { entryData } from "../../data/blogData";
-import { BlogTextContent } from "./TextSection";
+import { TextSection } from "./TextSection";
 import { InfoPanel } from "./InfoPanel";
 import { Button } from "../UI/ButtonComponent";
 
@@ -15,7 +15,12 @@ export const BlogEntries = ({
     <>
       {entryData.map((entry, index) => (
         <div className={wrapperClassName} key={index}>
-          <a href={entry.href} target="_blank" rel="noopener noreferrer" className="a-wrapper">
+          <a
+            href={entry.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="a-wrapper"
+          >
             <div className={blogContainerClassName}>
               {isSingleImage ? (
                 <ImageBannerContainer
@@ -67,7 +72,12 @@ export const BlogEntries = ({
           </a>
           {showTextContent ? (
             <div className="blog-text-wrapper">
-              <BlogTextContent entry={entry} index={index} />
+              <TextSection
+                entry={entry}
+                index={index}
+                SectionElement="ul"
+                ItemElement="li"
+              />
               <aside className="workshop-info-wrapper">
                 <InfoPanel entry={entry} />
                 <Button className="workshop-cta" url={entry.href}>

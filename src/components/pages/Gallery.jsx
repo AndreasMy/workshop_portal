@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 
 import { GalleryCategories } from '../content/GalleryCategorySelect';
 import { galleryCategories } from '../../data/galleryCategoryData';
-import { ContentWrapper } from '../content/ContentWrapper';
+import { ContentWrapper } from '../layout/ContentWrapper';
 
 export const Gallery = () => {
   const location = useLocation();

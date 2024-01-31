@@ -1,4 +1,4 @@
-import { ContentWrapper } from "../content/ContentWrapper";
+import { ContentWrapper } from "../layout/ContentWrapper";
 import { BlogEntries } from "../content/BlogEntries";
 
 export const Workshops = () => {
