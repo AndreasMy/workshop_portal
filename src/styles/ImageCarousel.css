@@ -1,15 +1,22 @@
-.carousel-wrapper {
+.carousel-wrapper,
+.poster-carousel-wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(19, 19, 20);
+  background-color: rgb(20, 20, 22);
 }
 
-.carousel-container {
+.carousel-container,
+.poster-carousel-container {
   position: relative;
   overflow: hidden;
   height: 100%;
   width: 100%;
+}
+
+.poster-carousel-wrapper {
+  padding: 3% 8% 3% 0; 
+  height: 100%;
 }
 
 .carousel-gallery-image {

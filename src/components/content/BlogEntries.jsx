@@ -4,6 +4,7 @@ import { entryData } from "../../data/blogData";
 import { TextSection } from "./TextSection";
 import { InfoPanel } from "./InfoPanel";
 import { Button } from "../UI/ButtonComponent";
+import { ImageCarousel } from "./image-carousel/ImageCarousel";
 
 export const BlogEntries = ({
   wrapperClassName = "",
@@ -71,19 +72,30 @@ export const BlogEntries = ({
             </div>
           </a>
           {showTextContent ? (
-            <div className="blog-text-wrapper">
-              <TextSection
-                entry={entry}
-                index={index}
-                SectionElement="ul"
-                ItemElement="li"
-              />
-              <aside className="workshop-info-wrapper">
-                <InfoPanel entry={entry} />
-                <Button className="workshop-cta" url={entry.href}>
-                  Påmelding via Kursagenten
-                </Button>
-              </aside>
+            <div className="blog-content-wrapper">
+              <div className="blog-text-wrapper">
+                <div className="blog-right-content">
+{/*                   <TextSection
+                    entry={entry}
+                    index={index}
+                    SectionElement="ul"
+                    ItemElement="li"
+                    /> */}
+              <ImageCarousel
+                wrapperClassName="poster-carousel-wrapper"
+                containerClassName="poster-carousel-container"
+                itemClassName="carousel-gallery-image"
+                isImage={false}
+                />
+                  </div>
+                <aside className="workshop-info-wrapper">
+                  <InfoPanel entry={entry} />
+                  <Button className="workshop-cta" url={entry.href}>
+                    Påmelding via Kursagenten
+                  </Button>
+                </aside>
+              </div>
+
             </div>
           ) : null}
         </div>
