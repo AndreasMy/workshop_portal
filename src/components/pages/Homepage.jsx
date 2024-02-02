@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "../../styles/SplashImage.css";
 import { ImageCarousel } from "../content/image-carousel/ImageCarousel";
 import { ContentWrapper } from "../layout/ContentWrapper";
@@ -10,7 +11,6 @@ export const HomePage = () => {
         wrapperClassName="carousel-wrapper"
         containerClassName="carousel-container"
         itemClassName="carousel-gallery-image"
-        isImage = {true}
       />
       {/*   <ContentWrapper
         headerText={"Upcoming Workshops"}

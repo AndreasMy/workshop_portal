@@ -1,0 +1,33 @@
+.slide-video {
+  height: 300px;
+  width: auto;
+}
+
+.slide-content-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.slide-right-content {
+  display: flex;
+  flex-direction: column;
+    flex: 1;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 5%;
+}
+
+.slide-content-header {
+    font-size: 1.3rem;
+}
+
+.slide-content-text-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+}
+
+.slide-content-paragraph {
+    font-size: 1rem;
+}

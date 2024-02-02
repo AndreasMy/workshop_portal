@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import "../../styles/BlogEntries.css";
 import { ImageBannerContainer } from "./ImageBannerContainer";
 import { entryData } from "../../data/blogData";
-import { TextSection } from "./TextSection";
 import { InfoPanel } from "./InfoPanel";
 import { Button } from "../UI/ButtonComponent";
-import { ImageCarousel } from "./image-carousel/ImageCarousel";
+import { SwiperComponent } from "./swiper/SwiperComponent";
 
 export const BlogEntries = ({
   wrapperClassName = "",
@@ -75,18 +76,7 @@ export const BlogEntries = ({
             <div className="blog-content-wrapper">
               <div className="blog-text-wrapper">
                 <div className="blog-right-content">
-{/*                   <TextSection
-                    entry={entry}
-                    index={index}
-                    SectionElement="ul"
-                    ItemElement="li"
-                    /> */}
-              <ImageCarousel
-                wrapperClassName="poster-carousel-wrapper"
-                containerClassName="poster-carousel-container"
-                itemClassName="carousel-gallery-image"
-                isImage={false}
-                />
+                <SwiperComponent dataArray={entry.slideContent}/>
                   </div>
                 <aside className="workshop-info-wrapper">
                   <InfoPanel entry={entry} />
@@ -95,7 +85,6 @@ export const BlogEntries = ({
                   </Button>
                 </aside>
               </div>
-
             </div>
           ) : null}
         </div>

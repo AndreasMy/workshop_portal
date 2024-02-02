@@ -1,14 +1,12 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import { carouselData } from "../../../data/carouselData";
-import { entryData } from "../../../data/blogData";
 import "../../../styles/ImageCarousel.css";
 
 export const ImageCarousel = ({
   wrapperClassName = "",
   containerClassName = "",
   itemClassName = "",
-  isImage = false,
-
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -20,35 +18,21 @@ export const ImageCarousel = ({
     }, 14000);
 
     return () => clearTimeout(timer);
-  }, [currentImageIndex, isImage]);
+  }, [currentImageIndex]);
 
   return (
     <div className={wrapperClassName}>
       <div className={containerClassName}>
-        {isImage
-          ? carouselData.map((item, index) => (
-              <img
-                key={index}
-                src={item.image.image}
-                alt={item.alt}
-                className={`${itemClassName} ${
-                  index === currentImageIndex ? "active" : ""
-                }`}
-              />
-            ))
-          : entryData[0].videos.map((item, index) => (
-              <video
-                key={index}
-                src={item.videoSrc}
-                alt={item.alt}
-                className={`${itemClassName} ${
-                  index === currentImageIndex ? "active" : ""
-                }`}
-                loop
-                muted
-                autoPlay
-              />
-            ))}
+        {carouselData.map((item, index) => (
+          <img
+            key={index}
+            src={item.image.image}
+            alt={item.alt}
+            className={`${itemClassName} ${
+              index === currentImageIndex ? "active" : ""
+            }`}
+          />
+        ))}
       </div>
       {/*       <div className="carousel-nav-container">
         <h2 className="carousel-title">Browse galleries</h2>
