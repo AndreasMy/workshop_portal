@@ -61,13 +61,7 @@ header {
   font-weight: 400;
 }
 
-.header-link:hover {
-  color: rgb(255, 85, 0);
-}
 
-.header-link:active {
-  color: rgb(255, 85, 0);
-}
 
 .burger-button {
   padding: 5px;

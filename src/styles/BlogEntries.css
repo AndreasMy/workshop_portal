@@ -1,8 +1,4 @@
-.poster-entry,
-.blog-text-wrapper,
-.blog-content-wrapper {
-  background-color: rgb(20, 20, 22);
-}
+
 
 .blog-content-wrapper {
   display: flex;
@@ -24,16 +20,6 @@
   /* margin: 1.4% 8%; */
 }
 
-.poster-banner {
-  padding: 2% 0;
-  border-radius: 5px 5px 0 0; 
-}
-
-.workshop-poster-container {
-  width:55%;
-  margin: 0 0 2% 0;
-  /* margin: 1.4% 8%; */
-}
 
 .a-wrapper {
   width: 100%;
@@ -47,6 +33,7 @@
   text-align: center;
   width: 100%;
   margin: 5% 0;
+  border-radius: 5px 5px 0 0; 
 }
 
 .poster-title,
@@ -111,7 +98,6 @@
 .poster-line-overlay {
   height: 1px;
   width: 85%;
-  background-color: rgb(255, 85, 0);
 }
 
 .poster-line {
@@ -177,19 +163,6 @@
   border: none;
   color: antiquewhite;
   font-size: 1.2rem;
-  background-color: rgb(205, 56, 6);
-  cursor: pointer;
-}
-
-.workshop-btn {
-  width: 100%;
-  padding: 20px;
-
-  border-radius: 0 0 5px 5px ;
-  border: none;
-  color: antiquewhite;
-  font-size: 1.2rem;
-  background-color: rgb(205, 56, 6);
   cursor: pointer;
 }
 

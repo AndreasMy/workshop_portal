@@ -11,6 +11,7 @@ import { galleryData } from './data/galleryData';
 
 import './styles/App.css';
 import './styles/LayoutMQueries.css'
+import './styles/page-colors.css';
 
 function App() {
   return (

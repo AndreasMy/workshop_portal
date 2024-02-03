@@ -15,7 +15,10 @@ export const entryData = [
         },
         text: {
           header: "Lær å forenkle motivet",
-          paragraphs: ["Paragraph 1", "Paragraph 2", "Paragraph 3"],
+          paragraphs: [
+            "Lær observasjonsteknikker som hjelper deg med å bryte ned det du ser til forenklede gjengivelser av virkeligheten.",
+            "Denne forenklingen kan brukes som utgangspunkt for mer detaljert gjengivelse.",
+          ],
         },
       },
       {

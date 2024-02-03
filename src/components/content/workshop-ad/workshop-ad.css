@@ -1,0 +1,44 @@
+.workshop-poster-container {
+  width: 70%;
+}
+
+.poster-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  padding: 2% 0;
+}
+
+.banner-header {
+  font-weight: 400;
+}
+
+.poster-line-overlay {
+  height: 1px;
+  margin: 0;
+  width: 60%;
+}
+
+.poster-entry {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 520px;
+  width: 100%;
+  margin: 5% 0;
+  border-radius: 5px;
+}
+
+.workshop-btn {
+  width: 100%;
+  padding: 20px;
+
+  border-radius: 0 0 5px 5px;
+  border: none;
+  color: antiquewhite;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
