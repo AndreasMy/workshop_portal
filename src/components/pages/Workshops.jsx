@@ -1,17 +1,16 @@
 import { ContentWrapper } from "../layout/ContentWrapper";
-import { BlogEntries } from "../content/BlogEntries";
+// import { BlogEntries } from "../content/BlogEntries";
+import { WorkshopAd } from "../content/WorkshopAd";
 
 export const Workshops = () => {
   return (
     <ContentWrapper
-      headerText={""}
       wrapperClassName="content-wrapper"
       containerClassName="content-container"
     >
-      <BlogEntries
-        wrapperClassName="poster-container"
+      <WorkshopAd 
+        wrapperClassName="workshop-poster-container"
         blogContainerClassName="poster-entry"
-        showTextContent={true}
       />
     </ContentWrapper>
   );

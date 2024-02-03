@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export const InfoPanel = ({ entry }) => {
   return (
     <ul className="workshop-info-container">
