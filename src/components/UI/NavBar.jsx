@@ -9,13 +9,12 @@ export const NavBar = ({ toggleMenu }) => {
   return (
     <div className="header-content">
       <div className="title-container">
-
-      <h2 className="header_title">
-        <Link to="/" className="header-title">
-          Andreas Myklebust Art
-        </Link>
-      </h2>
-{/*       <h2 className="header-title-accent"> :artist</h2> */}
+        <h2 className="header_title">
+          <Link to="/" className="header-title">
+            Andreas Myklebust <span className="header-title-accent">Art</span>
+          </Link>
+        </h2>
+        {/*<h2 className="header-title-accent"> :artist</h2> */}
       </div>
       <Nav
         data={navItems}

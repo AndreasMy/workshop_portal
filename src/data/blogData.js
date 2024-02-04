@@ -18,6 +18,8 @@ export const entryData = [
           paragraphs: [
             "Lær observasjonsteknikker som hjelper deg med å bryte ned det du ser til forenklede gjengivelser av virkeligheten.",
             "Denne forenklingen kan brukes som utgangspunkt for mer detaljert gjengivelse.",
+            "Ved å fokusere på de store formene og proporsjonene, vil du kunne tegne mer nøyaktig og effektivt.",
+            "Dette er en grunnleggende ferdighet som er viktig for alle som ønsker å tegne og formidle essensen av det de ser.",
           ],
         },
       },
@@ -29,11 +31,16 @@ export const entryData = [
           className: "slide-video",
         },
         text: {
-          header: "Header",
-          paragraphs: ["Paragraph 1", "Paragraph 2", "Paragraph 3"],
+          header: "Lær å se og tegne rytmer",
+          paragraphs: [
+            "Vi vil utforske det å finne underliggende rytmer og gjentakelser i subjekene vi tegner. ",
+            "Dette er en viktig ferdighet for å kunne tegne med flyt og dynamikk, og det er også en god obervasjons teknikk som hjeleper oss med å se helheten i motivet.",
+            "Ved å finne gjentakende rytmiske former, kan vi lettere tegne proporsjoner og plasseringer riktig.",
+            "Vi vil også se på hvordan vi kan bruke rytmer til å skape en følelse av bevegelse og liv i tegningene våre.",
+          ],
         },
       },
-      {
+      /*       {
         id: 3,
         video: {
           videoSrc: "/workshop_portal/videos/value-scale-web.mp4",
@@ -44,7 +51,7 @@ export const entryData = [
           header: "Header",
           paragraphs: ["Paragraph 1", "Paragraph 2", "Paragraph 3"],
         },
-      },
+      }, */
     ],
     images: [
       /* should be renamed to bannerImages */
@@ -79,7 +86,7 @@ export const entryData = [
       },
       {
         name: "Dato: ",
-        value: "09.03.2024 - 10.03.2024",
+        value: "09/03 - 10/03",
       },
       {
         name: "Tid: ",
@@ -161,7 +168,7 @@ export const entryData = [
       },
       {
         name: "Dato: ",
-        value: "27.04.2024 - 28.04.2024",
+        value: "27/04 - 28/04",
       },
       {
         name: "Tid: ",

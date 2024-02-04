@@ -82,20 +82,23 @@
 @media screen and (min-width: 1701px) and (max-width: 3840px) {
   .banner-container-over-image,
   .content-container {
-    padding: 0 24%;
+    padding: 0 12%;
   }
 
   .header-content,
   .gallery-content-container {
-    padding: 0 5%;
+    padding: 0 12%;
   }
 }
 
+/* Macbook pro */
 @media only screen and (min-device-width: 1800px) and (max-device-width: 1800px) {
   .banner-container-over-image,
   .content-container {
     padding: 0 16%;
   }
+
+
 
   .header-content,
   .gallery-content-container {
