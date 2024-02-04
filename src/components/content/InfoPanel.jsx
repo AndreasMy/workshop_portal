@@ -1,11 +1,17 @@
 /* eslint-disable react/prop-types */
-export const InfoPanel = ({ entry }) => {
+export const InfoPanel = ({
+  entry,
+  containerClassName = "",
+  liClassName = "",
+  headerClassName = "",
+  paraClassName = "",
+}) => {
   return (
-    <ul className="workshop-info-container">
+    <ul className={containerClassName}>
       {entry.info.map((detail, index) => (
-        <li className="details-li-elem" key={index}>
-          <h4 className="details-header">{detail.name}</h4>
-          <p className="details-text">{detail.value}</p>
+        <li className={liClassName} key={index}>
+          <h4 className={headerClassName}>{detail.name}</h4>
+          <p className={paraClassName}>{detail.value}</p>
         </li>
       ))}
     </ul>

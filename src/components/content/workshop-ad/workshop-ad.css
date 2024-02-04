@@ -1,5 +1,18 @@
 .workshop-poster-container {
-  width: 70%;
+  display: flex;
+  width: 75%;
+  height: 70vh;
+ margin: 5% 0 0 0;
+}
+
+.poster-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
 }
 
 .poster-banner {
@@ -20,17 +33,7 @@
   width: 60%;
 }
 
-.poster-entry {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height: 520px;
-  width: 100%;
-  margin: 5% 0;
-  border-radius: 5px;
-}
+
 
 .workshop-btn {
   width: 100%;
@@ -41,4 +44,21 @@
   color: antiquewhite;
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+.workshop-banner-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 1.3% 0 1.5% 0;
+}
+
+.workshop-banner-info {
+  display: flex;
+  align-items: center;
+}
+
+.workshop-banner-header {
+  margin-right: 6px;
 }

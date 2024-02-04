@@ -1,11 +1,24 @@
-.slide-video {
-  height: 400px;
-  width: auto;
-}
-
 .slide-content-wrapper {
   display: flex;
   flex-direction: row;
+  align-items: space-between;
+  height: 100%;
+}
+
+.slide-left {
+  flex: 1; /* Fill the available space in the flex container */
+  display: flex;
+  justify-content: flex-start; /* Center the video horizontally */
+  align-items: center; /* Center the video vertically */
+  height: 100%; /* Fill the height of its parent */
+}
+
+.slide-video {
+  object-fit: contain;
+  max-height: 100%; /* Limit video height to prevent overflow */
+  max-width: 100%; /* Limit video width to prevent overflow */
+  width: auto; /* Adjust width to maintain aspect ratio */
+  height: auto; /* Adjust height to maintain aspect ratio */
 }
 
 .slide-right-content {
@@ -28,7 +41,6 @@
   flex-direction: column;
   height: 100%;
   width: 80%;
-
 }
 
 .slide-content-text-container li {

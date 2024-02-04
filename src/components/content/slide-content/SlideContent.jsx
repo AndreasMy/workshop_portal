@@ -14,7 +14,6 @@ export const SlideContent = ({ media, content }) => {
           autoPlay
         />
       </div>
-
       <div className="slide-right-content">
         <h1 className="slide-content-header">{content.header}</h1>
         <ul className="slide-content-text-container">

@@ -76,10 +76,16 @@ export const BlogEntries = ({
             <div className="blog-content-wrapper">
               <div className="blog-text-wrapper">
                 <div className="blog-right-content">
-                <SwiperComponent dataArray={entry.slideContent}/>
-                  </div>
+                  <SwiperComponent dataArray={entry.slideContent} />
+                </div>
                 <aside className="workshop-info-wrapper">
-                  <InfoPanel entry={entry} />
+                  <InfoPanel
+                    entry={entry}
+                    containerClassName="workshop-info-container"
+                    liClassName="details-li-elem"
+                    headerClassName="details-header"
+                    paraClassName="details-text"
+                  />
                   <Button className="workshop-cta" url={entry.href}>
                     Påmelding via Kursagenten
                   </Button>

@@ -82,16 +82,12 @@ export const entryData = [
         value: "09.03.2024 - 10.03.2024",
       },
       {
-        name: "Lengde: ",
-        value: "2 dager",
-      },
-      {
-        name: "Adresse: ",
-        value: "Briskebyveien 50, Oslo 0259",
-      },
-      {
         name: "Tid: ",
         value: "10:00 - 16:00",
+      },
+      {
+        name: "Hvor: ",
+        value: "Oslo Malerklubb",
       },
     ],
   },
@@ -172,12 +168,8 @@ export const entryData = [
         value: "10:00 - 16:00",
       },
       {
-        name: "Lengde: ",
-        value: "2 dager",
-      },
-      {
-        name: "Adresse: ",
-        value: "Briskebyveien 50, Oslo 0259",
+        name: "Hvor: ",
+        value: "Oslo Malerklubb",
       },
     ],
     text: {
