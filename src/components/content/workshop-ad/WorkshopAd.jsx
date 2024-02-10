@@ -3,8 +3,7 @@
 import "../../../styles/BlogEntries.css";
 import "./workshop-ad.css";
 import { entryData } from "../../../data/blogData";
-import { Button } from "../../UI/ButtonComponent";
-import { SwiperComponent } from "../swiper/SwiperComponent";
+import { SwiperComponent } from "../swiperWorkshopAd/SwiperWorkshopAd";
 import { InfoPanel } from "../InfoPanel";
 
 export const WorkshopAd = ({
@@ -27,8 +26,11 @@ export const WorkshopAd = ({
               headerClassName="workshop-banner-header"
               paraClassName="workshop-banner-para"
             />
-            <SwiperComponent dataArray={entry.slideContent} />
-{/*             <Button className="workshop-btn" url={entry.href}>
+            <SwiperComponent
+              dataArray={entry.slideContent}
+              slidesPerView={"auto"}
+            />
+            {/*             <Button className="workshop-btn" url={entry.href}>
               Påmelding via Kursagenten
             </Button> */}
           </div>

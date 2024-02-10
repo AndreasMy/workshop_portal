@@ -14,7 +14,8 @@ footer,
 header,
 .swiper-slide,
 .blog-text-wrapper,
-.blog-content-wrapper {
+.blog-content-wrapper,
+.img-carousel-content-container {
   background-color: rgb(239, 239, 239);
 }
 

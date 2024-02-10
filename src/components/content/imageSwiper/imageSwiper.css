@@ -1,0 +1,18 @@
+.img-carousel-wrapper {
+  display: flex;
+  width: 100vw; /* Adjust based on your design requirements */
+  max-width: 1100px; /* Optional: to prevent it from becoming too large on wide screens */
+  margin: auto; /* Center align the swiper */
+  height: 45vh;
+  margin: 5% 0%;
+}
+
+.img-carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}

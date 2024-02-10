@@ -4,6 +4,7 @@ import { ImageCarousel } from "../content/image-carousel/ImageCarousel";
 import { ContentWrapper } from "../layout/ContentWrapper";
 import { Button } from "../UI/ButtonComponent";
 import { WorkshopAd } from "../content/workshop-ad/WorkshopAd";
+import { ImageSwiper } from "../content/imageSwiper/ImageSwiper";
 
 export const HomePage = () => {
   return (
@@ -13,7 +14,7 @@ export const HomePage = () => {
         containerClassName="carousel-container"
         itemClassName="carousel-gallery-image"
       >
-{/*         <ContentWrapper
+        {/*         <ContentWrapper
           wrapperClassName="carousel-overlay-wrapper"
           containerClassName="carousel-overlay-container"
         >
@@ -31,6 +32,15 @@ export const HomePage = () => {
         <WorkshopAd
           wrapperClassName="workshop-poster-container"
           blogContainerClassName="poster-entry"
+        />
+      </ContentWrapper>
+      <ContentWrapper
+        wrapperClassName="img-carousel-content-wrapper"
+        containerClassName="img-carousel-content-container"
+      >
+        <ImageSwiper
+          wrapperClassName="img-carousel-wrapper"
+          blogContainerClassName="img-carousel-container"
         />
       </ContentWrapper>
     </>

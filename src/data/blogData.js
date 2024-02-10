@@ -2,8 +2,6 @@ export const entryData = [
   {
     /*     descriptiveTitle: "Helgekurs:", */
     title: "Helgekurs: Tegning & observasjon",
-    location: "Oslo Malerklubb",
-    date: "9/3 - 10/3",
     href: "https://www.kursagenten.no/enkeltkurs/2403-Tegnekurs-1-Grunnleggende-m-Andreas-Myklebust-146963",
     slideContent: [
       {
@@ -40,18 +38,6 @@ export const entryData = [
           ],
         },
       },
-      /*       {
-        id: 3,
-        video: {
-          videoSrc: "/workshop_portal/videos/value-scale-web.mp4",
-          alt: "descriptive text",
-          className: "slide-video",
-        },
-        text: {
-          header: "Header",
-          paragraphs: ["Paragraph 1", "Paragraph 2", "Paragraph 3"],
-        },
-      }, */
     ],
     images: [
       /* should be renamed to bannerImages */
@@ -97,11 +83,8 @@ export const entryData = [
   {
     /*     descriptiveTitle: "Helgekurs:", */
     title: "Helgekurs: Ansiktets anatomi",
-    location: "Oslo Malerklubb",
-    date: "27/4 - 28/4",
     href: "https://www.kursagenten.no/enkeltkurs/2404-Tegnekurs-2-Ansiktets-anatomi-med-Andreas-Myk-209811",
     slideContent: [
-
       {
         id: 1,
         video: {
@@ -115,7 +98,7 @@ export const entryData = [
         },
       },
       {
-        id: 1,
+        id: 2,
         video: {
           videoSrc: "/workshop_portal/videos/value-scale-web.mp4",
           alt: "descriptive text",
