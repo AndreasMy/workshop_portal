@@ -2,7 +2,7 @@ header {
   position: fixed;
   justify-content: center;
   align-items: center;
-  height: 6vh;
+  height: 9vh;
   min-width: 100%;
 }
 
@@ -18,12 +18,7 @@ header {
   font-size: clamp(1.1rem, 2.3vw, 1.7rem);
 }
 
-.header-title-accent {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 400;
 
-
-}
 /* .header-title-accent {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
@@ -31,8 +26,9 @@ header {
   color: rgb(255, 85, 0);
 } */
 
-.header-title {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.header-title,
+.header-title-accent {
+  font-family: 'Times New Roman', Times, serif;
   margin: 0;
   transition: background-color, ease-in-out 0.5s;
 }

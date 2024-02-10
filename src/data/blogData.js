@@ -1,7 +1,7 @@
 export const entryData = [
   {
     /*     descriptiveTitle: "Helgekurs:", */
-    title: "Tegning & observasjon",
+    title: "Helgekurs: Tegning & observasjon",
     location: "Oslo Malerklubb",
     date: "9/3 - 10/3",
     href: "https://www.kursagenten.no/enkeltkurs/2403-Tegnekurs-1-Grunnleggende-m-Andreas-Myklebust-146963",
@@ -92,33 +92,18 @@ export const entryData = [
         name: "Tid: ",
         value: "10:00 - 16:00",
       },
-      {
-        name: "Hvor: ",
-        value: "Oslo Malerklubb",
-      },
     ],
   },
   {
     /*     descriptiveTitle: "Helgekurs:", */
-    title: "Ansiktets anatomi",
+    title: "Helgekurs: Ansiktets anatomi",
     location: "Oslo Malerklubb",
     date: "27/4 - 28/4",
     href: "https://www.kursagenten.no/enkeltkurs/2404-Tegnekurs-2-Ansiktets-anatomi-med-Andreas-Myk-209811",
     slideContent: [
+
       {
         id: 1,
-        video: {
-          videoSrc: "/workshop_portal/videos/block-boy-web.mp4",
-          alt: "descriptive text",
-          className: "slide-video",
-        },
-        text: {
-          header: "Header",
-          paragraphs: ["Paragraph 1", "Paragraph 2", "Paragraph 3"],
-        },
-      },
-      {
-        id: 2,
         video: {
           videoSrc: "/workshop_portal/videos/blockin-rythms-web.mp4",
           alt: "descriptive text",
@@ -130,7 +115,7 @@ export const entryData = [
         },
       },
       {
-        id: 3,
+        id: 1,
         video: {
           videoSrc: "/workshop_portal/videos/value-scale-web.mp4",
           alt: "descriptive text",
@@ -173,10 +158,6 @@ export const entryData = [
       {
         name: "Tid: ",
         value: "10:00 - 16:00",
-      },
-      {
-        name: "Hvor: ",
-        value: "Oslo Malerklubb",
       },
     ],
     text: {

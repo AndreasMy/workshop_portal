@@ -28,9 +28,9 @@ export const WorkshopAd = ({
               paraClassName="workshop-banner-para"
             />
             <SwiperComponent dataArray={entry.slideContent} />
-            <Button className="workshop-btn" url={entry.href}>
+{/*             <Button className="workshop-btn" url={entry.href}>
               Påmelding via Kursagenten
-            </Button>
+            </Button> */}
           </div>
         </div>
       ))}

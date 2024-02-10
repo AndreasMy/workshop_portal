@@ -7,6 +7,7 @@ export const ImageCarousel = ({
   wrapperClassName = "",
   containerClassName = "",
   itemClassName = "",
+  children,
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -22,6 +23,7 @@ export const ImageCarousel = ({
 
   return (
     <div className={wrapperClassName}>
+      {children}
       <div className={containerClassName}>
         {carouselData.map((item, index) => (
           <img

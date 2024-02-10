@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
-import "../../styles/SplashImage.css";
+/* import "../../styles/SplashImage.css"; */
 import { ImageCarousel } from "../content/image-carousel/ImageCarousel";
 import { ContentWrapper } from "../layout/ContentWrapper";
-import { BlogEntries } from "../content/BlogEntries";
+import { Button } from "../UI/ButtonComponent";
+import { WorkshopAd } from "../content/workshop-ad/WorkshopAd";
 
 export const HomePage = () => {
   return (
@@ -11,19 +12,27 @@ export const HomePage = () => {
         wrapperClassName="carousel-wrapper"
         containerClassName="carousel-container"
         itemClassName="carousel-gallery-image"
-      />
-      {/*   <ContentWrapper
-        headerText={"Upcoming Workshops"}
-        wrapperClassName="content-wrapper"
+      >
+{/*         <ContentWrapper
+          wrapperClassName="carousel-overlay-wrapper"
+          containerClassName="carousel-overlay-container"
+        >
+          <div className="carousel-overlay-left">
+            <h2 className="carousel-overlay-header">Upcoming Workshops:</h2>
+            <div className="poster-line-overlay"></div>
+          </div>
+        </ContentWrapper> */}
+      </ImageCarousel>
+
+      <ContentWrapper
+        wrapperClassName="workshop-content-wrapper"
         containerClassName="workshop-content-container"
       >
-        <BlogEntries
-          wrapperClassName="poster-container"
+        <WorkshopAd
+          wrapperClassName="workshop-poster-container"
           blogContainerClassName="poster-entry"
-          showTextContent={false}
-          isSingleImage={true}
         />
-      </ContentWrapper> */}
+      </ContentWrapper>
     </>
   );
 };

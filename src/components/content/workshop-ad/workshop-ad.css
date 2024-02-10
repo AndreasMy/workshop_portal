@@ -1,9 +1,11 @@
 .workshop-poster-container {
   display: flex;
-  width: 75%;
-  height: 70vh;
-  margin: 5% 0 0 0;
-}
+  width: 48%;
+  height: 45vh;
+  margin: 5% 0%;
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  }
 
 .poster-entry {
   display: flex;
@@ -25,6 +27,7 @@
 
 .banner-header {
   font-weight: 400;
+  font-size: clamp(0.8rem, 1.6vw, 3rem);
 }
 
 .poster-line-overlay {
@@ -59,4 +62,8 @@
 
 .workshop-banner-header {
   margin-right: 6px;
+}
+
+.workshop-banner-para {
+  font-size: clamp(0.8rem, 1.6vw, 1rem);
 }

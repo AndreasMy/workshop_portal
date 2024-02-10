@@ -4,13 +4,7 @@ Cred :George Griffiths
 https://griffadev.medium.com/
 */
 
-.workshop-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 100%;
-  padding: 0 8%;
-}
+
 
 .gallery_container {
   min-width: 100%;

@@ -147,13 +147,6 @@
   font-size: 1.1rem;
 }
 
-.workshop-content-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  padding: 0 12%;
-}
 
 .workshop-cta {
   width: 100%;

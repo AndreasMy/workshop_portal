@@ -5,17 +5,23 @@ h2 {
   color: rgb(32, 14, 14);
 }
 
-footer,
+
 body {
   background-color: rgb(164, 164, 163);
 }
 
+footer,
 header,
-.poster-entry,
+.swiper-slide,
 .blog-text-wrapper,
 .blog-content-wrapper {
   background-color: rgb(239, 239, 239);
 }
+
+.poster-entry {
+  background-color: white;
+}
+
 .header-title-accent,
 .header-link:active,
 .header-link:hover {
@@ -30,8 +36,12 @@ header,
   background-color: rgb(180, 11, 36);
 }
 
-.swiper-slide,
-.workshop-page-banner  {
-    background: rgb(209, 209, 213);
+
+.workshop-page-banner {
+  background: rgb(245, 245, 243);
 }
 
+.home-content-wrapper,
+.workshop-content-wrapper {
+  background-color: rgb(239, 239, 239);
+}
