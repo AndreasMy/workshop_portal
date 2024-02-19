@@ -1,13 +1,12 @@
-//import { ImageBannerContainer } from '../components/common/ImageBannerContainer';
 // import { ImageGallery } from '../components/Gallery/ImageGallery';
 // import { galleryData } from '../data/galleryData';
-import '../styles/gallery.styles.css';
+import './gallery.styles.css';
 import { Outlet, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-import { GalleryCategories } from '../components/content/GalleryCategorySelect.component';
-import { galleryCategories } from '../data/galleryCategoryData';
-import { ContentWrapper } from '../components/layout/contentWrapper.component';
+import { GalleryCategories } from '../../components/galleryCategorySelect/GalleryCategorySelect.component';
+import { galleryCategories } from '../../data/galleryCategoryData';
+import { ContentWrapper } from '../../components/contentWrapper/ContentWrapper.component';
 
 export const Gallery = () => {
   const location = useLocation();
