@@ -1,17 +1,17 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import { Layout } from './components/layout/Layout';
-import {HomePage} from './components/pages/HomePage';
-import { Gallery } from './components/pages/Gallery';
-import { Workshops } from './components/pages/Workshops';
-import { About } from './components/pages/About';
-import { Tutorials } from './components/pages/Tutorials';
-import { BlogPage } from './components/pages/Blog';
-import { ImageGallery } from './components/content/ImageGallery';
+import { Layout } from './components/layout/layout.component';
+import { HomePage } from './pages/Homepage.page';
+import { Gallery } from './pages/gallery.page';
+import { Workshops } from './pages/Workshops.page';
+import { About } from './pages/About.page';
+import { Tutorials } from './pages/Tutorials.page';
+import { BlogPage } from './pages/Blog.page';
+import { ImageGallery } from './components/content/ImageGallery.component';
 import { galleryData } from './data/galleryData';
 
 import './styles/App.css';
-import './styles/LayoutMQueries.css'
-import './styles/page-colors.css';
+import './styles/LayoutMQueries.styles.css'
+import './styles/pageColors.styles.css';
 
 function App() {
   return (

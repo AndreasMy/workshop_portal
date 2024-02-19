@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
-/* import "../../styles/SplashImage.css"; */
-import { ImageCarousel } from "../content/image-carousel/ImageCarousel";
-import { ContentWrapper } from "../layout/ContentWrapper";
-import { Button } from "../UI/ButtonComponent";
-import { WorkshopAd } from "../content/workshop-ad/WorkshopAd";
-import { ImageSwiper } from "../content/imageSwiper/ImageSwiper";
+/* import "../../styles/.styles.css"; */
+import { ImageCarousel } from "../components/content/imageCarousel/ImageCarousel.component";
+import { ContentWrapper } from "../components/layout/contentWrapper.component";
+import { Button } from "../components/UI/buttonComponent.component";
+import { WorkshopAd } from "../components/content/workshopAd/WorkshopAd.component";
+import { ImageSwiper } from "../components/content/imageSwiper/ImageSwiper.component";
 
 export const HomePage = () => {
   return (

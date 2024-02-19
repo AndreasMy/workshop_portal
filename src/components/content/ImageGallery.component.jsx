@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import '../../styles/LayoutMQueries.css'
+import '../../styles/LayoutMQueries.styles.css'
 
 
 export const ImageGallery = ({ images, imgListClassName }) => {

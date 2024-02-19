@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import "../../styles/BlogEntries.css";
+import "../../styles/BlogEntries.styles.css";
 import { ImageBannerContainer } from "./ImageBannerContainer";
 import { entryData } from "../../data/blogData";
 import { InfoPanel } from "./InfoPanel";

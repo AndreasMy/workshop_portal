@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import { entryData } from "../../../data/blogData";
-import "../../../styles/ImageCarousel.css";
+import "../../../styles/ImageCarousel.styles.css";
 
 export const VideoCarousel = ({
   wrapperClassName = "",

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { SlideContent } from "../slide-content/SlideContent";
+import { SlideContent } from "../slideContent/SlideContent.component";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,8 +8,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./swiper.css";
-import "../../../styles/BlogEntries.css";
+import "./swiper.styles.css";
+import "../../../styles/BlogEntries.styles.css";
 
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";

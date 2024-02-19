@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import '../../styles/PageSection.css';
+import '../../styles/PageSection.styles.css';
 
 export const ContentWrapper = ({
   children,

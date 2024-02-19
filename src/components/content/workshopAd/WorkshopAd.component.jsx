@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import "../../../styles/BlogEntries.css";
-import "./workshop-ad.css";
+import "../../../styles/BlogEntries.styles.css";
+import "./workshopAd.styles.css";
 import { entryData } from "../../../data/blogData";
-import { SwiperComponent } from "../swiperWorkshopAd/SwiperWorkshopAd";
-import { InfoPanel } from "../InfoPanel";
+import { SwiperComponent } from "../swiperWorkshopAd/SwiperWorkshopAd.component";
+import { InfoPanel } from "../InfoPanel.component";
 
 export const WorkshopAd = ({
   wrapperClassName = "",

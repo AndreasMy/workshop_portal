@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import '../../styles/GalleryCategories.css';
+import '../../styles/GalleryCategories.styles.css';
 import { Link } from 'react-router-dom';
 
 export const GalleryCategories = ({

@@ -25,8 +25,6 @@
   margin-top: 4%;
 }
 
-
-
 .swiper-slide {
   display: flex;
   width: 100%;
@@ -40,8 +38,6 @@
   height: 100%;
   object-fit: cover;
 }
-
-
 
 /* .myImageSwiper .swiper-pagination-bullet {
   --swiper-pagination-color: rgb(180, 11, 36);
