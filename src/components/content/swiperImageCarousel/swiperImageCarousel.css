@@ -1,41 +1,78 @@
 .swiper {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .swiper-wrapper {
-    width: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-  
-    /* Center slide text vertically */
-    display: flex;
+.swiper-wrapper {
+  width: 100%;
+}
 
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .myImageSwiper {
-    margin: 0 auto;
-  
-  }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
 
-  .swiper-slide {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  /* Center slide text vertically */
+  display: flex;
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
+  justify-content: center;
+  align-items: center;
+}
+
+.myImageSwiper {
+  margin: 0 auto;
+  margin-top: 4%;
+}
+
+
+
+.swiper-slide {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+/* .myImageSwiper .swiper-pagination-bullet {
+  --swiper-pagination-color: rgb(180, 11, 36);
+} */
+
+.custom-swiper-button-next,
+.custom-swiper-button-prev,
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active,
+.swiper-pagination {
+  color: rgb(180, 11, 36);
+}
+
+.swiper-navigation-container {
+  right: 5%;
+  z-index: 4;
+  position: absolute;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.navigation-buttons {
+  display: flex;
+  width: 30px;
+}
+
+
+
+.navigation-buttons .swiper-button-prev,
+.navigation-buttons .swiper-button-next {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}

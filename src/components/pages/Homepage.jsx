@@ -14,7 +14,7 @@ export const HomePage = () => {
         containerClassName="carousel-container"
         itemClassName="carousel-gallery-image"
       >
-        {/*         <ContentWrapper
+        <ContentWrapper
           wrapperClassName="carousel-overlay-wrapper"
           containerClassName="carousel-overlay-container"
         >
@@ -22,7 +22,7 @@ export const HomePage = () => {
             <h2 className="carousel-overlay-header">Upcoming Workshops:</h2>
             <div className="poster-line-overlay"></div>
           </div>
-        </ContentWrapper> */}
+        </ContentWrapper>
       </ImageCarousel>
 
       <ContentWrapper

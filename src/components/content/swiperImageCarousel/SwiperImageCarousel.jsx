@@ -14,9 +14,16 @@ import { imageSwiperData } from '../../../data/carouselData';
 // import required modules
 import { FreeMode, Pagination, Navigation } from 'swiper/modules';
 
-export  const  SwiperImageCarousel = () => {
+export const SwiperImageCarousel = () => {
   return (
     <>
+      <div className="swiper-navigation-container">
+        <div className="navigation-buttons">
+          {/* Use Swiper's built-in classes for compatibility */}
+          <div className="swiper-button-prev custom-swiper-button-prev"></div>
+          <div className="swiper-button-next custom-swiper-button-next"></div>
+        </div>
+      </div>
       <Swiper
         slidesPerView={3}
         spaceBetween={60}
@@ -24,17 +31,16 @@ export  const  SwiperImageCarousel = () => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        navigation={true} // Simplified configuration
         modules={[FreeMode, Pagination, Navigation]}
         className="myImageSwiper"
       >
-{imageSwiperData.map((item) => (
-          <SwiperSlide key={item.id}>
-            
+        {imageSwiperData.map((item, index) => (
+          <SwiperSlide key={index}>
             <img src={item.image.image} alt={item.alt} className="swiper-image"/>
           </SwiperSlide>
         ))}
       </Swiper>
     </>
   );
-}
+};
