@@ -1,20 +1,19 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
-import { carouselData } from "../../../data/carouselData";
+import { entryData } from "../../data/blogData";
 import "../../../styles/ImageCarousel.styles.css";
 
-export const ImageCarousel = ({
+export const VideoCarousel = ({
   wrapperClassName = "",
   containerClassName = "",
   itemClassName = "",
-  children,
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setCurrentImageIndex(
-        (prevIndex) => (prevIndex + 1) % carouselData.length
+        (prevIndex) => (prevIndex + 1) % entryData[0].videos.length
       );
     }, 14000);
 
@@ -23,22 +22,21 @@ export const ImageCarousel = ({
 
   return (
     <div className={wrapperClassName}>
-      {children}
       <div className={containerClassName}>
-        {carouselData.map((item, index) => (
-          <img
+        {entryData[0].videos.map((item, index) => (
+          <video
             key={index}
-            src={item.image.image}
+            src={item.videoSrc}
             alt={item.alt}
             className={`${itemClassName} ${
               index === currentImageIndex ? "active" : ""
             }`}
+            loop
+            muted
+            autoPlay
           />
         ))}
       </div>
-      {/*       <div className="carousel-nav-container">
-        <h2 className="carousel-title">Browse galleries</h2>
-      </div> */}
     </div>
   );
 };

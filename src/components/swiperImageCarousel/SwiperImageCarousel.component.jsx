@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import "swiper/css/navigation";
 
 import "./SwiperImageCarousel.styles.css"
-import { imageSwiperData } from '../../../data/carouselData';
+import { imageSwiperData } from '../../data/carouselData';
 
 
 // import required modules

@@ -8,8 +8,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./swiper.styles.css";
-import "../../../styles/BlogEntries.styles.css";
+//import "./swiper.styles.css";
+import "../../styles/BlogEntries.styles.css";
 
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";

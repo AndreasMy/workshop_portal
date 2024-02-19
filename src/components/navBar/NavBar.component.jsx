@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-import "../../styles/Header.styles.css";
+import "./NavBar.styles.css";
 import { Link } from "react-router-dom";
 import { navItems } from "../../data/headerData";
-import { Nav } from "./nav.component";
-import { Button } from "./buttonComponent.component";
+import { Nav } from "../nav/nav.component";
+import { Button } from "../button/Button.component";
 
 export const NavBar = ({ toggleMenu }) => {
   return (

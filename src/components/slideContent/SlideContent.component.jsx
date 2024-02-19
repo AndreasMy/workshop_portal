@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./slideContent.styles.css";
-import "../swiperWorkshopAd/swiper.styles.css";
+import "../swiperWorkshopAd/Swiper.styles.css";
 
 export const SlideContent = ({ media, content }) => {
 
