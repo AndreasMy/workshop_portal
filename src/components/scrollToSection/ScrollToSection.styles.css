@@ -1,0 +1,14 @@
+.workshop-link-to-section {
+    border: none;
+    background: none;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    padding: 12px 0 6px 0;
+    text-decoration: underline;
+}
+
+.workshop-link-to-section:hover {
+    font-size: 1.025rem;
+}
