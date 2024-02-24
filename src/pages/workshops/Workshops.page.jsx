@@ -1,10 +1,10 @@
-import { ContentWrapper } from "../../components/contentWrapper/ContentWrapper.component";
+import { Wrapper } from "../../components/Wrapper/Wrapper.component";
 import { WorkshopAd } from "../../components/workshopAd/WorkshopAd.component";
 // import { BlogEntries } from "../content/BlogEntries";
 
 export const Workshops = () => {
   return (
-    <ContentWrapper
+    <Wrapper
       wrapperClassName="content-wrapper"
       containerClassName="content-container workshop-content-container"
     >
@@ -15,6 +15,6 @@ export const Workshops = () => {
         wrapperClassName="workshop-poster-container"
         blogContainerClassName="poster-entry"
       />
-    </ContentWrapper>
+    </Wrapper>
   );
 };

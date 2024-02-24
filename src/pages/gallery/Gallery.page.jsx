@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 import { GalleryCategories } from '../../components/galleryCategorySelect/GalleryCategorySelect.component';
 import { galleryCategories } from '../../data/galleryCategoryData';
-import { ContentWrapper } from '../../components/contentWrapper/ContentWrapper.component';
+import { Wrapper } from '../../components/Wrapper/Wrapper.component';
 
 export const Gallery = () => {
   const location = useLocation();
@@ -51,12 +51,12 @@ export const Gallery = () => {
         }
         data={galleryCategories}
         />
-   <ContentWrapper
+   <Wrapper
            headerText={""}
            wrapperClassName="content-wrapper"
            containerClassName="gallery-content-container">
       <Outlet />
-   </ContentWrapper>
+   </Wrapper>
        
     </>
   );

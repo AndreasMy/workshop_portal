@@ -81,13 +81,16 @@
 
 @media screen and (min-width: 1701px) and (max-width: 3840px) {
   .banner-container-over-image,
-  .content-container {
-    padding: 0 12%;
+  .content-container,
+  .workshop-content-wrapper,
+  .header-content,
+  .gallery-content-container,
+  .workshop-content-wrapper {
+    padding: 0 8%;
   }
 
-  .header-content,
-  .gallery-content-container {
-    padding: 0 12%;
+  .img-carousel-wrapper {
+    width: 84vw;
   }
 }
 
@@ -97,8 +100,6 @@
   .content-container {
     padding: 0 12%;
   }
-
-
 
   .header-content,
   .gallery-content-container {

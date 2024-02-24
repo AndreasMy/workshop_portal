@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 /* import "../../styles/.styles.css"; */
 import { ImageCarousel } from "../../components/imageCarousel/ImageCarousel.component";
-import { ContentWrapper } from "../../components/contentWrapper/ContentWrapper.component";
+import { Wrapper } from "../../components/Wrapper/Wrapper.component";
 import { Button } from "../../components/button/Button.component";
 import { WorkshopAd } from "../../components/workshopAd/WorkshopAd.component";
-import { ImageSwiper } from "../../components/imageSwiper/imageSwiper.component";
+import { ImageSwiper } from "../../components/imageSwiper/ImageSwiper.component";
 
 export const HomePage = () => {
   return (
@@ -14,18 +14,18 @@ export const HomePage = () => {
         containerClassName="carousel-container"
         itemClassName="carousel-gallery-image"
       >
-        <ContentWrapper
+        <Wrapper
           wrapperClassName="carousel-overlay-wrapper"
           containerClassName="carousel-overlay-container"
         >
           <div className="carousel-overlay-left">
-            <h2 className="carousel-overlay-header">Upcoming Workshops:</h2>
-            <div className="poster-line-overlay"></div>
+            <h2 className="carousel-overlay-header">Upcoming Workshops</h2>
+            <div className="carousel-line-overlay"></div>
           </div>
-        </ContentWrapper>
+        </Wrapper>
       </ImageCarousel>
 
-      <ContentWrapper
+      <Wrapper
         wrapperClassName="workshop-content-wrapper"
         containerClassName="workshop-content-container"
       >
@@ -33,8 +33,8 @@ export const HomePage = () => {
           wrapperClassName="workshop-poster-container"
           blogContainerClassName="poster-entry"
         />
-      </ContentWrapper>
-      <ContentWrapper
+      </Wrapper>
+      <Wrapper
         wrapperClassName="img-carousel-content-wrapper"
         containerClassName="img-carousel-content-container"
       >
@@ -42,7 +42,7 @@ export const HomePage = () => {
           wrapperClassName="img-carousel-wrapper"
           blogContainerClassName="img-carousel-container"
         />
-      </ContentWrapper>
+      </Wrapper>
     </>
   );
 };

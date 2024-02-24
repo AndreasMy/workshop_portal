@@ -29,7 +29,7 @@ footer {
 
 main {
   height: 100%;
-  margin-top: 9vh;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,7 @@ header {
   flex-direction: column;
   align-items: center;
   min-width: 100%;
-  padding: 0 5%;
+
 }
 
 .wrapper-wrapper {
@@ -75,12 +75,13 @@ header {
   padding: 0 ;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0;
 }
 
 .img-carousel-content-container {
   display: flex;
   justify-content: center;
-  padding: 0 
+  padding: 0;
 }
 
 .workshop-content-container {

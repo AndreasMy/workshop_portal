@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 //import '../styles/PageSection.styles.css';
 
-export const ContentWrapper = ({
+export const Wrapper = ({
   children,
   wrapperClassName = '',
   containerClassName = '',
