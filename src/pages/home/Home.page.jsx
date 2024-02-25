@@ -2,7 +2,7 @@
 /* import "../../styles/.styles.css"; */
 import React from "react";
 import { ImageCarousel } from "../../components/imageCarousel/ImageCarousel.component";
-import { Wrapper } from "../../components/Wrapper/Wrapper.component";
+import { Wrapper } from "../../components/wrapper/Wrapper.component";
 import { Button } from "../../components/button/Button.component";
 import { WorkshopAd } from "../../components/workshopAd/WorkshopAd.component";
 import { ImageSwiper } from "../../components/imageSwiper/ImageSwiper.component";
