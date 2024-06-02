@@ -3,7 +3,6 @@ import "./slideContent.styles.css";
 import "../swiperWorkshopAd/Swiper.styles.css";
 
 export const SlideContent = ({ media, content }) => {
-
   return (
     <div className="slide-content-wrapper">
       <div className="slide-left">

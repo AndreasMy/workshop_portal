@@ -9,6 +9,7 @@ import { BlogPage } from './pages/blog/Blog.page';
 import { ImageGallery } from './components/imageGallery/ImageGallery.component';
 import { galleryData } from './data/galleryData';
 
+import './styles/Text.styles.css'
 import './styles/App.css';
 import './styles/LayoutMQueries.styles.css'
 import './styles/pageColors.styles.css';

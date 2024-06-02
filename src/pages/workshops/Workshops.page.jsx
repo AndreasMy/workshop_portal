@@ -1,4 +1,4 @@
-import { Wrapper } from "../../components/Wrapper/Wrapper.component";
+import { Wrapper } from "../../components/wrapper/Wrapper.component";
 import { WorkshopAd } from "../../components/workshopAd/WorkshopAd.component";
 // import { BlogEntries } from "../content/BlogEntries";
 

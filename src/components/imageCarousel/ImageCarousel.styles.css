@@ -70,7 +70,7 @@
 
   /*   border: 2px solid red; */
 
-  top: 0;
+  top: 80px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -84,20 +84,8 @@
 
   background-color: rgb(239, 239, 239);
   margin: 0 0 2% 0;
-  padding: 0.6% 0 1.4% 0 ;
+  padding: 0.6% 0 1.4% 0;
   border-radius: 5px;
-}
-
-.carousel-overlay-header {
-  width: 100%;
-  margin: 0 0 2% 0;
-}
-
-.carousel-overlay-container h2 {
-  background: none;
-  font-size: 1.7rem;
-  font-weight: 400;
-
 }
 
 .carousel-overlay-left {
@@ -110,7 +98,7 @@
   padding: 1% 0 0 0%;
 }
 
-.carousel-line-overlay{
+.carousel-line-overlay {
   height: 1px;
 
   width: 85%;

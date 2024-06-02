@@ -1,0 +1,72 @@
+@import url("https://use.typekit.net/xrh5alg.css");
+
+
+.workshop-link-to-section,
+.slide-content-header,
+.slide-content-paragraph {
+  font-family: "sorts-mill-goudy", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.header_title,
+.banner-header,
+.header-link,
+.workshop-banner-header,
+.workshop-banner-para,
+.carousel-overlay-header {
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-title,
+.header-title-accent {
+  font-weight: 500;
+  font-size: clamp(1.5rem, 2.3vw, 2rem);
+}
+
+.header-title,
+.header-title-accent {
+
+  margin: 0;
+  transition: background-color, ease-in-out 0.5s;
+}
+
+.workshop-banner-header {
+  font-weight: 600;
+}
+.workshop-banner-header,
+.workshop-banner-para {
+  font-size: clamp(1rem, 0.8vw, 1.2rem);
+}
+
+.carousel-overlay-header {
+  width: 100%;
+  margin: 0 0 2% 0;
+  font-size: clamp(1rem, 2.3vw, 2.5rem);
+}
+
+.workshop-link-to-section {
+  font-size: clamp(0.6rem, 1.3vw, 1.3rem);
+}
+
+.workshop-link-to-section:hover {
+  font-size: clamp(0.07rem, 1.35vw, 1.35rem);
+}
+
+.banner-header {
+  font-weight: 400;
+  font-size: clamp(1rem, 2.3vw, 3rem);
+}
+
+.slide-content-header {
+  font-size: 1rem;
+  font-weight: 400;
+  font-size: clamp(1.2rem, 1.3vw, 1.5rem);
+  margin: 0 0 1% 0;
+}
+
+.slide-content-paragraph {
+  font-size: clamp(0.9rem, 1vw, 1.1rem);
+}

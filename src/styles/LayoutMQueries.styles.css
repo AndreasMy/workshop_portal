@@ -47,10 +47,13 @@
     width: 100%;
   }
 
-  .header-content {
+  .header-content,
+  .workshop-content-wrapper  {
     padding: 0 5%;
   }
-  .carousel-container {
+  .carousel-container,
+  .carousel-wrapper,
+  .carousel-overlay-wrapper {
     height: 360px;
   }
 }
@@ -62,9 +65,16 @@
   }
 
   .header-content,
-  .gallery-content-container {
+  .gallery-content-container,
+  .workshop-content-wrapper  {
     padding: 0 5%;
   }
+  .carousel-container,
+  .carousel-wrapper,
+  .carousel-overlay-wrapper {
+    height: 60vh;
+  }
+
 }
 
 @media screen and (min-width: 1441px) and (max-width: 1700px) {
@@ -74,7 +84,8 @@
   }
 
   .header-content,
-  .gallery-content-container {
+  .gallery-content-container,
+  .workshop-content-wrapper  {
     padding: 0 5%;
   }
 }
@@ -86,11 +97,11 @@
   .header-content,
   .gallery-content-container,
   .workshop-content-wrapper {
-    padding: 0 8%;
+    padding: 0 14%;
   }
 
   .img-carousel-wrapper {
-    width: 84vw;
+    width: 72vw;
   }
 }
 
@@ -102,7 +113,12 @@
   }
 
   .header-content,
-  .gallery-content-container {
+  .gallery-content-container,
+  .workshop-content-wrapper {
     padding: 0 5%;
+  }
+
+  .img-carousel-wrapper {
+    width: 90vw;
   }
 }

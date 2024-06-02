@@ -6,8 +6,7 @@ import { useEffect, useState } from 'react';
 
 import { GalleryCategories } from '../../components/galleryCategorySelect/GalleryCategorySelect.component';
 import { galleryCategories } from '../../data/galleryCategoryData';
-import { Wrapper } from '../../components/Wrapper/Wrapper.component';
-
+import { Wrapper } from '../../components/wrapper/Wrapper.component';
 export const Gallery = () => {
   const location = useLocation();
   const [categorySelected, setCategorySelected] = useState(false);

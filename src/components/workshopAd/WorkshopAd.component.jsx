@@ -5,6 +5,7 @@ import "./WorkshopAd.styles.css";
 import { entryData } from "../../data/blogData";
 import { SwiperComponent } from "../swiperWorkshopAd/SwiperWorkshopAd.component";
 import { InfoPanel } from "../infoPanel/InfoPanel.component";
+import { Button } from "../button/Button.component";
 
 export const WorkshopAd = ({
   wrapperClassName = "",
@@ -30,9 +31,9 @@ export const WorkshopAd = ({
               dataArray={entry.slideContent}
               slidesPerView={"auto"}
             />
-            {/*             <Button className="workshop-btn" url={entry.href}>
-              Påmelding via Kursagenten
-            </Button> */}
+            <Button className="workshop-btn" url={entry.href}>
+              Til Påmelding
+            </Button>
           </div>
         </div>
       ))}

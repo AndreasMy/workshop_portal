@@ -21,7 +21,7 @@ export const carouselData = [
 
 export const imageSwiperData = [
   {
-    image: galleryData.paintings[15],
+    image: galleryData.paintings[17],
   },
   {
     image: galleryData.paintings[5],
@@ -30,10 +30,10 @@ export const imageSwiperData = [
     image: galleryData.paintings[4],
   },
   {
-    image: galleryData.paintings[17],
+    image: galleryData.paintings[6],
   },
   {
-    image: galleryData.paintings[6],
+    image: galleryData.paintings[15],
   },
   {
     image: galleryData.paintings[8],

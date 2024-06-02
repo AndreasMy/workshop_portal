@@ -5,17 +5,16 @@
   margin-right: auto;
 }
 
-.swiper-wrapper {
+.myImageSwiper {
   width: 100%;
+  height: 380px;
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-
   /* Center slide text vertically */
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
@@ -63,8 +62,6 @@
   display: flex;
   width: 30px;
 }
-
-
 
 .navigation-buttons .swiper-button-prev,
 .navigation-buttons .swiper-button-next {
