@@ -6,7 +6,7 @@ import "./imageGallery.styles.css";
 import { Button } from "../button/button.component";
 import { Lightbox } from "../lightbox/lightbox.component";
 
-export const ImageGallery = ({ images, imgListClassName }) => {
+export const ImageGallery = ({ images, thumbnails, imgListClassName }) => {
   const [isModalOpen, setModalOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(null);
 
@@ -31,13 +31,13 @@ export const ImageGallery = ({ images, imgListClassName }) => {
   return (
     <>
       <ul className="gallery-container">
-        {images.map((img, index) => (
+        {thumbnails.map((thumb, index) => (
           <li key={index} className={imgListClassName}>
             <Button
               className="image-container"
               onClick={() => handleClick(index)}
             >
-              <img src={img.image} alt={img.alt} className={img.className} />
+              <img src={thumb.image} alt={thumb.alt} className={thumb.className} />
             </Button>
           </li>
         ))}

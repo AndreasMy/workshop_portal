@@ -1,41 +1,41 @@
-import { galleryData } from './galleryData';
+import { galleryImagesData } from './galleryImagesData';
 
 export const carouselData = [
   // {
-  //   image: galleryData.paintings[17],
+  //   image: galleryImagesData.paintings[17],
   // },
   // {
-  //   image: galleryData.paintings[18],
+  //   image: galleryImagesData.paintings[18],
   // },
   // {
-  //   image: galleryData.digital[0],
+  //   image: galleryImagesData.digital[0],
   //   title: 'Digital Illustration'
   // },
   {
-    image: galleryData.paintings[15],
+    image: galleryImagesData.paintings[16],
   },
   {
-    image: galleryData.drawings[4],
+    image: galleryImagesData.drawings[4],
   },
 ];
 
 export const imageSwiperData = [
   {
-    image: galleryData.paintings[17],
+    image: galleryImagesData.paintings[17],
   },
   {
-    image: galleryData.paintings[5],
+    image: galleryImagesData.paintings[5],
   },
   {
-    image: galleryData.paintings[4],
+    image: galleryImagesData.paintings[4],
   },
   {
-    image: galleryData.paintings[6],
+    image: galleryImagesData.paintings[6],
   },
   {
-    image: galleryData.paintings[15],
+    image: galleryImagesData.paintings[15],
   },
   {
-    image: galleryData.paintings[8],
+    image: galleryImagesData.paintings[8],
   },
 ]

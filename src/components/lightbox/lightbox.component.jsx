@@ -27,7 +27,7 @@ export const Lightbox = ({ isOpen, onClose, onPrev, onNext, children }) => {
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
-  }, [isOpen, onClose]);
+  }, [isOpen, onClose, onNext, onPrev]);
 
   if (!isOpen) return null;
 
