@@ -8,9 +8,6 @@ export const Workshops = () => {
       wrapperClassName="content-wrapper"
       containerClassName="content-container workshop-content-container"
     >
-{/*       <div className="workshop-page-banner">
-        <h2>Jeg tilbyr 2 helgekurs i våren 2024:</h2>
-      </div> */}
       <WorkshopAd 
         wrapperClassName="workshop-poster-container"
         blogContainerClassName="poster-entry"

@@ -1,0 +1,53 @@
+@import url("https://use.typekit.net/xrh5alg.css");
+
+/* #root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
+} */
+
+:root {
+  /* Fonts */
+  --primary-font: "futura-pt", sans-serif;
+  --secondary-font: "sorts-mill-goudy", serif;
+
+  /* Colors */
+  --primary-color-A: rgb(32, 14, 14);
+  --background-color-A: rgb(239, 239, 239);
+  --background-color-B: rgb(224, 223, 223);
+  --background-color-C: white;
+  --accent-color-A: rgb(180, 11, 36);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+a,
+p,
+h1,
+h2 {
+  color: var(--primary-color-A);
+}
+
+p {
+  line-height: 30px;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  min-width: 100%;
+
+  background-color: var(--background-color-B);
+}

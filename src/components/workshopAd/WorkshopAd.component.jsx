@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import "../../styles/BlogEntries.styles.css";
+// import "../../styles/BlogEntries.styles.css";
 import "./workshopAd.styles.css";
 import { entryData } from "../../data/blogData";
 import { SwiperComponent } from "../swiperWorkshopAd/swiperWorkshopAd.component";

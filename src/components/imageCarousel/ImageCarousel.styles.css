@@ -48,6 +48,27 @@
   transform: scale(1);
 }
 
+.img-carousel-content-wrapper {
+  width: 100%;
+}
+
+.img-carousel-content-container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+
+  background-color: var(--background-color-A);
+}
+
+.carousel-overlay-header {
+  width: 100%;
+  margin: 0 0 2% 0;
+  font-size: clamp(1rem, 2.3vw, 2.5rem);
+  font-weight: 400;
+  font-style: normal;
+  font-family: var(--primary-font);
+}
+
 .carousel-nav-container {
   display: flex;
   align-items: center;
@@ -100,8 +121,8 @@
 
 .carousel-line-overlay {
   height: 1px;
-
   width: 85%;
+background-color: var(--accent-color-A);
 }
 
 @media screen and (min-width: 20px) and (max-width: 1024px) {

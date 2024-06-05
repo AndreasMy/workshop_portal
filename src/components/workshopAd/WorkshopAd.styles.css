@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
+  background-color: var(--background-color-A);
 }
 
 .workshop-content-container {
@@ -32,6 +33,7 @@
   height: 100%;
   width: 100%;
   border-radius: 5px;
+  background-color: var(--background-color-C);
 }
 
 .poster-banner {
@@ -47,6 +49,7 @@
   height: 1px;
   margin: 0;
   width: 85%;
+  background-color: var(--accent-color-A);
 }
 
 .workshop-btn {
@@ -65,12 +68,31 @@
   margin: 0 7.5% 3% 0;
 }
 
+.workshop-btn, 
+.workshop-cta {
+  background-color: var(--accent-color-A);
+}
+
 .workshop-banner-info-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 85%;
   margin: 0.4% 0 1.5% 0;
+}
+
+.workshop-banner-para {
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(1rem, 0.8vw, 1.2rem);
+  font-family: var(--primary-font);
+}
+
+.banner-header {
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(1rem, 2.3vw, 3rem);
+  font-family: var(--primary-font);
 }
 
 .workshop-banner-info {
@@ -80,5 +102,8 @@
 
 .workshop-banner-header {
   margin-right: 6px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: var(--primary-font);
 }
 

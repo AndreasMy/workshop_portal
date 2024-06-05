@@ -10,6 +10,8 @@ import { ImageSwiper } from "../../components/imageSwiper/imageSwiper.component"
 import { entryData } from "../../data/blogData";
 import { ScrollToSection } from "../../components/scrollToSection/scrollToSection.component";
 
+import './home.styles.css'
+
 export const HomePage = () => {
   return (
     <>

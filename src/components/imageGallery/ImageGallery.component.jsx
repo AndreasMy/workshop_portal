@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 
-import "../../styles/LayoutMQueries.styles.css";
+import '../layout/LayoutMQueries.styles.css'
 import "./imageGallery.styles.css";
 import { Button } from "../button/button.component";
 import { Lightbox } from "../lightbox/lightbox.component";

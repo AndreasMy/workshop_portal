@@ -4,8 +4,22 @@ Cred :George Griffiths
 https://griffadev.medium.com/
 */
 
+.gallery-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .gallery_container {
   min-width: 100%;
+}
+
+.gallery-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .gallery-container img {

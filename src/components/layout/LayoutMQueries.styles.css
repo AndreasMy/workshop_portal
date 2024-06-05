@@ -1,5 +1,5 @@
 @media screen and (min-width: 20px) and (max-width: 768px) {
-  .banner-container-over-image,
+  
   .content-container {
     padding: 0 5%;
   }
@@ -38,11 +38,6 @@
     margin: 22px 0 0 0;
   }
 
-  .blog-text-wrapper {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
   .blog-section {
     width: 100%;
   }
@@ -59,7 +54,7 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1440px) {
-  .banner-container-over-image,
+  
   .content-container {
     padding: 0 5%;
   }
@@ -78,7 +73,7 @@
 }
 
 @media screen and (min-width: 1441px) and (max-width: 1700px) {
-  .banner-container-over-image,
+  
   .content-container {
     padding: 0 5%;
   }
@@ -91,9 +86,7 @@
 }
 
 @media screen and (min-width: 1701px) and (max-width: 3840px) {
-  .banner-container-over-image,
   .content-container,
-  .workshop-content-wrapper,
   .header-content,
   .gallery-content-container,
   .workshop-content-wrapper {
@@ -107,7 +100,7 @@
 
 /* Macbook pro */
 @media only screen and (min-device-width: 1800px) and (max-device-width: 1800px) {
-  .banner-container-over-image,
+  
   .content-container {
     padding: 0 12%;
   }

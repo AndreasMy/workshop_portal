@@ -9,10 +9,8 @@ import { BlogPage } from './pages/blog/blog.page';
 import { ImageGallery } from './components/imageGallery/imageGallery.component';
 import { galleryData } from './data/galleryData';
 
-import './styles/Text.styles.css'
-import './styles/App.css';
-import './styles/LayoutMQueries.styles.css'
-import './styles/pageColors.styles.css';
+import '../src/components/layout/LayoutMQueries.styles.css'
+import './globalStyles/global.styles.css'
 
 function App() {
   return (

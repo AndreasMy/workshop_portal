@@ -52,7 +52,7 @@ export const Gallery = () => {
         />
    <Wrapper
            headerText={""}
-           wrapperClassName="content-wrapper"
+           wrapperClassName="gallery-content-wrapper"
            containerClassName="gallery-content-container">
       <Outlet />
    </Wrapper>
