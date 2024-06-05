@@ -3,6 +3,9 @@ import { useEffect } from "react";
 import "./lightbox.styles.css";
 import { Button } from "../button/button.component";
 
+const arrowLeft = "assets/arrow-left-wide-fill.svg";
+const arrowRight = "assets/arrow-right-wide-fill.svg";
+
 export const Lightbox = ({ isOpen, onClose, onPrev, onNext, children }) => {
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -36,9 +39,17 @@ export const Lightbox = ({ isOpen, onClose, onPrev, onNext, children }) => {
         </Button>
       </div>
       <div className="lightbox-wrapper" onClick={(e) => e.stopPropagation()}>
-        <div className="lightbox-controls">
-          <div className="lightbox-control" onClick={onPrev}></div>
-          <div className="lightbox-control" onClick={onNext}></div>
+        <div className="lightbox-controls ">
+          <div className="lightbox-control lc-left" onClick={onPrev}>
+            <Button className="lightbox-nav-button" onClick={onPrev}>
+              <img src={arrowLeft} alt="Arrow SVG" className="nav-arrow" />
+            </Button>
+          </div>
+          <div className="lightbox-control lc-right" onClick={onNext}>
+            <Button className="lightbox-nav-button" onClick={onNext}>
+              <img src={arrowRight} alt="Arrow SVG" className="nav-arrow" />
+            </Button>
+          </div>
         </div>
 
         <div className="lightbox-content">{children}</div>
