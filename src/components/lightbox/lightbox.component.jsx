@@ -1,13 +1,17 @@
 /* eslint-disable react/prop-types */
 import { useEffect } from "react";
 import "./lightbox.styles.css";
-import { Button } from "../button/Button.component";
+import { Button } from "../button/button.component";
 
 export const Lightbox = ({ isOpen, onClose, onPrev, onNext, children }) => {
   useEffect(() => {
     const handleKeyDown = (event) => {
       if (event.key === "Escape") {
         onClose();
+      } else if (event.key === "ArrowRight") {
+        onNext();
+      } else if (event.key === "ArrowLeft") {
+        onPrev();
       }
     };
 
@@ -31,11 +35,7 @@ export const Lightbox = ({ isOpen, onClose, onPrev, onNext, children }) => {
           X
         </Button>
       </div>
-      <div
-        className="lightbox-wrapper"
-
-        onClick={(e) => e.stopPropagation()}
-      >
+      <div className="lightbox-wrapper" onClick={(e) => e.stopPropagation()}>
         <div className="lightbox-controls">
           <div className="lightbox-control" onClick={onPrev}></div>
           <div className="lightbox-control" onClick={onNext}></div>

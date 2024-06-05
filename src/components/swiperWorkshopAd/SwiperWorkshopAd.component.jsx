@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { SlideContent } from "../slideContent/SlideContent.component";
+import { SlideContent } from "../slideContent/slideContent.component";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

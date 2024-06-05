@@ -7,10 +7,10 @@ export const carouselData = [
   // {
   //   image: galleryData.paintings[18],
   // },
-  {
-    image: galleryData.digital[0],
-    title: 'Digital Illustration'
-  },
+  // {
+  //   image: galleryData.digital[0],
+  //   title: 'Digital Illustration'
+  // },
   {
     image: galleryData.paintings[15],
   },

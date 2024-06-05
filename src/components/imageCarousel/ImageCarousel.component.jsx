@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import { carouselData } from "../../data/carouselData";
-import "./ImageCarousel.styles.css";
+import "./imageCarousel.styles.css";
 
 export const ImageCarousel = ({
   wrapperClassName = "",

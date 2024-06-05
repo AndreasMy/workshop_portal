@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import './scrollToSection.styles.css'
-import { Button } from "../button/Button.component";
+import { Button } from "../button/button.component";
 
 export const ScrollToSection = ({ data, sectionId,  }) => {
   const scrollToSection = (sectionId) => {

@@ -2,8 +2,8 @@
 import { useState } from "react";
 
 import "../../styles/LayoutMQueries.styles.css";
-import "./ImageGallery.styles.css";
-import { Button } from "../button/Button.component";
+import "./imageGallery.styles.css";
+import { Button } from "../button/button.component";
 import { Lightbox } from "../lightbox/lightbox.component";
 
 export const ImageGallery = ({ images, imgListClassName }) => {

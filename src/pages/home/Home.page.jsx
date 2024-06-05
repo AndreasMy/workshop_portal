@@ -1,14 +1,14 @@
 /* eslint-disable no-unused-vars */
 /* import "../../styles/.styles.css"; */
 import React from "react";
-import { ImageCarousel } from "../../components/imageCarousel/ImageCarousel.component";
+import { ImageCarousel } from "../../components/imageCarousel/imageCarousel.component";
 import { Wrapper } from "../../components/wrapper/Wrapper.component";
-import { Button } from "../../components/button/Button.component";
-import { WorkshopAd } from "../../components/workshopAd/WorkshopAd.component";
-import { ImageSwiper } from "../../components/imageSwiper/ImageSwiper.component";
+import { Button } from "../../components/button/button.component";
+import { WorkshopAd } from "../../components/workshopAd/workshopAd.component";
+import { ImageSwiper } from "../../components/imageSwiper/imageSwiper.component";
 
 import { entryData } from "../../data/blogData";
-import { ScrollToSection } from "../../components/scrollToSection/ScrollToSection.component";
+import { ScrollToSection } from "../../components/scrollToSection/scrollToSection.component";
 
 export const HomePage = () => {
   return (

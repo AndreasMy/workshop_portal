@@ -4,7 +4,7 @@ import './gallery.styles.css';
 import { Outlet, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-import { GalleryCategories } from '../../components/galleryCategorySelect/GalleryCategorySelect.component';
+import { GalleryCategories } from '../../components/galleryCategorySelect/galleryCategorySelect.component';
 import { galleryCategories } from '../../data/galleryCategoryData';
 import { Wrapper } from '../../components/wrapper/Wrapper.component';
 export const Gallery = () => {

@@ -7,7 +7,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import "swiper/css/navigation";
 
-import "./SwiperImageCarousel.styles.css"
+import "./swiperImageCarousel.styles.css"
 import { imageSwiperData } from '../../data/carouselData.js';
 
 // import required modules
