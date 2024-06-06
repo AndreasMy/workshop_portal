@@ -43,7 +43,10 @@
   }
 
   .header-content,
-  .workshop-content-wrapper  {
+  .workshop-content-wrapper,
+  .homepage-header-wrapper,
+  .homepage-header-lower-container,
+  .img-carousel-container  {
     padding: 0 5%;
   }
   .carousel-container,
@@ -61,7 +64,10 @@
 
   .header-content,
   .gallery-content-container,
-  .workshop-content-wrapper  {
+  .workshop-content-wrapper,
+  .homepage-header-wrapper,
+  .homepage-header-lower-container,
+  .img-carousel-container  {
     padding: 0 5%;
   }
   .carousel-container,
@@ -80,7 +86,10 @@
 
   .header-content,
   .gallery-content-container,
-  .workshop-content-wrapper  {
+  .workshop-content-wrapper,
+  .homepage-header-wrapper,
+  .homepage-header-lower-container,
+  .img-carousel-container  {
     padding: 0 5%;
   }
 }
@@ -89,13 +98,16 @@
   .content-container,
   .header-content,
   .gallery-content-container,
-  .workshop-content-wrapper {
+  .workshop-content-wrapper,
+  .homepage-header-wrapper,
+  .homepage-header-lower-container,
+  .img-carousel-container {
     padding: 0 14%;
   }
 
-  .img-carousel-wrapper {
+  /* .img-carousel-wrapper {
     width: 72vw;
-  }
+  } */
 }
 
 /* Macbook pro */
@@ -107,11 +119,13 @@
 
   .header-content,
   .gallery-content-container,
-  .workshop-content-wrapper {
+  .workshop-content-wrapper,
+  .homepage-header-wrapper,
+  .homepage-header-lower-container {
     padding: 0 5%;
   }
 
-  .img-carousel-wrapper {
+  /* .img-carousel-wrapper {
     width: 90vw;
-  }
+  } */
 }

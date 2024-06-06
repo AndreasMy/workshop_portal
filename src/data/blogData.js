@@ -86,7 +86,7 @@ export const entryData = [
       {
         id: 1,
         media: {
-          src: "/workshop_portal/videos/blockin-rythms-web.mp4",
+          src: "/workshop_portal/thumbnails/paintings/studio/jordan-1-thumbnail.jpg",
           imageSrc: "",
           alt: "descriptive text",
           className: "slide-video",
@@ -166,7 +166,7 @@ export const entryData = [
       {
         id: 1,
         media: {
-          src: "/workshop_portal/videos/blockin-rythms-web.mp4",
+          src: "/workshop_portal/thumbnails/paintings/landscape/fflorence-paintings-3-thumbnail.jpg",
           imageSrc: "",
           alt: "descriptive text",
           className: "slide-video",

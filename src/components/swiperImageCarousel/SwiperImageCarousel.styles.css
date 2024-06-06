@@ -13,16 +13,15 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.myImageSwiper {
+/* .myImageSwiper {
   margin: 0 auto;
   margin-top: 4%;
-}
+} */
 
 .swiper-slide {
   display: flex;

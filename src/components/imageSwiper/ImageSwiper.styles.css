@@ -1,9 +1,8 @@
 .img-carousel-wrapper {
   display: flex;
-  width: 90vw; 
+  width: 100vw; 
   margin: auto; 
   height: 100%;
-  margin: 2% 0%;
 }
 
 .img-carousel-container {
@@ -13,5 +12,4 @@
   text-align: center;
   height: 100%;
   width: 100%;
-  border-radius: 5px;
 }

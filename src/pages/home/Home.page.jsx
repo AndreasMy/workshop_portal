@@ -9,8 +9,10 @@ import { ImageSwiper } from "../../components/imageSwiper/imageSwiper.component"
 
 import { entryData } from "../../data/blogData";
 import { ScrollToSection } from "../../components/scrollToSection/scrollToSection.component";
+import { linkToGallery } from "../../data/headerData";
 
-import './home.styles.css'
+import "./home.styles.css";
+import { Nav } from "../../components/nav/nav.component";
 
 export const HomePage = () => {
   return (
@@ -39,6 +41,20 @@ export const HomePage = () => {
         wrapperClassName="img-carousel-content-wrapper"
         containerClassName="img-carousel-content-container"
       >
+        <div className="homepage-header-wrapper">
+          <div className="homepage-header-upper-container">
+            <h1 className="homepage-header">Selected Paintings</h1>
+            <Nav
+              data={linkToGallery}
+              ulClassName={"header-nav-links"}
+              itemClassName={"header-link"}
+              liClassName={"header-link-li"}
+            ></Nav>
+          </div>
+          <div className="homepage-header-lower-container">
+            <div className="homepage-header-line"></div>
+          </div>
+        </div>
         <ImageSwiper
           wrapperClassName="img-carousel-wrapper"
           blogContainerClassName="img-carousel-container"
@@ -49,6 +65,14 @@ export const HomePage = () => {
         wrapperClassName="workshop-content-wrapper"
         containerClassName="workshop-content-container"
       >
+        <div className="homepage-workshop-header-wrapper">
+          <div className="homepage-header-upper-container">
+            <h1 className="homepage-header">Upcoming Workshops</h1>
+          </div>
+          <div className="homepage-header-lower-container">
+            <div className="homepage-header-line"></div>
+          </div>
+        </div>
         <WorkshopAd
           wrapperClassName="workshop-poster-container"
           blogContainerClassName="poster-entry"

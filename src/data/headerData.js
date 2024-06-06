@@ -6,3 +6,8 @@ export const navItems = [
   // { name: 'Tutorials', path: '/tutorials' },
   // { name: 'Blog', path: '/blog' },
 ];
+
+
+export const linkToGallery = [
+  { name: "Go To Galleries", path: "/gallery/paintings" },
+]
