@@ -24,6 +24,11 @@ export const galleryImagesData = {
       "image": "/workshop_portal/images/drawings/draw4.jpg",
       "alt": "descriptive text",
       "className": "gallery-image"
+    },
+    {
+      "image": "/workshop_portal/images/drawings/skulls.jpg",
+      "alt": "descriptive text",
+      "className": "gallery-image"
     }
   ],
   "paintings": [

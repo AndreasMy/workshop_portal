@@ -1,21 +1,23 @@
-.workshop-link-to-section {
+.workshop-scroll-to-section {
   border: none;
   background: none;
   font-size: 1rem;
   font-style: normal;
   cursor: pointer;
-  padding: 12px 0 6px 0;
-  text-decoration: underline;
-}
-
-.workshop-link-to-section {
-  font-size: clamp(0.6rem, 1.3vw, 1.3rem);
+  /* text-decoration: underline; */
+  font-size: clamp(0.6rem, 1.1vw, 1.2rem);
   font-weight: 500;
-  font-style: italic;
   font-family: var(--primary-font);
+  margin: 0 0 0 45px;
 }
 
-.workshop-link-to-section:hover {
-  font-size: clamp(0.07rem, 1.35vw, 1.35rem);
-  font-size: 1.025rem;
+
+.workshop-scroll-to-section:hover {
+  /* font-size: clamp(0.07rem, 1.35vw, 1.35rem); */
+  color: var(--accent-color-A);
+}
+
+.workshop-scroll-to-section-list {
+  display: flex;
+  flex-direction: row;
 }

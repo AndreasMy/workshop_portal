@@ -25,8 +25,8 @@ export const HomePage = () => {
           containerClassName="carousel-overlay-container"
         >
           <div className="carousel-overlay-left">
-            <h2 className="carousel-overlay-header">Upcoming Workshops</h2>
-            <div className="carousel-line-overlay"></div>
+            <h4 className="carousel-overlay-header">Kurs Høsten 2024:</h4>
+            {/* <div className="carousel-line-overlay"></div> */}
             <ScrollToSection
               data={entryData}
               sectionId="#workshopContentWrapper"

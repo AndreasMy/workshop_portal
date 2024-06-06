@@ -24,7 +24,12 @@ export const galleryThumbnailsData = {
       "image": "/workshop_portal/thumbnails/drawings/draw4-thumbnail.jpg",
       "alt": "descriptive text",
       "className": "gallery-image-thumbnail"
-    }
+    },
+/*     {
+      "image": "/workshop_portal/thumbnails/drawings/skulls-thumbnail.jpg",
+      "alt": "descriptive text",
+      "className": "gallery-image-thumbnail"
+    } */
   ],
   "paintings": [
     {
