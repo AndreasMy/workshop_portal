@@ -3,7 +3,7 @@
 // import "../../styles/BlogEntries.styles.css";
 import "./workshopAd.styles.css";
 import { entryData } from "../../data/blogData";
-import { SwiperComponent } from "../swiperWorkshopAd/swiperWorkshopAd.component";
+import { SwiperWorkshopAd } from "../swiperWorkshopAd/swiperWorkshopAd.component";
 import { InfoPanel } from "../infoPanel/infoPanel.component";
 import { Button } from "../button/button.component";
 
@@ -27,7 +27,7 @@ export const WorkshopAd = ({
               headerClassName="workshop-banner-header"
               paraClassName="workshop-banner-para"
             />
-            <SwiperComponent
+            <SwiperWorkshopAd
               dataArray={entry.slideContent}
               slidesPerView={"auto"}
             />

@@ -61,8 +61,7 @@
 
   .header-content,
   .gallery-content-container,
-  .workshop-content-wrapper,
-  .carousel-overlay-left  {
+  .workshop-content-wrapper  {
     padding: 0 5%;
   }
   .carousel-container,
@@ -81,8 +80,7 @@
 
   .header-content,
   .gallery-content-container,
-  .workshop-content-wrapper,
-  .carousel-overlay-left    {
+  .workshop-content-wrapper  {
     padding: 0 5%;
   }
 }
@@ -91,8 +89,7 @@
   .content-container,
   .header-content,
   .gallery-content-container,
-  .workshop-content-wrapper,
-  .carousel-overlay-left   {
+  .workshop-content-wrapper {
     padding: 0 14%;
   }
 
@@ -110,8 +107,7 @@
 
   .header-content,
   .gallery-content-container,
-  .workshop-content-wrapper,
-  .carousel-overlay-left   {
+  .workshop-content-wrapper {
     padding: 0 5%;
   }
 

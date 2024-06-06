@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
 
-export const SwiperComponent = ({ dataArray, slidesPerView }) => {
+export const SwiperWorkshopAd = ({ dataArray, slidesPerView }) => {
   return (
     <>
       <Swiper
@@ -27,7 +27,7 @@ export const SwiperComponent = ({ dataArray, slidesPerView }) => {
       >
         {dataArray.map((item) => (
           <SwiperSlide key={item.id}>
-            <SlideContent media={item.video} content={item.text} />
+            <SlideContent media={item.media} content={item.text} />
           </SwiperSlide>
         ))}
       </Swiper>

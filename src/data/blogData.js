@@ -5,8 +5,8 @@ export const entryData = [
     slideContent: [
       {
         id: 1,
-        video: {
-          videoSrc: "/workshop_portal/videos/blockin-rythms-web.mp4",
+        media: {
+          src: "/workshop_portal/images/drawings/skulls.jpg",
           imageSrc: "",
           alt: "descriptive text",
           className: "slide-video",
@@ -18,8 +18,8 @@ export const entryData = [
       },
       {
         id: 2,
-        video: {
-          videoSrc: "/workshop_portal/videos/value-scale-web.mp4",
+        media: {
+          src: "/workshop_portal/videos/value-scale-web.mp4",
           imageSrc: "",
           alt: "descriptive text",
           className: "slide-video",
@@ -85,8 +85,8 @@ export const entryData = [
     slideContent: [
       {
         id: 1,
-        video: {
-          videoSrc: "/workshop_portal/videos/blockin-rythms-web.mp4",
+        media: {
+          src: "/workshop_portal/videos/blockin-rythms-web.mp4",
           imageSrc: "",
           alt: "descriptive text",
           className: "slide-video",
@@ -98,8 +98,8 @@ export const entryData = [
       },
       {
         id: 2,
-        video: {
-          videoSrc: "/workshop_portal/videos/value-scale-web.mp4",
+        media: {
+          src: "/workshop_portal/videos/value-scale-web.mp4",
           imageSrc: "",
           alt: "descriptive text",
           className: "slide-video",
@@ -165,8 +165,8 @@ export const entryData = [
     slideContent: [
       {
         id: 1,
-        video: {
-          videoSrc: "/workshop_portal/videos/blockin-rythms-web.mp4",
+        media: {
+          src: "/workshop_portal/videos/blockin-rythms-web.mp4",
           imageSrc: "",
           alt: "descriptive text",
           className: "slide-video",
@@ -178,8 +178,8 @@ export const entryData = [
       },
       {
         id: 2,
-        video: {
-          videoSrc: "/workshop_portal/videos/value-scale-web.mp4",
+        media: {
+          src: "/workshop_portal/videos/value-scale-web.mp4",
           imageSrc: "",
           alt: "descriptive text",
           className: "slide-video",
