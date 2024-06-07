@@ -1,14 +1,15 @@
 /* eslint-disable no-unused-vars */
-/* import "../../styles/.styles.css"; */
 import React from "react";
 import { ImageCarousel } from "../../components/imageCarousel/imageCarousel.component";
 import { Wrapper } from "../../components/wrapper/Wrapper.component";
-import { Button } from "../../components/button/button.component";
 import { WorkshopAd } from "../../components/workshopAd/workshopAd.component";
 import { ImageSwiper } from "../../components/imageSwiper/imageSwiper.component";
+import { ScrollToSection } from "../../components/scrollToSection/scrollToSection.component";
+import { PageSection } from "../../components/pageSection/pageSection.component";
+import { TextElement } from "../../components/textElement/textElement.component";
+import { SectionHeader } from "../../molecules/sectionHeader/sectionHeader.component";
 
 import { entryData } from "../../data/blogData";
-import { ScrollToSection } from "../../components/scrollToSection/scrollToSection.component";
 import { linkToGallery } from "../../data/headerData";
 
 import "./home.styles.css";
@@ -28,7 +29,6 @@ export const HomePage = () => {
         >
           <div className="carousel-overlay-left">
             <h4 className="carousel-overlay-header">Kurs Høsten 2024:</h4>
-            {/* <div className="carousel-line-overlay"></div> */}
             <ScrollToSection
               data={entryData}
               sectionId="#workshopContentWrapper"
@@ -37,31 +37,28 @@ export const HomePage = () => {
         </Wrapper>
       </ImageCarousel>
 
-      <Wrapper
+      <PageSection
         wrapperClassName="img-carousel-content-wrapper"
         containerClassName="img-carousel-content-container"
+        useInnerContainer={true}
       >
-        <div className="homepage-header-wrapper">
-          <div className="homepage-header-upper-container">
-            <h3 className="homepage-header">Selected Paintings</h3>
-            <Nav
-              data={linkToGallery}
-              ulClassName={"header-nav-links"}
-              itemClassName={"header-link"}
-              liClassName={"header-link-li"}
-            ></Nav>
-          </div>
-          <div className="homepage-header-lower-container">
-            <div className="homepage-header-line"></div>
-          </div>
-        </div>
+        <SectionHeader
+          sectionWrapperClassName={"homepage-header-wrapper"}
+          sectionContainerClassName={"homepage-header-upper-container"}
+          title={"Selected Paintings"}
+          navData={linkToGallery}
+          showUnderLine={true}
+        />
+
         <ImageSwiper
           wrapperClassName="img-carousel-wrapper"
           blogContainerClassName="img-carousel-container"
         />
         <div className="homepage-header-wrapper">
           <div className="homepage-header-upper-container">
-            <h4 className="homepage-header">About my Work</h4>
+            <TextElement as="h4" className="homepage-header">
+              About my Work
+            </TextElement>
           </div>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
@@ -70,25 +67,25 @@ export const HomePage = () => {
             dolorem aliquid.
           </p>
         </div>
-      </Wrapper>
-      <Wrapper
+      </PageSection>
+
+      <PageSection
         wrapperId="workshopContentWrapper"
         wrapperClassName="workshop-content-wrapper"
         containerClassName="workshop-content-container"
       >
-        <div className="homepage-workshop-header-wrapper">
-          <div className="homepage-header-upper-container">
-            <h3 className="homepage-header">Upcoming Workshops</h3>
-          </div>
-          <div className="homepage-header-lower-container">
-            <div className="homepage-header-line"></div>
-          </div>
-        </div>
+        <SectionHeader
+          sectionWrapperClassName={"homepage-workshop-header-wrapper"}
+          sectionContainerClassName={"homepage-header-upper-container"}
+          title={"Upcoming Workshops"}
+          showNav={false}
+          showUnderLine={true}
+        />
         <WorkshopAd
           wrapperClassName="workshop-poster-container"
           blogContainerClassName="poster-entry"
         />
-      </Wrapper>
+      </PageSection>
     </>
   );
 };
