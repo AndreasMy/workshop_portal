@@ -121,7 +121,8 @@
   .gallery-content-container,
   .workshop-content-wrapper,
   .homepage-header-wrapper,
-  .homepage-header-lower-container {
+  .homepage-header-lower-container,
+  .img-carousel-container  {
     padding: 0 5%;
   }
 

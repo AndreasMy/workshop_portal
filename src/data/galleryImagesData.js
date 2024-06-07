@@ -144,5 +144,17 @@ export const galleryImagesData = {
       "alt": "descriptive text",
       "className": "gallery-image"
     }
+  ],
+  "photos": [
+    {
+      "image": "/workshop_portal/images/photos/materials-small-1.jpg",
+      "alt": "descriptive text",
+      "className": "gallery-image"
+    },
+    {
+      "image": "/workshop_portal/images/photos/materials-small-2.jpg",
+      "alt": "descriptive text",
+      "className": "gallery-image"
+    }
   ]
 };

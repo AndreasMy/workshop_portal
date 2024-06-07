@@ -43,7 +43,7 @@ export const HomePage = () => {
       >
         <div className="homepage-header-wrapper">
           <div className="homepage-header-upper-container">
-            <h1 className="homepage-header">Selected Paintings</h1>
+            <h3 className="homepage-header">Selected Paintings</h3>
             <Nav
               data={linkToGallery}
               ulClassName={"header-nav-links"}
@@ -59,6 +59,17 @@ export const HomePage = () => {
           wrapperClassName="img-carousel-wrapper"
           blogContainerClassName="img-carousel-container"
         />
+        <div className="homepage-header-wrapper">
+          <div className="homepage-header-upper-container">
+            <h4 className="homepage-header">About my Work</h4>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            omnis, sit, est adipisci temporibus sed quibusdam laboriosam in
+            expedita ut quisquam fugit hic tempore repudiandae dolore vitae vero
+            dolorem aliquid.
+          </p>
+        </div>
       </Wrapper>
       <Wrapper
         wrapperId="workshopContentWrapper"
@@ -67,7 +78,7 @@ export const HomePage = () => {
       >
         <div className="homepage-workshop-header-wrapper">
           <div className="homepage-header-upper-container">
-            <h1 className="homepage-header">Upcoming Workshops</h1>
+            <h3 className="homepage-header">Upcoming Workshops</h3>
           </div>
           <div className="homepage-header-lower-container">
             <div className="homepage-header-line"></div>
