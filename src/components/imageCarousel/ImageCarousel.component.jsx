@@ -22,15 +22,15 @@ export const ImageCarousel = ({
   }, [currentImageIndex]);
 
   return (
-    <div className={wrapperClassName}>
+    <div className={`carousel-wrapper ${wrapperClassName}`}>
       {children}
-      <div className={containerClassName}>
+      <div className={`carousel-container ${containerClassName}`}>
         {carouselData.map((item, index) => (
           <img
             key={index}
             src={item.image.image}
             alt={item.alt}
-            className={`${itemClassName} ${
+            className={`carousel-gallery-image ${itemClassName} ${
               index === currentImageIndex ? "active" : ""
             }`}
           />

@@ -15,6 +15,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-top: 40px;
 }
 
 .section-heading {
@@ -30,15 +31,23 @@
   background-color: var(--accent-color-A);
 }
 
-.homepage-header-upper-container {
-  display: flex;
-  width: 100%;
-}
-
 .section-header-lower-container {
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
   width: 100%;
+
+}
+
+.section-header-paragraph-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section-header-paragraph {
+  font-size: 1.3rem;
+  font-family: var(--primary-font);
+  margin-bottom: 1.6%;
 }

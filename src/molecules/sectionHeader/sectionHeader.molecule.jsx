@@ -8,9 +8,13 @@ export const SectionHeader = ({
   title,
   sectionWrapperClassName = "",
   sectionContainerClassName = "",
+  sectionParagraphClassName = "",
   showUnderLine = false,
+  showParagraph = false,
   showNav = true,
+  paragraphData = [],
   navData = [],
+  // children,
 }) => {
   return (
     <>
@@ -32,6 +36,21 @@ export const SectionHeader = ({
           <div className="section-header-lower-container">
             <div className="section-header-line"></div>
           </div>
+        )}
+        {showParagraph && (
+          <ul className={`section-header-paragraph-container`}>
+            {paragraphData.map((item, index) => (
+              <li key={index}>
+                <TextElement
+                  as="p"
+                  className={`section-header-paragraph ${sectionParagraphClassName}}`}
+                >
+                  {item}
+                </TextElement>
+              </li>
+            ))}
+            {/* {children} */}
+          </ul>
         )}
       </div>
     </>

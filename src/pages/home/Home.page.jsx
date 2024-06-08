@@ -10,6 +10,8 @@ import { TextElement } from "../../components/textElement/textElement.component"
 import { SectionHeader } from "../../molecules/sectionHeader/sectionHeader.molecule";
 
 import { entryData } from "../../data/blogData";
+import { homepageText } from "../../data/homepageData";
+
 import { linkToGallery } from "../../data/headerData";
 
 import "./home.styles.css";
@@ -17,17 +19,15 @@ import "./home.styles.css";
 export const HomePage = () => {
   return (
     <>
-      <ImageCarousel
-        wrapperClassName="carousel-wrapper"
-        containerClassName="carousel-container"
-        itemClassName="carousel-gallery-image"
-      >
+      <ImageCarousel>
         <Wrapper
           wrapperClassName="carousel-overlay-wrapper"
           containerClassName="carousel-overlay-container"
         >
           <div className="carousel-overlay-left">
-            <h4 className="carousel-overlay-header">Kurs Høsten 2024:</h4>
+            <TextElement as="h4" className="carousel-overlay-header">
+              Kurs Høsten 2024:
+            </TextElement>
             <ScrollToSection
               data={entryData}
               sectionId="#workshopContentWrapper"
@@ -39,7 +39,6 @@ export const HomePage = () => {
       <PageSection
         containerProps={{
           style: {
-            margin: "0 0 5% 0",
             justifyContent: "center",
             padding: "3% 0",
           },
@@ -51,26 +50,15 @@ export const HomePage = () => {
           showUnderLine={true}
         />
         <ImageSwiper />
-        <div className="homepage-header-wrapper">
-          <div className="homepage-header-upper-container">
-            <TextElement as="h4" className="homepage-header">
-              About my Work
-            </TextElement>
-          </div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            omnis, sit, est adipisci temporibus sed quibusdam laboriosam in
-            expedita ut quisquam fugit hic tempore repudiandae dolore vitae vero
-            dolorem aliquid.
-          </p>
-        </div>
+        <SectionHeader title={"About my Work"} showParagraph={true} paragraphData={homepageText}>
+        </SectionHeader>
       </PageSection>
 
       <PageSection
         wrapperId="workshopContentWrapper"
         containerProps={{
           style: {
-            padding: "0 0 6% 0",
+            padding: "0 0 5% 0",
             //! below should have custom class for media queries
             flexDirection: "row",
             justifyContent: "space-between",
