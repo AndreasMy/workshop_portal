@@ -7,13 +7,12 @@ import { ImageSwiper } from "../../components/imageSwiper/imageSwiper.component"
 import { ScrollToSection } from "../../components/scrollToSection/scrollToSection.component";
 import { PageSection } from "../../components/pageSection/pageSection.component";
 import { TextElement } from "../../components/textElement/textElement.component";
-import { SectionHeader } from "../../molecules/sectionHeader/sectionHeader.component";
+import { SectionHeader } from "../../molecules/sectionHeader/sectionHeader.molecule";
 
 import { entryData } from "../../data/blogData";
 import { linkToGallery } from "../../data/headerData";
 
 import "./home.styles.css";
-import { Nav } from "../../components/nav/nav.component";
 
 export const HomePage = () => {
   return (
@@ -38,22 +37,20 @@ export const HomePage = () => {
       </ImageCarousel>
 
       <PageSection
-        wrapperClassName="img-carousel-content-wrapper"
-        containerClassName="img-carousel-content-container"
-        useInnerContainer={true}
+        containerProps={{
+          style: {
+            margin: "0 0 5% 0",
+            justifyContent: "center",
+            padding: "3% 0",
+          },
+        }}
       >
         <SectionHeader
-          sectionWrapperClassName={"homepage-header-wrapper"}
-          sectionContainerClassName={"homepage-header-upper-container"}
           title={"Selected Paintings"}
           navData={linkToGallery}
           showUnderLine={true}
         />
-
-        <ImageSwiper
-          wrapperClassName="img-carousel-wrapper"
-          blogContainerClassName="img-carousel-container"
-        />
+        <ImageSwiper />
         <div className="homepage-header-wrapper">
           <div className="homepage-header-upper-container">
             <TextElement as="h4" className="homepage-header">
@@ -71,12 +68,17 @@ export const HomePage = () => {
 
       <PageSection
         wrapperId="workshopContentWrapper"
-        wrapperClassName="workshop-content-wrapper"
-        containerClassName="workshop-content-container"
+        containerProps={{
+          style: {
+            padding: "0 0 6% 0",
+            //! below should have custom class for media queries
+            flexDirection: "row",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+          },
+        }}
       >
         <SectionHeader
-          sectionWrapperClassName={"homepage-workshop-header-wrapper"}
-          sectionContainerClassName={"homepage-header-upper-container"}
           title={"Upcoming Workshops"}
           showNav={false}
           showUnderLine={true}

@@ -1,5 +1,4 @@
 @media screen and (min-width: 20px) and (max-width: 768px) {
-  
   .content-container {
     padding: 0 5%;
   }
@@ -8,26 +7,9 @@
     margin: 7% 0;
   }
 
-  .poster-img-overlay {
-    background: linear-gradient(to top, rgb(26, 26, 27) 8%, transparent);
-  }
-
   .header-content,
   .gallery-content-container {
     padding: 0;
-  }
-
-  .details-li-elem,
-  .blog-text,
-  .blog-text-headerTxt,
-  .blog-text-paraHeader {
-    display: none;
-  }
-
-  .blog-text,
-  .blog-text-headerTxt {
-    padding: 12px 0;
-    margin: 12px 0;
   }
 
   .workshop-info-wrapper {
@@ -43,10 +25,9 @@
   }
 
   .header-content,
-  .workshop-content-wrapper,
-  .homepage-header-wrapper,
-  .homepage-header-lower-container,
-  .img-carousel-container  {
+  .section-wrapper,
+  .header-wrapper,
+  .homepage-header-lower-container {
     padding: 0 5%;
   }
   .carousel-container,
@@ -57,17 +38,14 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1440px) {
-  
   .content-container {
     padding: 0 5%;
   }
 
   .header-content,
-  .gallery-content-container,
-  .workshop-content-wrapper,
-  .homepage-header-wrapper,
-  .homepage-header-lower-container,
-  .img-carousel-container  {
+  .section-wrapper,
+  .header-wrapper,
+  .homepage-header-lower-container {
     padding: 0 5%;
   }
   .carousel-container,
@@ -75,54 +53,41 @@
   .carousel-overlay-wrapper {
     height: 60vh;
   }
-
 }
 
 @media screen and (min-width: 1441px) and (max-width: 1700px) {
-  
   .content-container {
     padding: 0 5%;
   }
 
   .header-content,
-  .gallery-content-container,
-  .workshop-content-wrapper,
-  .homepage-header-wrapper,
-  .homepage-header-lower-container,
-  .img-carousel-container  {
+  .section-wrapper,
+  .header-wrapper,
+  .homepage-header-lower-container {
     padding: 0 5%;
   }
 }
 
 @media screen and (min-width: 1701px) and (max-width: 3840px) {
   .content-container,
+  .section-wrapper,
   .header-content,
-  .gallery-content-container,
-  .workshop-content-wrapper,
-  .homepage-header-wrapper,
-  .homepage-header-lower-container,
-  .img-carousel-container {
-    padding: 0 14%;
+  .header-wrapper,
+  .homepage-header-lower-container {
+    padding: 0 8%;
   }
-
-  /* .img-carousel-wrapper {
-    width: 72vw;
-  } */
 }
 
 /* Macbook pro */
 @media only screen and (min-device-width: 1800px) and (max-device-width: 1800px) {
-  
   .content-container {
     padding: 0 12%;
   }
 
   .header-content,
-  .gallery-content-container,
-  .workshop-content-wrapper,
-  .homepage-header-wrapper,
-  .homepage-header-lower-container,
-  .img-carousel-container  {
+  .section-wrapper,
+/*   .header-wrapper, */
+  .homepage-header-lower-container {
     padding: 0 5%;
   }
 

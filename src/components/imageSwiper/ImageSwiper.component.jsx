@@ -12,8 +12,8 @@ export const ImageSwiper = ({
 }) => {
   return (
     <>
-      <div className={wrapperClassName}>
-        <div className={blogContainerClassName}>
+      <div className={`img-carousel-wrapper ${wrapperClassName}`}>
+        <div className={`img-carousel-container  ${blogContainerClassName}`}>
           <SwiperImageCarousel />
         </div>
       </div>

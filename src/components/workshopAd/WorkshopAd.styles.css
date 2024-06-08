@@ -1,24 +1,3 @@
-.workshop-content-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 100%;
-  background-image: linear-gradient(
-    180deg,
-    var(--background-color-B) 0%,
-    var(--background-color-A) 10%
-  );
-}
-
-.workshop-content-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-  padding: 0 0 6% 0;
-}
-
 .workshop-poster-container {
   display: flex;
   width: 48%;

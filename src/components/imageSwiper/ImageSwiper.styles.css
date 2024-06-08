@@ -1,15 +1,6 @@
-.img-carousel-wrapper {
-  display: flex;
-  width: 100vw; 
-  margin: auto; 
-  height: 100%;
-}
-
+.img-carousel-wrapper,
 .img-carousel-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-  width: 100%;
+  width: 100%; 
 }
+

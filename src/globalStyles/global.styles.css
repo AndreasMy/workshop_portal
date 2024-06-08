@@ -49,5 +49,6 @@ body {
   min-height: 100vh;
   min-width: 100%;
 
+  overflow-x: hidden; /* Prevent horizontal overflow */
   background-color: var(--background-color-B);
 }

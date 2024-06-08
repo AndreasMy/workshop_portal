@@ -1,0 +1,13 @@
+.section-wrapper,
+.section-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--background-color-A);
+}
+
+.section-container {
+    flex-direction: column;
+    justify-content: center;
+}
+/*? MediaQueries for the workshop ads goes here? */
