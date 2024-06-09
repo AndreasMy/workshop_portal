@@ -3,9 +3,9 @@
 // import "../../styles/BlogEntries.styles.css";
 import "./workshopAd.styles.css";
 import { entryData } from "../../data/blogData";
-import { SwiperWorkshopAd } from "../swiperWorkshopAd/swiperWorkshopAd.component";
-import { InfoPanel } from "../infoPanel/infoPanel.component";
-import { Button } from "../button/button.component";
+import { SwiperWorkshopAd } from "../../components/swiperWorkshopAd/swiperWorkshopAd.component";
+import { InfoPanel } from "../../components/infoPanel/infoPanel.component";
+import { Button } from "../../components/button/button.component";
 
 export const WorkshopAd = ({
   wrapperClassName = "",
@@ -17,14 +17,14 @@ export const WorkshopAd = ({
         <div key={index} className={wrapperClassName}>
           <div className={blogContainerClassName}>
             <div className="poster-banner">
-              <h1 className="banner-header">{entry.title}</h1>
+              <h1 className="banner-heading">{entry.title}</h1>
             </div>
             <div className="poster-line-overlay"></div>
             <InfoPanel
               entry={entry}
               containerClassName="workshop-banner-info-wrapper"
               liClassName="workshop-banner-info"
-              headerClassName="workshop-banner-header"
+              headerClassName="workshop-banner-heading"
               paraClassName="workshop-banner-para"
             />
             <SwiperWorkshopAd

@@ -70,7 +70,7 @@
   font-family: var(--primary-font);
 }
 
-.banner-header {
+.banner-heading {
   font-weight: 400;
   font-style: normal;
   font-size: clamp(1rem, 2.3vw, 3rem);
@@ -82,7 +82,7 @@
   align-items: center;
 }
 
-.workshop-banner-header {
+.workshop-banner-heading{
   margin-right: 6px;
   font-weight: 600;
   font-style: normal;

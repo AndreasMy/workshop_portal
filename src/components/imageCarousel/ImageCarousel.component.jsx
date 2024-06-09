@@ -36,9 +36,6 @@ export const ImageCarousel = ({
           />
         ))}
       </div>
-      {/*       <div className="carousel-nav-container">
-        <h2 className="carousel-title">Browse galleries</h2>
-      </div> */}
     </div>
   );
 };

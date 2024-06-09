@@ -2,7 +2,7 @@
 import React from "react";
 import { ImageCarousel } from "../../components/imageCarousel/imageCarousel.component";
 import { Wrapper } from "../../components/wrapper/Wrapper.component";
-import { WorkshopAd } from "../../components/workshopAd/workshopAd.component";
+import { WorkshopAd } from "../../molecules/workshopAd/workshopAd.molecule";
 import { ImageSwiper } from "../../components/imageSwiper/imageSwiper.component";
 import { ScrollToSection } from "../../components/scrollToSection/scrollToSection.component";
 import { PageSection } from "../../components/pageSection/pageSection.component";
@@ -11,7 +11,6 @@ import { SectionHeader } from "../../molecules/sectionHeader/sectionHeader.molec
 
 import { entryData } from "../../data/blogData";
 import { homepageText } from "../../data/homepageData";
-
 import { linkToGallery } from "../../data/headerData";
 
 import "./home.styles.css";

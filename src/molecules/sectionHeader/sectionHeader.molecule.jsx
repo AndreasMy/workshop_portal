@@ -49,7 +49,6 @@ export const SectionHeader = ({
                 </TextElement>
               </li>
             ))}
-            {/* {children} */}
           </ul>
         )}
       </div>

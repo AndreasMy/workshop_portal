@@ -1,5 +1,5 @@
 import { Wrapper } from "../../components/wrapper/Wrapper.component";
-import { WorkshopAd } from "../../components/workshopAd/workshopAd.component";
+import { WorkshopAd } from "../../molecules/workshopAd/workshopAd.molecule";
 // import { BlogEntries } from "../content/BlogEntries";
 
 export const Workshops = () => {

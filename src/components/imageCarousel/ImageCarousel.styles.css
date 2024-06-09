@@ -1,27 +1,15 @@
-.carousel-wrapper,
-.poster-carousel-wrapper {
+.carousel-wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
   background-color: rgb(20, 20, 22);
 }
 
-.carousel-container,
-.poster-carousel-container {
+.carousel-container {
   position: relative;
   overflow: hidden;
   height: 100%;
   width: 100%;
-}
-
-.poster-carousel-wrapper {
-  padding: 3% 8% 3% 0;
-  height: 55%;
-  width: 50%;
-}
-
-.poster-carousel-container {
-  border-radius: 8px;
 }
 
 .carousel-gallery-image {
@@ -54,18 +42,6 @@
   font-family: var(--primary-font);
 }
 
-.carousel-nav-container {
-  display: flex;
-  align-items: center;
-  flex: 1;
-  min-width: 100%;
-}
-
-.carousel-title {
-  margin: 0 8%;
-  font-weight: 400;
-}
-
 .carousel-overlay-wrapper {
   position: absolute;
   z-index: 3;
@@ -96,12 +72,6 @@
 
   width: 50%;
   height: 100%;
-}
-
-.carousel-line-overlay {
-  height: 1px;
-  width: 85%;
-  background-color: var(--accent-color-A);
 }
 
 @media screen and (min-width: 20px) and (max-width: 1024px) {
