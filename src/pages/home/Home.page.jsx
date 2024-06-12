@@ -55,13 +55,10 @@ export const HomePage = () => {
 
       <PageSection
         wrapperId="workshopContentWrapper"
+        containerClassName="workshop-content-container"
         containerProps={{
           style: {
             padding: "0 0 5% 0",
-            //! below should have custom class for media queries
-            flexDirection: "row",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
           },
         }}
       >

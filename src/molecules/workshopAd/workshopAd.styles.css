@@ -1,9 +1,9 @@
 .workshop-poster-container {
   display: flex;
   width: 48%;
-  height: 550px;
   margin: 0 0 3% 0%;
-  min-width: 580px;
+  height: 550px;
+  min-width: 400px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
@@ -66,14 +66,14 @@
 .workshop-banner-para {
   font-weight: 400;
   font-style: normal;
-  font-size: clamp(1rem, 0.8vw, 1.2rem);
+  font-size: clamp(0.6rem, 1vw, 1.2rem);
   font-family: var(--primary-font);
 }
 
 .banner-heading {
   font-weight: 400;
   font-style: normal;
-  font-size: clamp(1rem, 2.3vw, 3rem);
+  font-size: clamp(1.5rem, 2.3vw, 3rem);
   font-family: var(--primary-font);
 }
 
@@ -82,9 +82,17 @@
   align-items: center;
 }
 
-.workshop-banner-heading{
+.workshop-banner-heading {
   margin-right: 6px;
   font-weight: 600;
   font-style: normal;
   font-family: var(--primary-font);
+  font-size: clamp(0.8rem, 1vw, 1.2rem);
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1301px) {
+  .workshop-banner-heading,
+  .workshop-banner-para {
+    font-size: 1rem
+  }
 }

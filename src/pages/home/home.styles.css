@@ -1,1 +1,81 @@
+.workshop-content-container {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+@media screen and (min-width: 0px) and (max-width: 845px) {
+  .workshop-content-container {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .workshop-poster-container {
+    width: 100%;
+    height: 530px;
+    min-width: auto;
+  }
+
+  .workshop-banner-heading,
+  .workshop-banner-para {
+    font-size: clamp(0.5rem, 0.5vw, 2.2rem);
+  }
+
+  .slide-content-wrapper {
+    flex-direction: column;
+  }
+
+  .slide-left {
+    width: 100%;
+    height: 40%;
+  }
+
+  .slide-right-content {
+    width: 90%;
+    height: 100%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 20%;
+  }
+
+  .slide-content-text-container {
+    width: 100%;
+    height: 65%;
+    overflow: auto;
+  }
+
+  .workshop-btn {
+    margin: 0 7.5% 8% 0;
+  }
+
+  .slide-content-text-container li {
+    margin: 0.4px 25px;
+  }
+
+  .carousel-overlay-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 846px) and (max-width: 1301px) {
+  .workshop-content-container {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .workshop-poster-container {
+    width: 100%;
+  }
+
+  .workshop-banner-heading,
+  .workshop-banner-para {
+    font-size: clamp(1rem, 1vw, 2.2rem);
+  }
+}

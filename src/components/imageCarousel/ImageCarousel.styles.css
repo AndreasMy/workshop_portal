@@ -36,10 +36,11 @@
 }
 
 .carousel-overlay-header {
-  font-size: clamp(1rem, 1.3vw, 1.5rem);
+  font-size: clamp(0.6rem, 1.2vw, 1.3rem);
   font-weight: 400;
   font-style: normal;
   font-family: var(--primary-font);
+  margin: 0 2em 0 0;
 }
 
 .carousel-overlay-wrapper {
@@ -68,8 +69,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-
+  justify-content: center;
   width: 50%;
   height: 100%;
 }
