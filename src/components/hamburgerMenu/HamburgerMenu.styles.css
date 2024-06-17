@@ -41,6 +41,8 @@
 
 .burger-link {
   font-size: 1.2rem;
+  color: antiquewhite;
+  font-family: var(--primary-font);
 }
 
 .burger-link-li {

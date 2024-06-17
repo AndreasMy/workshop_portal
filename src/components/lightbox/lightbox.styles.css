@@ -102,3 +102,10 @@
   background: none;
   font-size: 1.3rem;
 }
+
+
+@media screen and (min-width: 0px) and (max-width: 845px) {
+  .lightbox-overlay {
+    padding: 10%;
+  }
+}

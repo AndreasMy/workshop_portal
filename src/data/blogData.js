@@ -156,7 +156,7 @@ export const entryData = [
       },
       {
         name: "Dato: ",
-        value: "02/11 - 02/11",
+        value: "02/11 - 03/11",
       },
       {
         name: "Tid: ",

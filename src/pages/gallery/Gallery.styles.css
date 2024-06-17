@@ -13,8 +13,8 @@ https://griffadev.medium.com/
 
 .gallery-image {
   flex: 1;
-  min-width: 100px;
-  max-width: 320px;
+  min-width: 100%;
+  /* max-width: 320px; */
 }
 
 .gallery-container {
@@ -56,10 +56,16 @@ https://griffadev.medium.com/
     align-items: center;
   }
 
-  .gallery-image {
+  .image-container {
+
+    width: 100%;
+  }
+
+ 
+  .gallery-image-thumbnail {
     flex: 1;
-    min-width: 100px;
-    max-width: 220px;
+    min-width: 100%;
+    /* max-width: 220px; */
   }
 }
 
