@@ -21,5 +21,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 70%;
+  width: 75%;
+
+}
+
+.workshop-scroll-to-section-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+.workshop-scroll-to-section-list-item:last-child {
+  margin-right: 0;
 }

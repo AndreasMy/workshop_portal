@@ -6,8 +6,8 @@ import { Nav } from "../../components/nav/nav.component";
 
 export const SectionHeader = ({
   title,
-  sectionWrapperClassName = "",
-  sectionContainerClassName = "",
+  sectionHeaderWrapperClassName = "",
+  sectionHeaderContainerClassName = "",
   sectionParagraphClassName = "",
   showUnderLine = false,
   showParagraph = false,
@@ -18,8 +18,8 @@ export const SectionHeader = ({
 }) => {
   return (
     <>
-      <div className={`header-wrapper ${sectionWrapperClassName}`}>
-        <div className={`header-container ${sectionContainerClassName}`}>
+      <div className={`header-wrapper ${sectionHeaderWrapperClassName}`}>
+        <div className={`header-container ${sectionHeaderContainerClassName}`}>
           <TextElement as="h3" className={"section-heading"}>
             {title}
           </TextElement>

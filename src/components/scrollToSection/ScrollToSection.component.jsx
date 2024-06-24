@@ -13,7 +13,7 @@ export const ScrollToSection = ({ data, sectionId,  }) => {
   return (
     <ul className='workshop-scroll-to-section-list'>
       {data.map((entry, index) => (
-        <li key={index}>
+        <li key={index} className='workshop-scroll-to-section-list-item'>
           <Button
             onClick={() => scrollToSection(sectionId)}
             className="workshop-scroll-to-section"

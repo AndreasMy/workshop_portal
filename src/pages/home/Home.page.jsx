@@ -3,7 +3,7 @@ import React from "react";
 import { ImageCarousel } from "../../components/imageCarousel/imageCarousel.component";
 import { Wrapper } from "../../components/wrapper/Wrapper.component";
 import { WorkshopAd } from "../../molecules/workshopAd/workshopAd.molecule";
-import { ImageSwiper } from "../../components/imageSwiper/imageSwiper.component";
+import { SwiperImageCarousel } from "../../components/swiperImageCarousel/swiperImageCarousel.component";
 import { ScrollToSection } from "../../components/scrollToSection/scrollToSection.component";
 import { PageSection } from "../../components/pageSection/pageSection.component";
 import { TextElement } from "../../components/textElement/textElement.component";
@@ -47,10 +47,14 @@ export const HomePage = () => {
           title={"Selected Paintings"}
           navData={linkToGallery}
           showUnderLine={true}
+          sectionHeaderWrapperClassName="selected-paintings-header-wrapper"
         />
-        <ImageSwiper />
-        <SectionHeader title={"About my Work"} showParagraph={true} paragraphData={homepageText}>
-        </SectionHeader>
+        <SwiperImageCarousel />
+        <SectionHeader
+          title={"About my Work"}
+          showParagraph={true}
+          paragraphData={homepageText}
+        ></SectionHeader>
       </PageSection>
 
       <PageSection

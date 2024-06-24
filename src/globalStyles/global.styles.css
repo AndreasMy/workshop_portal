@@ -1,14 +1,4 @@
 @import url("https://use.typekit.net/xrh5alg.css");
-
-/* #root {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 100vh;
-  min-width: 100%;
-} */
-
 :root {
   /* Fonts */
   --primary-font: "futura-pt", sans-serif;
@@ -20,6 +10,8 @@
   --background-color-B: rgb(224, 223, 223);
   --background-color-C: white;
   --accent-color-A: rgb(180, 11, 36);
+
+  --swiper-theme-color: #440404;
 }
 
 * {

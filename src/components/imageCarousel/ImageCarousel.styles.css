@@ -58,6 +58,7 @@
 
 .carousel-overlay-container {
   display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -69,14 +70,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
   width: 50%;
   height: 100%;
 }
 
-@media screen and (min-width: 20px) and (max-width: 1024px) {
+/* @media screen and (min-width: 20px) and (max-width: 1024px) {
   .carousel-wrapper {
-    height: 94vh;
+    height: 50vh;
   }
 }
 
@@ -88,6 +90,61 @@
 
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
   .carousel-wrapper {
+    height: 94vh;
+  }
+} */
+
+/* Small Mobile (up to 480px) */
+@media screen and (max-width: 425px) {
+  .carousel-wrapper ,
+  .carousel-overlay-wrapper{
+    height: 35vh;
+  }
+}
+
+/* Mobile (481px to 767px) */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .carousel-wrapper ,
+  .carousel-overlay-wrapper{
+    height: 40vh;
+  }
+}
+
+/* Small Tablet (768px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .carousel-wrapper ,
+  .carousel-overlay-wrapper{
+    height: 94vh;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .carousel-wrapper ,
+  .carousel-overlay-wrapper{
+    height: 94vh;
+  }
+}
+
+/* Large Tablet / Small Laptop (1025px to 1280px) */
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .carousel-wrapper ,
+  .carousel-overlay-wrapper{
+    height: 94vh;
+  }
+}
+
+/* Medium Desktop (1441px to 1920px) */
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
+  .carousel-wrapper ,
+  .carousel-overlay-wrapper{
+    height: 94vh;
+  }
+}
+
+/* 4K Desktop (2561px and above) */
+@media screen and (min-width: 2561px) {
+  .carousel-wrapper ,
+  .carousel-overlay-wrapper{
     height: 94vh;
   }
 }

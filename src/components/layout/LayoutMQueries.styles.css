@@ -33,7 +33,7 @@
   .carousel-container,
   .carousel-wrapper,
   .carousel-overlay-wrapper {
-    height: 360px;
+    height: 60vh;
   }
 }
 
@@ -76,8 +76,6 @@
   .homepage-header-lower-container {
     padding: 0 14%;
   }
-
-
 }
 
 /* Macbook pro */
