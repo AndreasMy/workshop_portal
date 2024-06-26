@@ -1,7 +1,6 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode, Pagination, Navigation } from "swiper/modules";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
@@ -9,10 +8,7 @@ import "swiper/css/navigation";
 
 import "./swiperImageCarousel.styles.css";
 import { imageSwiperData } from "../../data/carouselData.js";
-// import { Wrapper } from "../wrapper/Wrapper.component";
 
-// import required modules
-import { FreeMode, Pagination, Navigation } from "swiper/modules";
 
 export const SwiperImageCarousel = () => {
   return (
