@@ -1,28 +1,32 @@
 /* eslint-disable react/prop-types */
 import { SlideContent } from "../slideContent/slideContent.component";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation, FreeMode } from "swiper/modules";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-
-// import required modules
-import { Pagination, Navigation } from "swiper/modules";
-
 export const SwiperWorkshopAd = ({ dataArray, slidesPerView }) => {
   return (
     <>
+      <div className="swiper-navigation-container workshop-navigation-container">
+        <div className="custom-prev swiper-button-prev"></div>
+        <div className="custom-next swiper-button-next"></div>
+      </div>
       <Swiper
         slidesPerView={slidesPerView}
         spaceBetween={30}
         loop={true}
+        freeMode={true}
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
+        navigation={{
+          nextEl: ".custom-next",
+          prevEl: ".custom-prev",
+        }}
+        modules={[Pagination, Navigation, FreeMode]}
         className="mySwiper"
       >
         {dataArray.map((item) => (

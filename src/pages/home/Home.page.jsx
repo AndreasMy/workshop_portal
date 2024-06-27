@@ -72,8 +72,6 @@ export const HomePage = () => {
           showUnderLine={true}
         />
         <WorkshopAd
-          wrapperClassName="workshop-poster-container"
-          blogContainerClassName="poster-entry"
         />
       </PageSection>
     </>
