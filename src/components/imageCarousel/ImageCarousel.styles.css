@@ -100,6 +100,10 @@
   .carousel-overlay-wrapper{
     height: 35vh;
   }
+
+  .carousel-overlay-wrapper {
+    display: none;
+  }
 }
 
 /* Mobile (481px to 767px) */

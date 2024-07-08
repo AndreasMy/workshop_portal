@@ -1,8 +1,9 @@
 export const navItems = [
   { name: "HOME", path: "/" },
+  { name: "CONTACT", path: "/contact" },
+  { name: 'WORKSHOPS', path: '/workshops' },
   { name: "GALLERY", path: "/gallery/paintings" },
   // { name: 'ABOUT', path: '/about' },
-  // { name: 'Workshops', path: '/workshops' },
   // { name: 'Tutorials', path: '/tutorials' },
   // { name: "BLOG", path: "/blog" },
 ];

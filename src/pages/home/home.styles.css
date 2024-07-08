@@ -4,8 +4,6 @@
   flex-wrap: wrap;
 }
 
-
-
 /* Small Mobile (up to 480px) */
 @media screen and (max-width: 425px) {
   .workshop-content-container {

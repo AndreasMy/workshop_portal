@@ -3,7 +3,7 @@ import { Layout } from "./components/layout/layout.component";
 import { HomePage } from "./pages/home/home.page";
 import { Gallery } from "./pages/gallery/gallery.page";
 import { Workshops } from "./pages/workshops/workshops.page";
-import { About } from "./pages/about/about.page";
+import { Contact } from "./pages/about/contact.page";
 import { Tutorials } from "./pages/tutorials/tutorials.page";
 import { BlogPage } from "./pages/blog/blog.page";
 import { ImageGallery } from "./components/imageGallery/imageGallery.component";
@@ -56,7 +56,7 @@ function App() {
           <Route path="/workshops" element={<Workshops />} />
           <Route path="/tutorials" element={<Tutorials />} />
           <Route path="/blog" element={<BlogPage />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Layout>
     </Router>

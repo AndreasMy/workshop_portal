@@ -147,6 +147,11 @@ export const galleryImagesData = {
   ],
   "photos": [
     {
+      "image": "/workshop_portal/images/photos/heggedal-fabrikker.jpg",
+      "alt": "descriptive text",
+      "className": "gallery-image"
+    },
+    {
       "image": "/workshop_portal/images/photos/materials-small-1.jpg",
       "alt": "descriptive text",
       "className": "gallery-image"

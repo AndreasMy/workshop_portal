@@ -114,7 +114,7 @@ export const WorkshopAd = ({
             </Swiper>
 
             <Button className="workshop-btn" url={entry.href}>
-              Til Påmelding
+              {entry.buttonText}
             </Button>
           </div>
         </div>

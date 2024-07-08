@@ -15,7 +15,8 @@ header {
   align-items: center;
 }
 
-.header-title {
+.header-title-desktop,
+.header-title-mobile  {
   font-weight: 400;
   font-style: normal;
   font-family: var(--primary-font);
@@ -24,11 +25,12 @@ header {
 .header-title-accent,
 .header-link:active,
 .header-link:hover,
-.header-title:hover  {
+.header-title-desktop:hover {
   color: var(--accent-color-A);
 }
 
-.header-title,
+.header-title-desktop,
+.header-title-mobile,
 .header-title-accent {
   font-weight: 500;
   font-size: clamp(1.5rem, 2.3vw, 2rem);
@@ -87,6 +89,13 @@ header {
   .burger-button {
     display: block;
   }
+
+  .header-title-mobile {
+    display: block;
+  }
+  .header-title-desktop {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
@@ -96,10 +105,24 @@ header {
   .burger-button {
     display: block;
   }
+
+  .header-title-mobile {
+    display: block;
+  }
+  .header-title-desktop {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 2560px) {
   .burger-button {
     display: none;
+  }
+
+  .header-title-mobile {
+    display: none;
+  }
+  .header-title-desktop {
+    display: block;
   }
 }
