@@ -9,7 +9,6 @@ import "swiper/css/navigation";
 import "./swiperImageCarousel.styles.css";
 import { imageSwiperData } from "../../data/carouselData.js";
 
-
 export const SwiperImageCarousel = () => {
   return (
     <div className="img-carousel-wrapper">
@@ -32,6 +31,20 @@ export const SwiperImageCarousel = () => {
             prevEl: ".custom-prev",
           }}
           modules={[FreeMode, Pagination, Navigation]}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+          }}
           className="myImageSwiper"
         >
           {imageSwiperData.map((item, index) => (

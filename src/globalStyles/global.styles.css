@@ -5,7 +5,7 @@
   --secondary-font: "sorts-mill-goudy", serif;
 
   /* Colors */
-  --primary-color-A: rgb(32, 14, 14);
+  --primary-color-A: rgb(14, 14, 32);
   --background-color-A: rgb(239, 239, 239);
   --background-color-B: rgb(224, 223, 223);
   --background-color-C: white;
@@ -46,6 +46,6 @@ body {
   min-height: 100vh;
   min-width: 100%;
 
-  overflow-x: hidden; /* Prevent horizontal overflow */
+  overflow-x: hidden;
   background-color: var(--background-color-B);
 }

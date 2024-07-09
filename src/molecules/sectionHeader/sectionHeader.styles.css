@@ -19,7 +19,7 @@
 }
 
 .section-heading {
-  font-size: clamp(1.2rem, 1.6vw, 2rem);
+  font-size: clamp(1.2rem, 2.4vw, 1.8rem);
   font-weight: 400;
   font-style: normal;
   font-family: var(--primary-font);
@@ -47,7 +47,7 @@
 }
 
 .section-header-paragraph {
-  font-size: 1.3rem;
+  font-size: clamp(1rem, 2vw, 1.3rem);
   font-family: var(--primary-font);
   margin-bottom: 1.6%;
 }
