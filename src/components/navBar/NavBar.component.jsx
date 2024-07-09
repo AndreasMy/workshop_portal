@@ -22,6 +22,7 @@ export const NavBar = ({ toggleMenu }) => {
       </div>
       <Nav
         data={navItems}
+        isNavLink={true}
         ulClassName={"header-nav-links"}
         itemClassName={"header-link"}
         liClassName={"header-link-li"}

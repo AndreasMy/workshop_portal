@@ -47,6 +47,10 @@
   margin: 0 15px;
 }
 
+.cat-select-container-shrink-active {
+  color: var(--accent-color-A);
+} 
+
 .cat-select-overlay-shrink {
   position: relative;
   display: flex;

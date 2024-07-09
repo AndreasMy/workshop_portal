@@ -23,7 +23,6 @@ header {
 }
 
 .header-title-accent,
-.header-link:active,
 .header-link:hover,
 .header-title-desktop:hover {
   color: var(--accent-color-A);
@@ -66,6 +65,10 @@ header {
   font-weight: 400;
   font-style: normal;
   font-family: var(--primary-font);
+}
+
+.header-link-active {
+  color: var(--accent-color-A);
 }
 
 .burger-button {
