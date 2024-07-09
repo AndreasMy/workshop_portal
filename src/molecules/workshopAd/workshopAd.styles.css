@@ -195,6 +195,10 @@
   .workshop-swiper-navigation-container {
     bottom: calc(100% - 48%);
   }
+  
+  .header-wrapper.selected-paintings-header-wrapper {
+    margin-bottom: 5px;
+  }
 
   .workshop-poster-container {
     width: 100%;

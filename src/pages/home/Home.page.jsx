@@ -10,7 +10,7 @@ import { TextElement } from "../../components/textElement/textElement.component"
 import { SectionHeader } from "../../molecules/sectionHeader/sectionHeader.molecule";
 
 import { entryData } from "../../data/blogData";
-import { homepageText } from "../../data/homepageData";
+import { homepageText } from "../../data/pageTextData";
 import { linkToGallery } from "../../data/headerData";
 
 import "./home.styles.css";

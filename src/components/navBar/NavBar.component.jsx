@@ -19,7 +19,6 @@ export const NavBar = ({ toggleMenu }) => {
             AM<span className="header-title-accent">Art</span>
           </Link>
         </h2>
-        {/*<h2 className="header-title-accent"> :artist</h2> */}
       </div>
       <Nav
         data={navItems}

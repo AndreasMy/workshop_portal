@@ -112,6 +112,9 @@
   .carousel-overlay-wrapper{
     height: 40vh;
   }
+  .carousel-overlay-wrapper {
+    display: none;
+  }
 }
 
 /* Small Tablet (768px to 1024px) */
@@ -120,12 +123,18 @@
   .carousel-overlay-wrapper{
     height: 94vh;
   }
+  .carousel-overlay-wrapper {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   .carousel-wrapper ,
   .carousel-overlay-wrapper{
     height: 94vh;
+  }
+  .carousel-overlay-wrapper {
+    display: none;
   }
 }
 
@@ -135,6 +144,9 @@
   .carousel-overlay-wrapper{
     height: 94vh;
   }
+  .carousel-overlay-wrapper {
+    display: none;
+  }
 }
 
 /* Medium Desktop (1441px to 1920px) */
@@ -143,6 +155,9 @@
   .carousel-overlay-wrapper{
     height: 94vh;
   }
+  .carousel-overlay-wrapper {
+    display: none;
+  }
 }
 
 /* 4K Desktop (2561px and above) */
@@ -150,5 +165,8 @@
   .carousel-wrapper ,
   .carousel-overlay-wrapper{
     height: 94vh;
+  }
+  .carousel-overlay-wrapper {
+    display: none;
   }
 }

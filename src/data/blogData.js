@@ -268,9 +268,9 @@ export const entryData = [
       ],
     },
   },
- /*  {
+  {
     title: "Vikar Fabrikken Tegne og Maleskole",
-    href: "https://www.kursagenten.no/enkeltkurs/241123-Oljeakryl-malekurs-landskap-etter-foto-Andr-196597",
+    href: "https://www.fabrikkentegneogmaleskole.no/",
     buttonText: "Til Hjemmesiden",
     slideContent: [
       {
@@ -281,16 +281,14 @@ export const entryData = [
           className: "slide-video",
         },
         text: {
-          header: "Om kurset:",
+          header: "Om Deltidsstudiet:",
           paragraphs: [
-            "Lær deg å formidle det essensielle.",
-            "Lek med å formidle stemninger.",
-            "Bli kjent med grunnleggende bilde komposisjon.",
-            "Utforsk sammenhengen mellom abstraksjon og representasjon i bildet ditt.",
+            "Deltidstudiet vårt er per i dag Norges eneste i sitt slag med fokus på teknikk og følger samme utdanningsmodell som de kjente Firenzeskolene; The Florence Academy of Art, Angel Academy of Art, samt Barcelona Academy of Art. ",
+            "Studiet fokuserer på å trene opp studentenes tegne- og maletekniske egenskaper til et profesjonellt nivå. ",
+            "Vi jobber hovedsaklig innen sight-size teknikken. Dette går ut på at vi gjengir objektet i samme størrelse som vi observerer det i, noe som er med på forenkle prosessen som gir raskere resultater og mer effektiv læring.",
           ],
         },
       },
-
     ],
     defaultImage: [
       {
@@ -320,18 +318,17 @@ export const entryData = [
         name: "Dato: ",
         value: "Vikar/Deltid",
       },
- 
     ],
     text: {
-      headerText: `Portrett anatomi - ansiktets anatomi og strukturell oppbygning. Kurset er åpent for kunstnere på alle nivåer, fra nybegynnere til erfarne. Det viktigste er at du har lidenskap for tegning og maling, og en nysgjerrighet for å utforske nye muligheter.
+      headerText: `
       `,
       paragraphs: [
         {
           header: "Om Kurset:",
-          para: `Dette er et lynkurs som gir deg en grunnleggende innføring i ansiktets anatomiske oppbygning. Vi vil utforske viktige anatomiske landemerker som defineres av skjelettet og muskulaturen. Vi vil også lære å benytte oss av konstruksjonstegning for å forenkle denne informasjonen visuelt. Resultatet av denne type studie er en dypere forståelse av ansiktets form og oppbygning, samt en styrket evne til å tegne/male ansikter fra observasjon eller fantasi.
+          para: `
       `,
         },
       ],
     },
-  }, */
+  },
 ];
