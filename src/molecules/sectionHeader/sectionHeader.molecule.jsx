@@ -14,11 +14,15 @@ export const SectionHeader = ({
   showNav = true,
   paragraphData = [],
   navData = [],
+  wrapperProps = {},
   // children,
 }) => {
   return (
     <>
-      <div className={`header-wrapper ${sectionHeaderWrapperClassName}`}>
+      <div
+        className={`header-wrapper ${sectionHeaderWrapperClassName}`}
+        {...wrapperProps}
+      >
         <div className={`header-container ${sectionHeaderContainerClassName}`}>
           <TextElement as="h3" className={"section-heading"}>
             {title}

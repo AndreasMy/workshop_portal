@@ -7,21 +7,27 @@ import { SectionHeader } from "../../molecules/sectionHeader/sectionHeader.molec
 export const Workshops = () => {
   return (
     <PageSection
-    wrapperId="workshopContentWrapper"
-    containerClassName="workshop-content-container"
-    containerProps={{
-      style: {
-        padding: "0 0 5% 0",
-      },
-    }}
-  >
-    <SectionHeader
-      title={"Helgekurs Høsten 2024"}
-      showNav={false}
-      showUnderLine={true}
-    />
-    <WorkshopAd
-    />
-  </PageSection>
+      wrapperId="workshopContentWrapper"
+      wrapperClassName="workshop-content-wrapper"
+      // containerClassName="workshop-content-container"
+      containerProps={{
+        style: {
+          padding: "0 0 5% 0",
+        },
+      }}
+      containerDisplayOptions={"grid"}
+    >
+      <SectionHeader
+        title={"Helgekurs Høsten 2024"}
+        showNav={false}
+        showUnderLine={true}
+        // wrapperProps={{
+        //   style: {
+        //     gridColumn: "span 2",
+        //   },
+        // }}
+      />
+      <WorkshopAd />
+    </PageSection>
   );
 };

@@ -35,7 +35,7 @@ const generateThumbnail = async (filePath, thumbnailPath) => {
     fs.mkdirSync(thumbnailDir, { recursive: true });
   }
   await sharp(filePath)
-    .resize({ width: 300 }) // Adjust the width as needed
+    .resize({ width: 450 }) // Adjust the width as needed
     .toFile(thumbnailPath);
 };
 

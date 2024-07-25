@@ -59,20 +59,26 @@ export const HomePage = () => {
 
       <PageSection
         wrapperId="workshopContentWrapper"
-        containerClassName="workshop-content-container"
+        wrapperClassName="workshop-content-wrapper"
+        // containerClassName="workshop-content-container"
         containerProps={{
           style: {
             padding: "0 0 5% 0",
           },
         }}
+        containerDisplayOptions="grid"
       >
         <SectionHeader
           title={"Upcoming Workshops"}
           showNav={false}
           showUnderLine={true}
+          // wrapperProps={{
+          //   style: {
+          //     gridColumn: "span 2",
+          //   },
+          // }}
         />
-        <WorkshopAd
-        />
+        <WorkshopAd />
       </PageSection>
     </>
   );

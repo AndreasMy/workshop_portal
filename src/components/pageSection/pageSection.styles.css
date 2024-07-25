@@ -1,13 +1,53 @@
 .section-wrapper,
-.section-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color: var(--background-color-A);
+.section-container-flex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: var(--background-color-A);
 }
 
-.section-container {
-    flex-direction: column;
-    justify-content: center;
+.section-container-flex {
+  flex-direction: column;
+  justify-content: center;
 }
-/*? MediaQueries for the workshop ads goes here? */
+
+.section-container-grid {
+  display: grid;
+  gap: 35px;
+  max-width: 100%;
+}
+
+/* Small Mobile (up to 480px) */
+@media screen and (max-width: 425px) {
+  .section-container-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile (426px to 768px) */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .section-container-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small Tablet (769px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .section-container-grid {
+    grid-template-columns:  1fr;
+  }
+}
+
+/* Large Tablet / Small Desktop (1025px to 1440px) */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .section-container-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop (1441px and above) */
+@media screen and (min-width: 1441px) {
+  .section-container-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
