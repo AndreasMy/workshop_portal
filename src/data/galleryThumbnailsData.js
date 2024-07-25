@@ -51,13 +51,13 @@ export const galleryThumbnailsData = {
       "index": ""
     },
     {
-      "image": "/workshop_portal/thumbnails/paintings/landscape/fflorence-paintings-3-thumbnail.jpg",
+      "image": "/workshop_portal/thumbnails/paintings/landscape/florence-paintings-1-thumbnail.jpg",
       "alt": "descriptive text",
       "className": "gallery-image-thumbnail",
       "index": ""
     },
     {
-      "image": "/workshop_portal/thumbnails/paintings/landscape/florence-paintings-1-thumbnail.jpg",
+      "image": "/workshop_portal/thumbnails/paintings/landscape/florence-paintings-3-thumbnail.jpg",
       "alt": "descriptive text",
       "className": "gallery-image-thumbnail",
       "index": ""

@@ -109,6 +109,11 @@
   /* content: "";  */
 }
 
+.swiper-pagination-fraction {
+  color: var(--background-color-A);
+  font-family: var(--primary-font);
+}
+
 @media (max-width: 768px) {
   :root {
     --swiper-navigation-size: 15px; /* Reduce size for mobile */

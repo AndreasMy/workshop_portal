@@ -54,6 +54,7 @@ export const WorkshopAd = ({
               freeMode={true}
               pagination={{
                 clickable: true,
+                // type: "fraction",
               }}
               navigation={{
                 nextEl: `.custom-next-${index}`,

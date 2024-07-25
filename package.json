@@ -10,13 +10,16 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d docs",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate": "node src/utils/generateContentJson.mjs"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.2",
+    "sharp": "^0.33.4",
     "swiper": "^11.0.5"
   },
   "devDependencies": {

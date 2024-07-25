@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination, Navigation } from "swiper/modules";
+import { FreeMode, Pagination, Navigation, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -25,24 +25,40 @@ export const SwiperImageCarousel = () => {
           freeMode={true}
           pagination={{
             clickable: true,
+            type: "fraction",
           }}
           navigation={{
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
-          modules={[FreeMode, Pagination, Navigation]}
+          loop={true}
+          autoplay={{
+            delay: 4500, // default autoplay delay
+            disableOnInteraction: true,
+          }}
+          modules={[FreeMode, Pagination, Navigation, Autoplay]}
           breakpoints={{
             320: {
               slidesPerView: 1,
               spaceBetween: 20,
             },
+            425: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+              autoplay: {
+                delay: 4500,
+                disableOnInteraction: true,
+              },
+            },
             640: {
               slidesPerView: 2,
               spaceBetween: 20,
+              autoplay: false,
             },
             768: {
               slidesPerView: 3,
               spaceBetween: 40,
+              autoplay: false,
             },
           }}
           className="myImageSwiper"

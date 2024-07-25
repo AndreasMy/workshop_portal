@@ -43,12 +43,12 @@ export const galleryImagesData = {
       "className": "gallery-image"
     },
     {
-      "image": "/workshop_portal/images/paintings/landscape/fflorence-paintings-3.jpg",
+      "image": "/workshop_portal/images/paintings/landscape/florence-paintings-1.jpg",
       "alt": "descriptive text",
       "className": "gallery-image"
     },
     {
-      "image": "/workshop_portal/images/paintings/landscape/florence-paintings-1.jpg",
+      "image": "/workshop_portal/images/paintings/landscape/florence-paintings-3.jpg",
       "alt": "descriptive text",
       "className": "gallery-image"
     },

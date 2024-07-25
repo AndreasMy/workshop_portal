@@ -185,7 +185,7 @@ export const entryData = [
       {
         id: 1,
         media: {
-          src: "/workshop_portal/thumbnails/paintings/landscape/fflorence-paintings-3-thumbnail.jpg",
+          src: "/workshop_portal/thumbnails/paintings/landscape/florence-paintings-1-thumbnail.jpg",
           alt: "descriptive text",
           className: "slide-video",
         },

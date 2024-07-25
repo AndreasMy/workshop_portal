@@ -385,3 +385,8 @@
     font-size: clamp(1rem, 1vw, 1rem);
   }
 }
+
+.swiper-pagination-fraction {
+  color: var(--primary-color-A);
+  font-family: var(--primary-font);
+}

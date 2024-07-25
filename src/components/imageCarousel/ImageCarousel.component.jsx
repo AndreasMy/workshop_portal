@@ -16,7 +16,7 @@ export const ImageCarousel = ({
       setCurrentImageIndex(
         (prevIndex) => (prevIndex + 1) % carouselData.length
       );
-    }, 14000);
+    }, 12000);
 
     return () => clearTimeout(timer);
   }, [currentImageIndex]);
