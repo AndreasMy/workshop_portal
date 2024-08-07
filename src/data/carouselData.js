@@ -1,4 +1,4 @@
-import { galleryImagesData } from './galleryImagesData';
+import { galleryImagesData } from "./galleryImagesData";
 
 export const carouselData = [
   // {
@@ -8,14 +8,14 @@ export const carouselData = [
   //   image: galleryImagesData.paintings[18],
   // },
   {
-    image: galleryImagesData.digital[0],
-    title: 'Digital Illustration'
-  },
-  {
     image: galleryImagesData.paintings[16],
   },
   {
     image: galleryImagesData.drawings[4],
+  },
+  {
+    image: galleryImagesData.digital[0],
+    title: "Digital Illustration",
   },
 ];
 
@@ -38,4 +38,4 @@ export const imageSwiperData = [
   {
     image: galleryImagesData.paintings[8],
   },
-]
+];

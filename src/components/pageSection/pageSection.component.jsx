@@ -47,5 +47,5 @@ export const PageSection = ({
 };
 
 PageSection.propTypes = {
-  containerDisplayOptions: PropTypes.oneOf(["flex", "grid"]), // Removed isRequired
+  containerDisplayOptions: PropTypes.oneOf(["flex", "grid"]),
 };
