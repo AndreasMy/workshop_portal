@@ -1,5 +1,5 @@
 export const entryData = [
-  {
+  /* {
     title: "Ansiktets Anatomi",
     href: "https://www.kursagenten.no/enkeltkurs/240831-Tegnekurs-Ansiktets-anatomi-med-Andreas-Myk-209811",
     buttonText: "Til Påmelding",
@@ -85,7 +85,7 @@ export const entryData = [
         },
       ],
     },
-  },
+  }, */
   {
     title: "Portrettkurs Med Modell",
     href: "https://www.kursagenten.no/enkeltkurs/241102-Malekurs-Portrett-m-Formbeskrivelse-Andreas-204443",
